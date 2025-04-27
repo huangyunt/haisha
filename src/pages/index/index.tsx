@@ -1,19 +1,21 @@
-import { View, Text } from '@tarojs/components'
-import { useLoad } from '@tarojs/taro'
-import { BookShelf } from '../Components/BookShelf/BookShelf'
-import { TabBar } from '../Components/TabBar/TabBar'
+import { View, Text } from "@tarojs/components";
+import { useLoad } from "@tarojs/taro";
+import { TopTab } from "../Components/TopTab/TopTab";
+import { BookShelf } from "../Components/BookShelf/BookShelf";
+import { BottomBar } from "../Components/BottomBar/BottomBar";
 
-import './index.scss'
+import "./index.scss";
 
 export default function Index() {
   useLoad(() => {
-    console.log('Page loaded.')
-  })
+    console.log("Page loaded.");
+  });
 
   return (
-    <View className='index'>
+    <View className="index">
+      <TopTab />
       <BookShelf />
-      <TabBar />
+      <BottomBar />
     </View>
-  )
+  );
 }

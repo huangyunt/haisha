@@ -3,5 +3,6 @@
   "projectname": "haisha",
   "setting": {
     "compileHotReLoad": true
-  }
+  },
+  "libVersion": "3.8.1"
 }

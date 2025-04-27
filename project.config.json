@@ -2,7 +2,7 @@
   "miniprogramRoot": "dist/",
   "projectname": "haisha",
   "description": "海沙牛娃微信小程序，该小程序为教育机构读书服务平台，提供课程配套书籍资源，含电子书、有声读物。用户可参与线上读书课程",
-  "appid": "wx4fc6dc02447bad54",
+  "appid": "wx05726953c8974993",
   "setting": {
     "urlCheck": true,
     "es6": false,
