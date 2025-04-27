@@ -4,7 +4,7 @@ import { TopTab } from "../Components/TopTab/TopTab";
 import { BookShelf } from "../Components/BookShelf/BookShelf";
 import { BottomBar } from "../Components/BottomBar/BottomBar";
 
-import "./index.scss";
+import "./Home.scss";
 
 export default function Index() {
   useLoad(() => {
