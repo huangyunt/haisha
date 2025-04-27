@@ -2420,6 +2420,11 @@
   resolved "https://registry.npmmirror.com/@types/webpack-env/-/webpack-env-1.18.8.tgz#71f083718c094204d7b64443701d32f1db3989e3"
   integrity sha512-G9eAoJRMLjcvN4I08wB5I7YofOb/kaJNd5uoCMX+LbKXTPCF+ZIHuqTnFaK9Jz1rgs035f9JUPUhNFtqgucy/A==
 
+"@types/wechat-miniprogram@^3.4.8":
+  version "3.4.8"
+  resolved "https://registry.npmmirror.com/@types/wechat-miniprogram/-/wechat-miniprogram-3.4.8.tgz#8591bd380d4f0d8cf6b42f08834b59613b9df7d3"
+  integrity sha512-lOqddA707X3SZxVhlZNBZPzYzj7lG/ED2fF30k+aE2oT6R4wfw0Wiup2k2hGrmzYUFyJXfGs01sDCuJMhQMAdg==
+
 "@types/ws@^8.5.5":
   version "8.18.1"
   resolved "https://registry.npmmirror.com/@types/ws/-/ws-8.18.1.tgz#48464e4bf2ddfd17db13d845467f6070ffea4aa9"

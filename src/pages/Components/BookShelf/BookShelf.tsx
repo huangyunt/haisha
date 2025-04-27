@@ -2,6 +2,22 @@ import React from "react";
 import { AtGrid } from "taro-ui";
 
 export const BookShelf: React.FC = () => {
+  const onGridClicked = () => {
+    wx.downloadFile({
+      // 示例 url，并非真实存在
+      url: 'http://example.com/somefile.pdf',
+      success: function (res) {
+        const filePath = res.tempFilePath
+        wx.openDocument({
+          filePath: filePath,
+          success: function (res) {
+            console.log('打开文档成功')
+          }
+        })
+      }
+    })
+  }
+
   return (
     <AtGrid
       data={[
