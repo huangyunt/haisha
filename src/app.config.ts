@@ -1,5 +1,5 @@
 export default defineAppConfig({
-  pages: ["pages/Home/index"],
+  pages: ["pages/Home/Home", "pages/BookDetail/BookDetail"],
   window: {
     backgroundTextStyle: "light",
     navigationBarBackgroundColor: "#fff",
