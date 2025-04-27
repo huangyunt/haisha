@@ -11,19 +11,19 @@ export const TopTab: React.FC = () => {
 
   const [current, setCurrent] = useState(1);
   return (
-    <AtTabs
-      current={current}
-      tabList={tabList}
-      onClick={(val) => setCurrent(val)}
-    >
-      <AtTabsPane current={current} index={0}>
-        {/* <View style="padding: 100px 50px;background-color: #FAFBFC;text-align: center;">
-          标签页一的内容
-        </View> */}
-      </AtTabsPane>
-    </AtTabs>
-    // <View className="book-item">
-    //   <Text>全部</Text>
-    // </View>
+    // <AtTabs
+    //   current={current}
+    //   tabList={tabList}
+    //   onClick={(val) => setCurrent(val)}
+    // >
+    //   <AtTabsPane current={current} index={0}>
+    //     {/* <View style="padding: 100px 50px;background-color: #FAFBFC;text-align: center;">
+    //       标签页一的内容
+    //     </View> */}
+    //   </AtTabsPane>
+    // </AtTabs>
+    <View className="book-item">
+      <Text>全部</Text>
+    </View>
   );
 };
