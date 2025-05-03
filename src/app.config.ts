@@ -6,4 +6,5 @@ export default defineAppConfig({
     navigationBarTitleText: "WeChat",
     navigationBarTextStyle: "black",
   },
+  entryPagePath: "pages/Home/Home"
 });

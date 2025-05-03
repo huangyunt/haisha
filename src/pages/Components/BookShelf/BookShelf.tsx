@@ -33,7 +33,6 @@ export const BookShelf: React.FC = () => {
   };
 
   const navigateToBookDetail = () => {
-    console.log("success");
     wx.navigateTo({
       url: "/pages/BookDetail/BookDetail",
       events: {
@@ -51,47 +50,22 @@ export const BookShelf: React.FC = () => {
         res.eventChannel.emit("acceptDataFromOpenerPage", { data: "test" });
       },
     });
+
+    // wx.previewImage({
+    //   current: images[0], // 当前显示图片的http链接
+    //   urls: images, // 需要预览的图片http链接列表
+    // });
   };
 
   return (
-    // <AtGrid
-    //   onClick={downloadAndPreViewPDF}
-    //   data={[
-    //     {
-    //       image: image1,
-    //     },
-    //     {
-    //       image: image2,
-    //     },
-    //     {
-    //       image: image3,
-    //     },
-    //     {
-    //       image: image4,
-    //     },
-    //     {
-    //       image: image5,
-    //     },
-    //     {
-    //       image: image6,
-    //     },
-    //   ]}
-    // />
 
-    <View className="bookshelf">
+    <View className="haisha-bookshelf">
       {images.map((image) => (
         <View className="book-item" onClick={navigateToBookDetail}>
-          <Image src={image} mode="aspectFill" className="book-cover" />
+          <Image className="cover" src={image} mode="aspectFill" />
+          <Text className="text">Oxford_Phonics</Text>
         </View>
       ))}
     </View>
-
-    // <View className="at-row at-row--wrap">
-    //   <View className="at-col at-col-4">A</View>
-    //   <View className="at-col at-col-4">B</View>
-    //   <View className="at-col at-col-4">C</View>
-    //   <View className="at-col at-col-4">D</View>
-    //   <View className="at-col at-col-4">E</View>
-    // </View>
   );
 };
