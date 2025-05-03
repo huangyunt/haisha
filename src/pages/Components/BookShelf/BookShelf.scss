@@ -3,6 +3,8 @@
   flex-wrap: wrap;
   justify-content: space-around;
 
+  padding-top: 15px;
+
   .book-item {
     width: 28%;
     /* 可根据实际需求调整每本图书的宽度占比 */
@@ -22,7 +24,7 @@
     }
 
     .text {
-      font-size: 20px;
+      font-size: 25px;
       font-weight: 600;
     }
 
