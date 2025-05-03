@@ -4,6 +4,7 @@ import Taro from "@tarojs/taro";
 import { images } from "./constant";
 
 import "./BookPreview.scss";
+import { Book } from "./Book";
 
 const BookPreview: React.FC = () => {
   const [imageUrls, setImageUrls] = useState<string[]>(images);
@@ -36,15 +37,13 @@ const BookPreview: React.FC = () => {
   };
 
   return (
-    <View className="book-preview-container" onClick={handlePageTap}>
-      {showTopBar && (
-        <View className="top-bar">
-          <Text className="back-button" onClick={goBack}>
-            返回
-          </Text>
-        </View>
-      )}
-      <View className="book-pages">
+    <View className="haisha-book-preview-container" onClick={handlePageTap}>
+      <View className={showTopBar ? "top-bar" : "top-bar none"}>
+        <Text className="back-button" onClick={goBack}>
+          返回
+        </Text>
+      </View>
+      {/* <View className="book-pages">
         <Swiper
           current={currentPage}
           onChange={(e) => setCurrentPage(e.detail.current)}
@@ -56,8 +55,9 @@ const BookPreview: React.FC = () => {
             </SwiperItem>
           ))}
         </Swiper>
-      </View>
-      {showBottomBar && (
+      </View> */}
+      <Book />
+      {/* {showBottomBar && (
         <View className="bottom-bar">
           <Text className="catalog-button" onClick={showCatalog}>
             目录
@@ -66,7 +66,7 @@ const BookPreview: React.FC = () => {
             播放音频
           </Text>
         </View>
-      )}
+      )} */}
     </View>
   );
 };

@@ -1,18 +1,18 @@
-import { View } from "@tarojs/components";
 import { useLoad } from "@tarojs/taro";
-import { TopTab } from "../Components/TopTab/TopTab";
-import { BookShelf } from "../Components/BookShelf/BookShelf";
-import { BottomBar } from "../Components/BottomBar/BottomBar";
+import { View } from "@tarojs/components";
+import { TopTab } from "./Components/TopTab/TopTab";
+import { BookShelf } from "./Components/BookShelf/BookShelf";
+import { BottomBar } from "./Components/BottomBar/BottomBar";
 
 import "./Home.scss";
 
-export default function Index() {
+export default function Home() {
   useLoad(() => {
     console.log("Page loaded.");
   });
 
   return (
-    <View className="index">
+    <View className="haisha-home">
       <TopTab />
       <BookShelf />
       <BottomBar />

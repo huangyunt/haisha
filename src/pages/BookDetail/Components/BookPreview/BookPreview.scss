@@ -1,7 +1,11 @@
-.book-preview-container {
+.haisha-book-preview-container {
   position: relative;
   width: 100%;
   //   height: 100vh;
+
+  .none {
+    display: none;
+  }
 
   .top-bar {
     position: fixed;
@@ -22,16 +26,6 @@
     }
   }
 
-  .book-pages {
-    width: 100%;
-    height: 300px;
-  }
-
-  .book-page {
-    width: 100%;
-    height: 300px;
-  }
-
   .bottom-bar {
     position: fixed;
     bottom: 0;
@@ -49,5 +43,15 @@
     .audio-button {
       font-size: 30rpx;
     }
+  }
+
+  .book-pages {
+    width: 100%;
+    height: 300px;
+  }
+
+  .book-page {
+    width: 100%;
+    height: 300px;
   }
 }
