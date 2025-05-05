@@ -40,7 +40,7 @@ const BookPreview: React.FC = () => {
       audio.stop();
     });
 
-    const list = newAudioList[currentPage + 1] && newAudioList[currentPage + 1].map((({ url }) => {
+    const list = newAudioList[currentPage] && newAudioList[currentPage].map((({ url }) => {
       const audioContext = Taro.createInnerAudioContext()
       audioContext.src = url
       audioContext.onPlay(() => {
@@ -115,7 +115,7 @@ const BookPreview: React.FC = () => {
     <View className="haisha-book-preview-container">
 
       {/* 顶栏 */}
-      {/* <View className={`top-bar ${showTopBar ? '' : 'none'}`}>
+      <View className={`top-bar ${showTopBar ? '' : 'none'}`}>
         <View className="left-container" onClick={goBack}>
           <AtIcon value='chevron-left' size='25' />
           <Text className="back-button">
@@ -124,7 +124,7 @@ const BookPreview: React.FC = () => {
         </View>
         <View className='components-page'>
         </View>
-      </View> */}
+      </View>
 
       {/* 书籍 */}
       <View className="book-pages" onClick={handlePageTap}>
@@ -160,7 +160,7 @@ const BookPreview: React.FC = () => {
                   )
                 })} */}
                 {audioListPlayStatus.map((status, index) => {
-                  const list = newAudioList[currentPage + 1]
+                  const list = newAudioList[currentPage]
                   const { offset = [] } = list[index] || {}
                   const [x, y] = offset
                   const left = decimalToPercentage(((x - 50) / 427));
@@ -206,7 +206,7 @@ const BookPreview: React.FC = () => {
       </View>
 
       {/* 页码 */}
-      <View className="page-number">{currentPage + 1 + ' / ' + images.length}</View>
+      {currentPage ? <View className="page-number">{currentPage + ' / ' + images.length}</View> : null}
 
       {/* 底栏 */}
       <View className={`bottom-bar height`}>
