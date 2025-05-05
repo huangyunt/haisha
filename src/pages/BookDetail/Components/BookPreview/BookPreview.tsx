@@ -82,6 +82,9 @@ const BookPreview: React.FC = () => {
     // setShowBottomBar(false)
   };
 
+  const handlePageTurning = (page) => [
+    setCurrentPage(page)
+  ]
 
   const triggleAudioStatus = (index, status) => {
     console.log("start audio")
@@ -119,6 +122,7 @@ const BookPreview: React.FC = () => {
       {/* 书籍 */}
       <View className="book-pages" onClick={handlePageTap}>
         <Swiper
+          duration={100}
           current={currentPage}
           onChange={(e) => setCurrentPage(e.detail.current)}
           style={{ height: "590px" }}
@@ -161,11 +165,12 @@ const BookPreview: React.FC = () => {
         </View> */}
         <AtList>
           {
-            catalogList.map(name =>
+            catalogList.map(({ name, page }) =>
               <AtListItem
                 title={name}
                 arrow='right'
                 iconInfo={{ size: 15, value: 'list', color: green }}
+                onClick={() => handlePageTurning(page)}
               />
             )
           }
