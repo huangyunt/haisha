@@ -2,12 +2,18 @@ import React, { useState, useEffect, useRef } from "react";
 import Taro from "@tarojs/taro";
 import { AtFloatLayout, AtList, AtListItem, AtIcon } from "taro-ui"
 import { Swiper, SwiperItem, Image, View, Text } from "@tarojs/components";
-import { audioList, catalogList, images } from "./constant";
+import { audioList, catalogList, images, newAudioList } from "./constant";
+// import "@taroify/core/icon/style"
+import { ChatOutlined, Volume } from "@taroify/icons"
 
 import "./BookPreview.scss";
 
 const green = "rgb(66, 134, 135)"
 const gray = 'rgb(67, 83, 108)'
+
+const decimalToPercentage = (decimal) => {
+  return (decimal * 100).toFixed(2) + '%';
+}
 
 const BookPreview: React.FC = () => {
   const [imageUrls, setImageUrls] = useState<string[]>(images);
@@ -34,9 +40,9 @@ const BookPreview: React.FC = () => {
       audio.stop();
     });
 
-    const list = audioList[currentPage] && audioList[currentPage].map((audioURL => {
+    const list = newAudioList[currentPage + 1] && newAudioList[currentPage + 1].map((({ url }) => {
       const audioContext = Taro.createInnerAudioContext()
-      audioContext.src = audioURL
+      audioContext.src = url
       audioContext.onPlay(() => {
         console.log('Start playback')
       })
@@ -82,9 +88,10 @@ const BookPreview: React.FC = () => {
     // setShowBottomBar(false)
   };
 
-  const handlePageTurning = (page) => [
+  const handlePageTurning = (page) => {
+    console.log("page: ", page)
     setCurrentPage(page)
-  ]
+  }
 
   const triggleAudioStatus = (index, status) => {
     console.log("start audio")
@@ -122,14 +129,77 @@ const BookPreview: React.FC = () => {
       {/* 书籍 */}
       <View className="book-pages" onClick={handlePageTap}>
         <Swiper
-          duration={100}
+          duration={300}
           current={currentPage}
           onChange={(e) => setCurrentPage(e.detail.current)}
           style={{ height: "590px" }}
+          className="book-container"
         >
           {imageUrls.map((url, index) => (
             <SwiperItem key={index}>
-              <Image src={url} mode="widthFix" className="book-page" />
+              <View className="book-page-container">
+                <Image src={url} mode="widthFix" className="book-page" />
+                {/* {newAudioList[currentPage + 1].map(({ offset, url }, index) => {
+                  const [x, y] = offset
+                  const left = decimalToPercentage(((x - 50) / 427));
+                  const top = decimalToPercentage(((y - 362) / 555));
+
+                  return (
+                    <View
+                      className="float-rect"
+                      style={{
+                        position: 'absolute',
+                        left,
+                        top,
+                        width: "20px",
+                        height: "20px",
+                        backgroundColor: "blue"
+                      }}
+                      onClick={() => triggleAudioStatus(index, false)}
+                    ></View>
+                  )
+                })} */}
+                {audioListPlayStatus.map((status, index) => {
+                  const list = newAudioList[currentPage + 1]
+                  const { offset = [] } = list[index] || {}
+                  const [x, y] = offset
+                  const left = decimalToPercentage(((x - 50) / 427));
+                  const top = decimalToPercentage(((y - 362) / 555));
+
+                  return !status
+                    ?
+                    // 未播放
+                    <View
+                      className="float-rect"
+                      style={{
+                        position: 'absolute',
+                        left,
+                        top,
+                        width: "20px",
+                        height: "20px",
+                        backgroundColor: "blue",
+                        opacity: 0
+                      }}
+                      onClick={() => triggleAudioStatus(index, status)}
+                    ></View>
+                    :
+                    // 正在播放
+                    <View
+                      className="float-rect"
+                      style={{
+                        position: 'absolute',
+                        left,
+                        top,
+                        width: "20px",
+                        height: "20px",
+                        backgroundColor: "red",
+                        opacity: 0
+                      }}
+                      onClick={() => triggleAudioStatus(index, status)}
+                    ></View>
+                }
+                )}
+              </View>
             </SwiperItem>
           ))}
         </Swiper>
@@ -139,19 +209,25 @@ const BookPreview: React.FC = () => {
       <View className="page-number">{currentPage + 1 + ' / ' + images.length}</View>
 
       {/* 底栏 */}
-      <View className={`bottom-bar ${showTopBar ? 'height' : ''}`}>
-        <View className={`flex-container ${showTopBar ? '' : 'none'}`} onClick={handleCatalogShowingUp}>
+      <View className={`bottom-bar height`}>
+        <View className={`flex-container`} onClick={handleCatalogShowingUp}>
           <AtIcon className='menu' value='menu' size='20' color={gray} />
           <Text className="catalog-button">
             目录
           </Text>
         </View>
-        <View className={`flex-container ${showTopBar ? '' : 'none'}`} onClick={handleAudioListShowingUp}>
+        {/* <View className={`flex-container ${showTopBar ? '' : 'none'}`} onClick={handleCatalogShowingUp}>
+          <AtIcon className='menu' value='menu' size='20' color={gray} />
+          <Text className="catalog-button">
+            目录
+          </Text>
+        </View> */}
+        {/* <View className={`flex-container ${showTopBar ? '' : 'none'}`} onClick={handleAudioListShowingUp}>
           <AtIcon className='file-audio' value='file-audio' size='20' color={gray} />
           <Text className="audio-button">
             音频
           </Text>
-        </View>
+        </View> */}
       </View>
 
       {/* 书籍目录 */}

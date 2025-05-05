@@ -14,10 +14,14 @@
 
   .book-pages {
     width: 100%;
-  }
 
-  .book-page {
-    width: 100%;
+    .book-page-container {
+      position: relative;
+
+      .book-page {
+        width: 100%;
+      }
+    }
   }
 
   .top-bar {
