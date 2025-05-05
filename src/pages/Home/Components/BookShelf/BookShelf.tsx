@@ -60,10 +60,10 @@ export const BookShelf: React.FC = () => {
   return (
 
     <View className="haisha-bookshelf">
-      {images.map((image) => (
+      {images.map((image, index) => (
         <View className="book-item" onClick={navigateToBookDetail}>
           <Image className="cover" src={image} mode="aspectFill" />
-          <Text className="text">Oxford_Phonics</Text>
+          <Text className="text">{`Oxford Phonics ${index + 1}`}</Text>
         </View>
       ))}
     </View>

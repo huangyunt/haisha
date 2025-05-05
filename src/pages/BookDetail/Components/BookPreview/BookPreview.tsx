@@ -1,9 +1,8 @@
 import React, { useState, useEffect, useRef } from "react";
+import Taro from "@tarojs/taro";
 import { AtFloatLayout, AtList, AtListItem, AtIcon } from "taro-ui"
 import { Swiper, SwiperItem, Image, View, Text } from "@tarojs/components";
-import Taro from "@tarojs/taro";
-import { catalogList, images } from "./constant";
-import { Book } from "./Book";
+import { audioList, catalogList, images } from "./constant";
 
 import "./BookPreview.scss";
 
@@ -17,9 +16,9 @@ const BookPreview: React.FC = () => {
   const [showBottomBar, setShowBottomBar] = useState(false);
   const [catalogVisible, setCatalogVisible] = useState(false);
   const [audioListVisible, setAudioListVisible] = useState(false);
-
-  // const innerAudioContext = Taro.createInnerAudioContext()
-  const innerAudioContext = useRef(Taro.createInnerAudioContext())
+  const [audioPlayList, setAudioPlayList] = useState<Taro.InnerAudioContext[]>([])
+  const [audioListPlayStatus, setAudioListPlayStatus] = useState<Boolean[]>([])
+  const audioListPlayStatusRef = useRef<Boolean[]>([])
 
   useEffect(() => {
     // const params = Taro.getCurrentInstance()?.router.params;
@@ -27,15 +26,38 @@ const BookPreview: React.FC = () => {
     //     setImageUrls(JSON.parse(params.imageUrls));
     // }
     // innerAudioContext.autoplay = true
-    innerAudioContext.current.src = 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/Oxford%20Phonics%20World_1_SB_CD1/Track23.mp3?sign=b2772cf1f0087d3537fc8de2f481df10&t=1746425209'
-    innerAudioContext.current.onPlay(() => {
-      console.log('Start playback')
-    })
-    innerAudioContext.current.onError((res) => {
-      console.log(res.errMsg)
-      console.log(res.errCode)
-    })
   }, []);
+
+  useEffect(() => {
+    // 所有音频全部暂停
+    audioPlayList.forEach(audio => {
+      audio.stop();
+    });
+
+    const list = audioList[currentPage] && audioList[currentPage].map((audioURL => {
+      const audioContext = Taro.createInnerAudioContext()
+      audioContext.src = audioURL
+      audioContext.onPlay(() => {
+        console.log('Start playback')
+      })
+      audioContext.onError((res) => {
+        console.log(res.errMsg)
+        console.log(res.errCode)
+      })
+      return audioContext
+    })
+    ) || []
+
+    setAudioPlayList(list)
+    setAudioListPlayStatus(Array(list.length).fill(false))
+    audioListPlayStatusRef.current = Array(list.length).fill(false)
+
+  }, [currentPage])
+
+
+  useEffect(() => {
+    console.log(audioListPlayStatus)
+  }, [JSON.stringify(audioListPlayStatus)])
 
   const handlePageTap = () => {
     setShowTopBar(!showTopBar);
@@ -61,9 +83,22 @@ const BookPreview: React.FC = () => {
   };
 
 
-  const playAudio = () => {
+  const triggleAudioStatus = (index, status) => {
     console.log("start audio")
-    innerAudioContext.current.play()
+    // 找到哪一条音频，判断是否播放中，决定是播放还是暂停
+    if (status) {
+      audioPlayList[index] && audioPlayList[index].stop();
+    } else {
+      // 其他音频全部暂停
+      audioPlayList.forEach(audio => {
+        audio.stop();
+      });
+      audioPlayList[index] && audioPlayList[index].play();
+    }
+    // 状态改变
+    const list = [...audioListPlayStatusRef.current]
+    list.splice(index, 1, !status)
+    setAudioListPlayStatus(list)
   };
 
   return (
@@ -119,10 +154,8 @@ const BookPreview: React.FC = () => {
       <AtFloatLayout
         isOpened={catalogVisible}
         title="目录"
-        // customStyle={}
         onClose={() => setCatalogVisible(false)}
-        className=""
-        style={{ height: "400px" }}
+        style={{ height: "800px" }}
       >
         {/* <View className="book-preview-catalog">
         </View> */}
@@ -147,24 +180,23 @@ const BookPreview: React.FC = () => {
         style={{ height: "400px" }}
       >
         <AtList>
-          <AtListItem
-            title="音频1"
-            // arrow='right'
-            iconInfo={{ size: 15, value: 'play', color: 'rgb(67, 83, 108)' }}
-            onClick={playAudio}
-          />
-          <AtListItem
-            title="音频2"
-            // arrow='right'
-            iconInfo={{ size: 15, value: 'play', color: 'rgb(67, 83, 108)' }}
-            onClick={playAudio}
-          />
-          <AtListItem
-            title="音频3"
-            // arrow='right'
-            iconInfo={{ size: 15, value: 'play', color: 'rgb(67, 83, 108)' }}
-            onClick={playAudio}
-          />
+          {audioListPlayStatus.map((status, index) =>
+            !status
+              ?
+              // 未播放
+              <AtListItem
+                title={"音频" + (index + 1)}
+                iconInfo={{ size: 15, value: 'play', color: 'rgb(67, 83, 108)' }}
+                onClick={() => triggleAudioStatus(index, status)}
+              />
+              :
+              // 正在播放
+              <AtListItem
+                title={"音频" + (index + 1)}
+                iconInfo={{ size: 15, value: 'pause', color: 'rgb(67, 83, 108)' }}
+                onClick={() => triggleAudioStatus(index, status)}
+              />
+          )}
         </AtList>
       </AtFloatLayout>
 
