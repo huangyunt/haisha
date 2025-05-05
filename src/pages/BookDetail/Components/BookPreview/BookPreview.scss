@@ -22,19 +22,18 @@
 
   .top-bar {
     position: fixed;
-    top: 30rpx;
+    top: 0rpx;
     // left: 20rpx;
+    display: flex;
+    padding-top: 30rpx;
     width: 100%;
     height: 60rpx;
-    // background-color: rgba(0, 0, 0, 0.5);
-    display: flex;
+    // background-color: white;
     justify-content: space-between;
     align-items: center;
     // color: white;
     color: rgb(80, 80, 80);
     z-index: 10;
-
-    transition: ease-in 3s;
 
     .left-container {
       margin-left: 10px;
@@ -51,27 +50,59 @@
 
   .bottom-bar {
     position: fixed;
-    bottom: 50rpx;
+    bottom: 0rpx;
     left: 0rpx;
     width: 100%;
     height: 80rpx;
     // background-color: rgba(0, 0, 0, 0.5);
+    border: 0.5rpx solid rgb(235, 235, 235);
+    padding-top: 20rpx;
+    padding-bottom: 50rpx;
+    background-color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    // color: rgb(80, 80, 80);
     color: rgb(80, 80, 80);
+    // color: rgb(66, 134, 135);
     z-index: 10;
+    transition: all 0.1s ease-in;
+
+    opacity: 0;
 
     .catalog-button,
     .audio-button {
       font-size: 30rpx;
+      font-weight: 500;
+      // color: rgb(66, 134, 135);
+    }
+
+    .flex-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .menu {
+        margin-right: 10rpx;
+      }
+
+      .file-audio {
+        margin-right: 10rpx;
+      }
     }
   }
 
+  .height {
+    // height: 80rpx !important;
+    // padding-top: 20rpx !important;
+    // padding-bottom: 50rpx !important;
+    // transition: height 1.5s, padding-top 1.5s, padding-bottom 1.5s;
+    // transition: all 1.5s;
+    opacity: 1;
+  }
+
   .page-number {
-    // color: #ccc;
     color: rgb(80, 80, 80);
+    // font-weight: 500;
   }
 }
 

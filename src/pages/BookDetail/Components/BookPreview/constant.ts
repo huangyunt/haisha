@@ -13,3 +13,14 @@ export const images = [
 
     'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/PDF-CONVERT-IMAGE/Oxford_Phonics_World_1_SB-images-103.jpg?sign=ddc185ffa923b92b454c865affbeebe6&t=1745808873'
 ]
+
+export const catalogList = [
+    'COPYRIGHT',
+    'INTRODUCTION',
+    'LIST OF ARTEFACTS',
+    'CHAPTER ONE THE JOURNEY',
+    'CHAPTER TWO POTIONS AND ALCHEMY',
+    'CHAPTER THREE HERBOLOGY',
+    'CHAPTER FOUR CHARMS',
+    'CHAPTER FIVE',
+]
