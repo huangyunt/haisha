@@ -1,16 +1,18 @@
 import React, { useState, useEffect } from "react";
+import { AtFloatLayout, AtList, AtListItem, AtIcon } from "taro-ui"
 import { Swiper, SwiperItem, Image, View, Text } from "@tarojs/components";
 import Taro from "@tarojs/taro";
 import { images } from "./constant";
+import { Book } from "./Book";
 
 import "./BookPreview.scss";
-import { Book } from "./Book";
 
 const BookPreview: React.FC = () => {
   const [imageUrls, setImageUrls] = useState<string[]>(images);
   const [currentPage, setCurrentPage] = useState(0);
   const [showTopBar, setShowTopBar] = useState(false);
   const [showBottomBar, setShowBottomBar] = useState(false);
+  const [catalogVisible, setCatalogVisible] = useState(false)
 
   useEffect(() => {
     // const params = Taro.getCurrentInstance()?.router.params;
@@ -28,8 +30,11 @@ const BookPreview: React.FC = () => {
     Taro.navigateBack({ delta: 1 });
   };
 
-  const showCatalog = () => {
-    console.log("查看目录");
+  // 查看目录
+  const handleCatalogShowingUp = () => {
+    setCatalogVisible(true)
+    setShowTopBar(false)
+    setShowBottomBar(false)
   };
 
   const playAudio = () => {
@@ -37,13 +42,19 @@ const BookPreview: React.FC = () => {
   };
 
   return (
-    <View className="haisha-book-preview-container" onClick={handlePageTap}>
-      <View className={showTopBar ? "top-bar" : "top-bar none"}>
-        <Text className="back-button" onClick={goBack}>
-          返回
-        </Text>
+    <View className="haisha-book-preview-container">
+      <View className={`top-bar ${showTopBar ? '' : 'none'}`} onClick={goBack}>
+        <View className="left-container">
+          <AtIcon value='chevron-left' size='25' />
+          <Text className="back-button">
+            返回
+          </Text>
+        </View>
+        <AtIcon className='file-audio' value='file-audio' size='25' />
       </View>
-      {/* <View className="book-pages">
+
+      {/* 书籍 */}
+      <View className="book-pages" onClick={handlePageTap}>
         <Swiper
           current={currentPage}
           onChange={(e) => setCurrentPage(e.detail.current)}
@@ -55,18 +66,113 @@ const BookPreview: React.FC = () => {
             </SwiperItem>
           ))}
         </Swiper>
-      </View> */}
-      <Book />
-      {/* {showBottomBar && (
-        <View className="bottom-bar">
-          <Text className="catalog-button" onClick={showCatalog}>
-            目录
-          </Text>
-          <Text className="audio-button" onClick={playAudio}>
-            播放音频
-          </Text>
-        </View>
-      )} */}
+      </View>
+
+      {/* 页码 */}
+      <View className="page-number">{currentPage + 1 + ' / ' + images.length}</View>
+
+      {/* 目录 */}
+      <View className={`bottom-bar ${showTopBar ? '' : 'none'}`}>
+        <Text className="catalog-button" onClick={handleCatalogShowingUp}>
+          目录
+        </Text>
+        <Text className="audio-button" onClick={playAudio}>
+          音频
+        </Text>
+      </View>
+
+      <AtFloatLayout
+        isOpened={catalogVisible}
+        title="目录"
+        onClose={() => setCatalogVisible(false)}
+        className=""
+        style={{ height: "400px" }}
+      >
+        {/* <View className="book-preview-catalog">
+        </View> */}
+        <AtList>
+          <AtListItem
+            title='COPYRIGHT'
+            arrow='right'
+            iconInfo={{ size: 15, value: 'list', }}
+          />
+          <AtListItem
+            title='INTRODUCTION'
+            arrow='right'
+            iconInfo={{ size: 15, value: 'list', }}
+          />
+          <AtListItem
+            title='LIST OF ARTEFACTS'
+            arrow='right'
+            iconInfo={{ size: 15, value: 'list', }}
+          />
+          <AtListItem
+            title='CHAPTER ONE THE JOURNEY'
+            arrow='right'
+            iconInfo={{ size: 15, value: 'list', }}
+          />
+          <AtListItem
+            title='CHAPTER TWO POTIONS AND ALCHEMY'
+            arrow='right'
+            iconInfo={{ size: 15, value: 'list', }}
+          />
+          <AtListItem
+            title='CHAPTER THREE HERBOLOGY'
+            arrow='right'
+            iconInfo={{ size: 15, value: 'list', }}
+          />
+          <AtListItem
+            title='CHAPTER FOUR CHARMS'
+            arrow='right'
+            iconInfo={{ size: 15, value: 'list', }}
+          />
+          <AtListItem
+            title='CHAPTER FIVE'
+            arrow='right'
+            iconInfo={{ size: 15, value: 'list', }}
+          />
+          <AtListItem
+            title='CHAPTER FOUR CHARMS'
+            arrow='right'
+            iconInfo={{ size: 15, value: 'list', }}
+          />
+          <AtListItem
+            title='CHAPTER FIVE'
+            arrow='right'
+            iconInfo={{ size: 15, value: 'list', }}
+          />
+          <AtListItem
+            title='CHAPTER FOUR CHARMS'
+            arrow='right'
+            iconInfo={{ size: 15, value: 'list', }}
+          />
+          <AtListItem
+            title='CHAPTER FIVE'
+            arrow='right'
+            iconInfo={{ size: 15, value: 'list', }}
+          />
+          <AtListItem
+            title='CHAPTER FOUR CHARMS'
+            arrow='right'
+            iconInfo={{ size: 15, value: 'list', }}
+          />
+          <AtListItem
+            title='CHAPTER FIVE'
+            arrow='right'
+            iconInfo={{ size: 15, value: 'list', }}
+          />
+          <AtListItem
+            title='CHAPTER FOUR CHARMS'
+            arrow='right'
+            iconInfo={{ size: 15, value: 'list', }}
+          />
+          <AtListItem
+            title='CHAPTER FIVE'
+            arrow='right'
+            iconInfo={{ size: 15, value: 'list', }}
+          />
+        </AtList>
+      </AtFloatLayout>
     </View>
   );
 };

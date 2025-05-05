@@ -11,7 +11,7 @@ export const Book = React.memo(() => {
             <Swiper
                 current={currentPage}
                 onChange={(e) => setCurrentPage(e.detail.current)}
-                style={{ height: "600px" }}
+            // style={{ height: "100vh" }}
             >
                 {imageUrls.map((url, index) => (
                     <SwiperItem key={index}>

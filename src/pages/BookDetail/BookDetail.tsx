@@ -13,8 +13,6 @@ export default function BookDetail() {
   });
 
   return (
-    <View>
-      <BookPreview />
-    </View>
+    <BookPreview />
   );
 }
