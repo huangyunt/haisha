@@ -5,7 +5,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   background-color: rgb(245, 245, 245);
 
   .none {
@@ -14,6 +13,7 @@
 
   .book-pages {
     width: 100%;
+    margin-top: 160rpx;
 
     .book-page-container {
       position: relative;
@@ -32,15 +32,25 @@
     padding-top: 30rpx;
     width: 100%;
     height: 60rpx;
-    // background-color: white;
-    justify-content: space-between;
+    background-color: white;
+    border-bottom: 0.5rpx solid rgb(235, 235, 235);
+    padding-bottom: 20rpx;
+    // justify-content: space-between;
+    justify-content: center;
     align-items: center;
     // color: white;
     color: rgb(80, 80, 80);
     z-index: 10;
 
+    transition: all 0.1s ease-in;
+    opacity: 0;
+
     .left-container {
       margin-left: 10px;
+    }
+
+    .right-container {
+      margin-right: 10px;
     }
 
     .file-audio {
@@ -49,6 +59,13 @@
 
     .back-button {
       font-size: 32rpx;
+      font-weight: 500;
+
+    }
+
+    .title {
+      font-size: 45rpx;
+      font-weight: 500;
     }
   }
 

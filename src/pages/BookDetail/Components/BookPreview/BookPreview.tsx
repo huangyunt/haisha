@@ -42,14 +42,31 @@ const BookPreview: React.FC = () => {
 
     const list = newAudioList[currentPage] && newAudioList[currentPage].map((({ url }) => {
       const audioContext = Taro.createInnerAudioContext()
+      // const audioContext = Taro
+      // IOS下无法播放音频问题
+      Taro.setInnerAudioOption({ obeyMuteSwitch: false })
       audioContext.src = url
       audioContext.onPlay(() => {
         console.log('Start playback')
       })
       audioContext.onError((res) => {
-        console.log(res.errMsg)
-        console.log(res.errCode)
-      })
+        console.log('Audio play error:', res.errMsg);
+        console.log('Error code:', res.errCode);
+        switch (res.errCode) {
+          case -1:
+            console.log('网络错误，请检查网络连接');
+            break;
+          case -2:
+            console.log('文件格式错误，请检查音频文件');
+            break;
+          case -3:
+            console.log('解码错误，请检查音频文件');
+            break;
+          default:
+            console.log('未知错误，请联系开发者');
+        }
+      });
+
       return audioContext
     })
     ) || []
@@ -115,14 +132,16 @@ const BookPreview: React.FC = () => {
     <View className="haisha-book-preview-container">
 
       {/* 顶栏 */}
-      <View className={`top-bar ${showTopBar ? '' : 'none'}`}>
-        <View className="left-container" onClick={goBack}>
+      <View className={`top-bar ${showTopBar ? 'height' : ''}`}>
+        {/* <View className="left-container" onClick={goBack}>
           <AtIcon value='chevron-left' size='25' />
           <Text className="back-button">
             返回
           </Text>
-        </View>
-        <View className='components-page'>
+        </View> */}
+        {/* <View className="right-container"> */}
+        <View className={showTopBar ? '' : 'none'}>
+          <Text className='title'>Oxford Phonics World 1 SB</Text>
         </View>
       </View>
 
@@ -132,8 +151,10 @@ const BookPreview: React.FC = () => {
           duration={300}
           current={currentPage}
           onChange={(e) => setCurrentPage(e.detail.current)}
-          style={{ height: "590px" }}
+          style={{ height: "500px", marginBottom: "15px" }}
           className="book-container"
+          vertical
+          circular
         >
           {imageUrls.map((url, index) => (
             <SwiperItem key={index}>
@@ -160,9 +181,9 @@ const BookPreview: React.FC = () => {
                   )
                 })} */}
                 {audioListPlayStatus.map((status, index) => {
-                  const list = newAudioList[currentPage]
+                  const list = newAudioList[currentPage] || []
                   const { offset = [] } = list[index] || {}
-                  const [x, y] = offset
+                  const [x = 0, y = 0] = offset
                   const left = decimalToPercentage(((x - 50) / 427));
                   const top = decimalToPercentage(((y - 362) / 555));
 
@@ -180,7 +201,10 @@ const BookPreview: React.FC = () => {
                         backgroundColor: "blue",
                         opacity: 0
                       }}
-                      onClick={() => triggleAudioStatus(index, status)}
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        triggleAudioStatus(index, status)
+                      }}
                     ></View>
                     :
                     // 正在播放
@@ -195,7 +219,10 @@ const BookPreview: React.FC = () => {
                         backgroundColor: "red",
                         opacity: 0
                       }}
-                      onClick={() => triggleAudioStatus(index, status)}
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        triggleAudioStatus(index, status)
+                      }}
                     ></View>
                 }
                 )}
@@ -209,19 +236,19 @@ const BookPreview: React.FC = () => {
       {currentPage ? <View className="page-number">{currentPage + ' / ' + images.length}</View> : null}
 
       {/* 底栏 */}
-      <View className={`bottom-bar height`}>
-        <View className={`flex-container`} onClick={handleCatalogShowingUp}>
-          <AtIcon className='menu' value='menu' size='20' color={gray} />
-          <Text className="catalog-button">
-            目录
-          </Text>
-        </View>
-        {/* <View className={`flex-container ${showTopBar ? '' : 'none'}`} onClick={handleCatalogShowingUp}>
+      <View className={`bottom-bar ${showTopBar ? 'height' : ''}`}>
+        {/* <View className={`flex-container`} onClick={handleCatalogShowingUp}>
           <AtIcon className='menu' value='menu' size='20' color={gray} />
           <Text className="catalog-button">
             目录
           </Text>
         </View> */}
+        <View className={`flex-container ${showTopBar ? '' : 'none'}`} onClick={handleCatalogShowingUp}>
+          <AtIcon className='menu' value='menu' size='20' color={gray} />
+          <Text className="catalog-button">
+            目录
+          </Text>
+        </View>
         {/* <View className={`flex-container ${showTopBar ? '' : 'none'}`} onClick={handleAudioListShowingUp}>
           <AtIcon className='file-audio' value='file-audio' size='20' color={gray} />
           <Text className="audio-button">
