@@ -40,9 +40,9 @@ const BookPreview: React.FC = () => {
       audio.stop();
     });
 
-    const list = newAudioList[currentPage] && newAudioList[currentPage].map((({ url }) => {
+
+    const list: Taro.InnerAudioContext[] = newAudioList[currentPage] && newAudioList[currentPage].map((({ url }) => {
       const audioContext = Taro.createInnerAudioContext()
-      // const audioContext = Taro
       // IOS下无法播放音频问题
       Taro.setInnerAudioOption({ obeyMuteSwitch: false })
       audioContext.src = url
@@ -74,6 +74,12 @@ const BookPreview: React.FC = () => {
     setAudioPlayList(list)
     setAudioListPlayStatus(Array(list.length).fill(false))
     audioListPlayStatusRef.current = Array(list.length).fill(false)
+
+    return () => {
+      list.forEach((innerAudioContext) => {
+        innerAudioContext.destroy();
+      })
+    }
 
   }, [currentPage])
 
@@ -236,14 +242,14 @@ const BookPreview: React.FC = () => {
       {currentPage ? <View className="page-number">{currentPage + ' / ' + images.length}</View> : null}
 
       {/* 底栏 */}
-      <View className={`bottom-bar ${showTopBar ? 'height' : ''}`}>
+      <View className={`bottom-bar ${showTopBar ? 'height' : ''}`} onClick={handleCatalogShowingUp}>
         {/* <View className={`flex-container`} onClick={handleCatalogShowingUp}>
           <AtIcon className='menu' value='menu' size='20' color={gray} />
           <Text className="catalog-button">
             目录
           </Text>
         </View> */}
-        <View className={`flex-container ${showTopBar ? '' : 'none'}`} onClick={handleCatalogShowingUp}>
+        <View className={`flex-container ${showTopBar ? '' : 'none'}`}>
           <AtIcon className='menu' value='menu' size='20' color={gray} />
           <Text className="catalog-button">
             目录
