@@ -17,9 +17,12 @@
 
     .book-page-container {
       position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
 
       .book-page {
-        width: 100%;
+        width: 95%;
       }
     }
   }
