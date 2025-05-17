@@ -32,9 +32,9 @@ export const BookShelf: React.FC = () => {
     // });
   };
 
-  const navigateToBookDetail = () => {
+  const navigateToBookDetail = (bookIndex) => {
     wx.navigateTo({
-      url: "/pages/BookDetail/BookDetail",
+      url: "/pages/BookDetail/BookDetail" + "?id=" + (bookIndex + 1),
       events: {
         // 为指定事件添加一个监听器，获取被打开页面传送到当前页面的数据
         acceptDataFromOpenedPage: function (data) {
@@ -47,7 +47,7 @@ export const BookShelf: React.FC = () => {
       success: function (res) {
         console.log("success");
         // 通过eventChannel向被打开页面传送数据
-        res.eventChannel.emit("acceptDataFromOpenerPage", { data: "test" });
+        res.eventChannel.emit("acceptDataFromOpenerPage", { data: bookIndex });
       },
     });
 
@@ -61,7 +61,7 @@ export const BookShelf: React.FC = () => {
 
     <View className="haisha-bookshelf">
       {images.map((image, index) => (
-        <View className="book-item" onClick={navigateToBookDetail}>
+        <View className="book-item" onClick={() => navigateToBookDetail(index)}>
           <Image className="cover" src={image} mode="aspectFill" />
           <Text className="text">{`Oxford Phonics ${index + 1}`}</Text>
         </View>

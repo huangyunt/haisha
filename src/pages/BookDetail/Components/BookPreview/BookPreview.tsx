@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import Taro from "@tarojs/taro";
+import Taro, { useRouter } from "@tarojs/taro";
 import { AtFloatLayout, AtList, AtListItem, AtIcon } from "taro-ui"
 import { Swiper, SwiperItem, Image, View, Text } from "@tarojs/components";
 import { audioList, catalogList, images, newAudioList } from "./constant";
@@ -16,7 +16,7 @@ const decimalToPercentage = (decimal) => {
 }
 
 const BookPreview: React.FC = () => {
-  const [imageUrls, setImageUrls] = useState<string[]>(images);
+  const [imageUrls, setImageUrls] = useState<string[]>([]);
   const [currentPage, setCurrentPage] = useState(0);
   const [showTopBar, setShowTopBar] = useState(false);
   const [showBottomBar, setShowBottomBar] = useState(false);
@@ -25,6 +25,7 @@ const BookPreview: React.FC = () => {
   const [audioPlayList, setAudioPlayList] = useState<Taro.InnerAudioContext[]>([])
   const [audioListPlayStatus, setAudioListPlayStatus] = useState<Boolean[]>([])
   const audioListPlayStatusRef = useRef<Boolean[]>([])
+  const router = useRouter();
 
   useEffect(() => {
     // const params = Taro.getCurrentInstance()?.router.params;
@@ -32,6 +33,9 @@ const BookPreview: React.FC = () => {
     //     setImageUrls(JSON.parse(params.imageUrls));
     // }
     // innerAudioContext.autoplay = true
+    const id = router.params?.id || "1";
+    console.log(images[id])
+    setImageUrls(images[id])
   }, []);
 
   useEffect(() => {
@@ -239,7 +243,7 @@ const BookPreview: React.FC = () => {
       </View>
 
       {/* 页码 */}
-      {currentPage ? <View className="page-number">{currentPage + ' / ' + images.length}</View> : null}
+      {currentPage ? <View className="page-number">{currentPage + ' / ' + imageUrls.length}</View> : null}
 
       {/* 底栏 */}
       <View className={`bottom-bar ${showTopBar ? 'height' : ''}`} onClick={handleCatalogShowingUp}>

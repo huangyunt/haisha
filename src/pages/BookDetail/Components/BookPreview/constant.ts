@@ -1,7 +1,14 @@
-export const images = Array(100).fill(0).map((_, index) =>
-    'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/PDF-CONVERT-IMAGE/Oxford_Phonics_World_1_SB-images-' + index + '.jpg',
-)
+export const images = {
+    "1": Array(100).fill(0).map((_, index) =>
+    (
+        'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/1.CASA%E9%98%85%E8%AF%BB%E4%B8%8E%E8%87%AA%E6%8B%BC-%E5%9B%BE%E7%89%87/CASA%E9%98%85%E8%AF%BB%E4%B8%8E%E8%87%AA%E6%8B%BCReading%20%26%20Phonics%201_' + (index + 1) + '.png'
+    )),
+    "2": Array(100).fill(0).map((_, index) =>
+    (
+        'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/2.CASA%E9%98%85%E8%AF%BB%E4%B8%8E%E8%87%AA%E6%8B%BC-%E5%9B%BE%E7%89%87/CASA%E9%98%85%E8%AF%BB%E4%B8%8E%E8%87%AA%E6%8B%BCReading%20%26%20Phonics%202_' + (index + 1) + '.png'
+    )),
 
+}
 
 export const catalogList = [
     {
