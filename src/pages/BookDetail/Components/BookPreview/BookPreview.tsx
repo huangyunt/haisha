@@ -2,12 +2,13 @@ import React, { useState, useEffect, useRef } from "react";
 import Taro, { useRouter } from "@tarojs/taro";
 import { AtFloatLayout, AtList, AtListItem, AtIcon } from "taro-ui"
 import { Swiper, SwiperItem, Image, View, Text } from "@tarojs/components";
-import { audioList, catalogList, images, newAudioList } from "./constant";
+import { catalogLists } from "./constants/catalogList";
+import { audioList } from "./constants/audioList";
+import { images } from "./constants/images";
+
 // import "@taroify/core/icon/style"
-import { ChatOutlined, Volume } from "@taroify/icons"
 
 import "./BookPreview.scss";
-
 const green = "rgb(66, 134, 135)"
 const gray = 'rgb(67, 83, 108)'
 
@@ -17,6 +18,7 @@ const decimalToPercentage = (decimal) => {
 
 const BookPreview: React.FC = () => {
   const [imageUrls, setImageUrls] = useState<string[]>([]);
+  const [catalogList, setCatalogList] = useState([])
   const [currentPage, setCurrentPage] = useState(0);
   const [showTopBar, setShowTopBar] = useState(false);
   const [showBottomBar, setShowBottomBar] = useState(false);
@@ -36,6 +38,7 @@ const BookPreview: React.FC = () => {
     const id = router.params?.id || "1";
     console.log(images[id])
     setImageUrls(images[id])
+    setCatalogList(catalogLists[id])
   }, []);
 
   useEffect(() => {
@@ -45,7 +48,7 @@ const BookPreview: React.FC = () => {
     });
 
 
-    const list: Taro.InnerAudioContext[] = newAudioList[currentPage] && newAudioList[currentPage].map((({ url }) => {
+    const list: Taro.InnerAudioContext[] = audioList[currentPage] && audioList[currentPage].map((({ url }) => {
       const audioContext = Taro.createInnerAudioContext()
       // IOS下无法播放音频问题
       Taro.setInnerAudioOption({ obeyMuteSwitch: false })
@@ -74,7 +77,6 @@ const BookPreview: React.FC = () => {
       return audioContext
     })
     ) || []
-
     setAudioPlayList(list)
     setAudioListPlayStatus(Array(list.length).fill(false))
     audioListPlayStatusRef.current = Array(list.length).fill(false)
@@ -170,7 +172,7 @@ const BookPreview: React.FC = () => {
             <SwiperItem key={index}>
               <View className="book-page-container">
                 <Image src={url} mode="widthFix" className="book-page" />
-                {/* {newAudioList[currentPage + 1].map(({ offset, url }, index) => {
+                {/* {audioList[currentPage + 1].map(({ offset, url }, index) => {
                   const [x, y] = offset
                   const left = decimalToPercentage(((x - 50) / 427));
                   const top = decimalToPercentage(((y - 362) / 555));
@@ -191,7 +193,7 @@ const BookPreview: React.FC = () => {
                   )
                 })} */}
                 {audioListPlayStatus.map((status, index) => {
-                  const list = newAudioList[currentPage] || []
+                  const list = audioList[currentPage] || []
                   const { offset = [] } = list[index] || {}
                   const [x = 0, y = 0] = offset
                   const left = decimalToPercentage(((x - 50) / 427));
@@ -242,8 +244,11 @@ const BookPreview: React.FC = () => {
         </Swiper>
       </View>
 
-      {/* 页码 */}
-      {currentPage ? <View className="page-number">{currentPage + ' / ' + imageUrls.length}</View> : null}
+      {/* 
+        * 页码 
+        * 封面和目录页不需要展示页码，且页数需要减去封面和目录页
+      */}
+      {currentPage > 1 ? <View className="page-number">{(currentPage - 1) + ' / ' + (imageUrls.length - 2)}</View> : null}
 
       {/* 底栏 */}
       <View className={`bottom-bar ${showTopBar ? 'height' : ''}`} onClick={handleCatalogShowingUp}>
