@@ -3,7 +3,7 @@ import Taro, { useRouter } from "@tarojs/taro";
 import { AtFloatLayout, AtList, AtListItem, AtIcon } from "taro-ui"
 import { Swiper, SwiperItem, Image, View, Text } from "@tarojs/components";
 import { catalogLists } from "./constants/catalogList";
-import { audioList } from "./constants/audioList";
+import { allAudioList } from "./constants/audioList";
 import { images } from "./constants/images";
 
 // import "@taroify/core/icon/style"
@@ -19,6 +19,7 @@ const decimalToPercentage = (decimal) => {
 const BookPreview: React.FC = () => {
   const [imageUrls, setImageUrls] = useState<string[]>([]);
   const [catalogList, setCatalogList] = useState([])
+  const [audioList, setAudioList] = useState({})
   const [currentPage, setCurrentPage] = useState(0);
   const [showTopBar, setShowTopBar] = useState(false);
   const [showBottomBar, setShowBottomBar] = useState(false);
@@ -39,6 +40,7 @@ const BookPreview: React.FC = () => {
     console.log(images[id])
     setImageUrls(images[id])
     setCatalogList(catalogLists[id])
+    setAudioList(allAudioList[id])
   }, []);
 
   useEffect(() => {
