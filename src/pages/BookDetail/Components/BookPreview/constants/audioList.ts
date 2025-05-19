@@ -1410,40 +1410,364 @@ const audioList3 = {
     ],
     5: [
         {
-            offset: [894, 216],
+            offset: [863, 216],
             url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford_Phonics_World_3_CD1/'
                 + 'Track05.mp3',
         },
         {
-            offset: [898, 614],
+            offset: [866, 450],
             url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford_Phonics_World_3_CD1/'
                 + 'Track06.mp3',
+        },
+        {
+            offset: [898, 640],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford_Phonics_World_3_CD1/'
+                + 'Track07.mp3',
         },
     ],
     6: [
         {
             offset: [826, 235],
             url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford_Phonics_World_3_CD1/'
-                + 'Track06.mp3',
+                + 'Track08.mp3',
         },
         {
-            offset: [878, 427],
+            offset: [866, 554],
             url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford_Phonics_World_3_CD1/'
-                + 'Track06.mp3',
+                + 'Track09.mp3',
         }
     ],
     7: [
         {
-            offset: [955, 221],
+            offset: [838, 216],
             url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford_Phonics_World_3_CD1/'
-                + 'Track06.mp3',
+                + 'Track10.mp3',
         },
         {
-            offset: [897, 611],
+            offset: [1040, 459],
             url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford_Phonics_World_3_CD1/'
-                + 'Track06.mp3',
+                + 'Track11.mp3',
+        },
+        {
+            offset: [899, 629],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford_Phonics_World_3_CD1/'
+                + 'Track12.mp3',
+        },
+    ],
+    8: [
+        {
+            offset: [826, 235],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford_Phonics_World_3_CD1/'
+                + 'Track13.mp3',
+        },
+        {
+            offset: [866, 554],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford_Phonics_World_3_CD1/'
+                + 'Track14.mp3',
         }
     ],
+    9: [
+        {
+            offset: [955, 221],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford_Phonics_World_3_CD1/'
+                + 'Track15.mp3',
+        },
+        {
+            offset: [897, 633],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford_Phonics_World_3_CD1/'
+                + 'Track16.mp3',
+        }
+    ],
+    10: [
+        {
+            offset: [898, 661],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford_Phonics_World_3_CD1/'
+                + 'Track17.mp3',
+        },
+    ],
+    11: [
+        {
+            offset: [896, 217],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford_Phonics_World_3_CD1/'
+                + 'Track18.mp3',
+        },
+    ],
+
+    // Unit 2
+    27: [
+        {
+            offset: [826, 235],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford_Phonics_World_3_CD1/'
+                + 'Track19.mp3',
+        },
+        {
+            offset: [865, 427],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford_Phonics_World_3_CD1/'
+                + 'Track20.mp3',
+        }
+    ],
+    28: [
+        {
+            offset: [863, 216],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford_Phonics_World_3_CD1/'
+                + 'Track21.mp3',
+        },
+        {
+            offset: [898, 623],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford_Phonics_World_3_CD1/'
+                + 'Track22.mp3',
+        },
+    ],
+    29: [
+        {
+            offset: [826, 235],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford_Phonics_World_3_CD1/'
+                + 'Track23.mp3',
+        },
+        {
+            offset: [866, 554],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford_Phonics_World_3_CD1/'
+                + 'Track24.mp3',
+        }
+    ],
+    30: [
+        {
+            offset: [919, 216],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford_Phonics_World_3_CD1/'
+                + 'Track25.mp3',
+        },
+        {
+            offset: [823, 372],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford_Phonics_World_3_CD1/'
+                + 'Track26.mp3',
+        },
+        {
+            offset: [897, 634],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford_Phonics_World_3_CD1/'
+                + 'Track27.mp3',
+        }
+    ],
+    31: [
+        {
+            offset: [826, 235],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford_Phonics_World_3_CD1/'
+                + 'Track28.mp3',
+        },
+        {
+            offset: [866, 554],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford_Phonics_World_3_CD1/'
+                + 'Track29.mp3',
+        }
+    ],
+    32: [
+        {
+            offset: [822, 221],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford_Phonics_World_3_CD1/'
+                + 'Track30.mp3',
+        },
+        {
+            offset: [897, 623],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford_Phonics_World_3_CD1/'
+                + 'Track31.mp3',
+        }
+    ],
+    33: [
+        {
+            offset: [825, 231],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford_Phonics_World_3_CD1/'
+                + 'Track32.mp3',
+        },
+        {
+            offset: [989, 567],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford_Phonics_World_3_CD1/'
+                + 'Track33.mp3',
+        }
+    ],
+    34: [
+        {
+            offset: [897, 217],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford_Phonics_World_3_CD1/'
+                + 'Track34.mp3',
+        },
+    ],
+
+    // Unit 3
+    51: [
+        {
+            offset: [826, 235],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford_Phonics_World_3_CD1/'
+                + 'Track37.mp3',
+        },
+        {
+            offset: [865, 427],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford_Phonics_World_3_CD1/'
+                + 'Track38.mp3',
+        }
+    ],
+    52: [
+        {
+            offset: [823, 498],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford_Phonics_World_3_CD1/'
+                + 'Track39.mp3',
+        },
+        {
+            offset: [897, 641],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford_Phonics_World_3_CD1/'
+                + 'Track40.mp3',
+        },
+    ],
+    53: [
+        {
+            offset: [826, 235],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford_Phonics_World_3_CD1/'
+                + 'Track41.mp3',
+        },
+        {
+            offset: [865, 427],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford_Phonics_World_3_CD1/'
+                + 'Track42.mp3',
+        }
+    ],
+    54: [
+        {
+            offset: [1041, 497],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford_Phonics_World_3_CD1/'
+                + 'Track43.mp3',
+        },
+        {
+            offset: [898, 650],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford_Phonics_World_3_CD1/'
+                + 'Track44.mp3',
+        }
+    ],
+    55: [
+        {
+            offset: [826, 235],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford_Phonics_World_3_CD1/'
+                + 'Track45.mp3',
+        },
+        {
+            offset: [865, 427],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford_Phonics_World_3_CD1/'
+                + 'Track46.mp3',
+        }
+    ],
+    56: [
+        {
+            offset: [842, 221],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford_Phonics_World_3_CD1/'
+                + 'Track47.mp3',
+        },
+        {
+            offset: [897, 647],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford_Phonics_World_3_CD1/'
+                + 'Track48.mp3',
+        }
+    ],
+    57: [
+        {
+            offset: [919, 655],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford_Phonics_World_3_CD1/'
+                + 'Track49.mp3',
+        },
+    ],
+    58: [
+        {
+            offset: [896, 217],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford_Phonics_World_3_CD1/'
+                + 'Track50.mp3',
+        },
+    ],
+
+    // Unit 4
+    74: [
+        {
+            offset: [826, 235],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford_Phonics_World_3_CD1/'
+                + 'Track51.mp3',
+        },
+        {
+            offset: [865, 427],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford_Phonics_World_3_CD1/'
+                + 'Track52.mp3',
+        }
+    ],
+    75: [
+        {
+            offset: [898, 216],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford_Phonics_World_3_CD1/'
+                + 'Track53.mp3',
+        },
+        {
+            offset: [897, 646],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford_Phonics_World_3_CD1/'
+                + 'Track54.mp3',
+        },
+    ],
+    76: [
+        {
+            offset: [826, 235],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford_Phonics_World_3_CD1/'
+                + 'Track55.mp3',
+        },
+        {
+            offset: [865, 427],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford_Phonics_World_3_CD1/'
+                + 'Track56.mp3',
+        }
+    ],
+    77: [
+        {
+            offset: [903, 216],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford_Phonics_World_3_CD1/'
+                + 'Track57.mp3',
+        },
+        {
+            offset: [823, 381],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford_Phonics_World_3_CD1/'
+                + 'Track58.mp3',
+        },
+        {
+            offset: [898, 642],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford_Phonics_World_3_CD1/'
+                + 'Track59.mp3',
+        }
+    ],
+    78: [
+        {
+            offset: [958, 235],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford_Phonics_World_3_CD1/'
+                + 'Track60.mp3',
+        },
+    ],
+    79: [
+        {
+            offset: [838, 221],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford_Phonics_World_3_CD1/'
+                + 'Track61.mp3',
+        },
+    ],
+    80: [
+        {
+            offset: [825, 231],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford_Phonics_World_3_CD1/'
+                + 'Track62.mp3',
+        },
+        {
+            offset: [989, 537],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford_Phonics_World_3_CD1/'
+                + 'Track63.mp3',
+        }
+    ],
+    81: [
+        {
+            offset: [896, 217],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford_Phonics_World_3_CD1/'
+                + 'Track64.mp3',
+        }
+    ],
+
+    // Unit 5
 }
 
 const audioList4 = {
