@@ -26,7 +26,7 @@ const BookPreview: React.FC = () => {
   const [catalogVisible, setCatalogVisible] = useState(false);
   const [audioListVisible, setAudioListVisible] = useState(false);
   const [audioPlayList, setAudioPlayList] = useState<Taro.InnerAudioContext[]>([])
-  const [audioListPlayStatus, setAudioListPlayStatus] = useState<Boolean[]>([])
+  const [audioListPlayStatus, setAudioListPlayStatus] = useState<Boolean[]>([]) // 音频播放的状态
   const audioListPlayStatusRef = useRef<Boolean[]>([])
   const router = useRouter();
 
@@ -37,7 +37,6 @@ const BookPreview: React.FC = () => {
     // }
     // innerAudioContext.autoplay = true
     const id = router.params?.id || "1";
-    console.log(images[id])
     setImageUrls(images[id])
     setCatalogList(catalogLists[id])
     setAudioList(allAudioList[id])
@@ -50,7 +49,7 @@ const BookPreview: React.FC = () => {
     });
 
 
-    const list: Taro.InnerAudioContext[] = audioList[currentPage] && audioList[currentPage].map((({ url }) => {
+    const list: Taro.InnerAudioContext[] = audioList[currentPage + 2] && audioList[currentPage + 2].map((({ url }) => {
       const audioContext = Taro.createInnerAudioContext()
       // IOS下无法播放音频问题
       Taro.setInnerAudioOption({ obeyMuteSwitch: false })
@@ -83,6 +82,8 @@ const BookPreview: React.FC = () => {
     setAudioListPlayStatus(Array(list.length).fill(false))
     audioListPlayStatusRef.current = Array(list.length).fill(false)
 
+    console.log("currentPage: ", currentPage)
+    console.log("audioList: ", audioList?.[currentPage + 2])
     return () => {
       list.forEach((innerAudioContext) => {
         innerAudioContext.destroy();
@@ -174,33 +175,15 @@ const BookPreview: React.FC = () => {
             <SwiperItem key={index}>
               <View className="book-page-container">
                 <Image src={url} mode="widthFix" className="book-page" />
-                {/* {audioList[currentPage + 1].map(({ offset, url }, index) => {
-                  const [x, y] = offset
-                  const left = decimalToPercentage(((x - 50) / 427));
-                  const top = decimalToPercentage(((y - 362) / 555));
-
-                  return (
-                    <View
-                      className="float-rect"
-                      style={{
-                        position: 'absolute',
-                        left,
-                        top,
-                        width: "20px",
-                        height: "20px",
-                        backgroundColor: "blue"
-                      }}
-                      onClick={() => triggleAudioStatus(index, false)}
-                    ></View>
-                  )
-                })} */}
+                {/* [(x - 653)/469, (y - 167)/606 */}
                 {audioListPlayStatus.map((status, index) => {
-                  const list = audioList[currentPage] || []
+                  const list = audioList?.[currentPage + 2] || []
                   const { offset = [] } = list[index] || {}
                   const [x = 0, y = 0] = offset
-                  const left = decimalToPercentage(((x - 50) / 427));
-                  const top = decimalToPercentage(((y - 362) / 555));
+                  const left = decimalToPercentage((x - 653) / 469);
+                  const top = decimalToPercentage((y - 167) / 606);
 
+                  // console.log('list: ', list)
                   return !status
                     ?
                     // 未播放
