@@ -156,7 +156,7 @@ const BookPreview: React.FC = () => {
         </View> */}
         {/* <View className="right-container"> */}
         <View className={showTopBar ? '' : 'none'}>
-          <Text className='title'>Oxford Phonics World 1 SB</Text>
+          <Text className='title'>{`CASA自然拼读 ${router.params?.id || "1"}`}</Text>
         </View>
       </View>
 
