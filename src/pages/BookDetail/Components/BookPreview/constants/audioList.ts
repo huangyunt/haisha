@@ -79,7 +79,7 @@ const audioList1 = {
     ],
     18: [
         {
-            offset: [916, 507],
+            offset: [919, 490],
             url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%80%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/colorful%20eggs.mp3',
         },
     ],
@@ -107,7 +107,7 @@ const audioList1 = {
             url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/Oxford%20Phonics%20World_1_SB_CD1/Track15.mp3',
         },
         {
-            offset: [877, 234],
+            offset: [877, 435],
             url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/Oxford%20Phonics%20World_1_SB_CD1/Track16.mp3',
         },
     ],
