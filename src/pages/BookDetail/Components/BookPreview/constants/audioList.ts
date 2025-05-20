@@ -70,14 +70,35 @@ const audioList1 = {
         },
     ],
 
-    // 绘本
+    // Unit1 绘本
     16: [
         {
-            offset: [897, 216],
-            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/Oxford%20Phonics%20World_1_SB_CD1/Track13.mp3',
+            offset: [735, 198],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%80%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/big.mp3',
         },
     ],
-
+    18: [
+        {
+            offset: [916, 507],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%80%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/colorful%20eggs.mp3',
+        },
+    ],
+    20: [
+        {
+            offset: [931, 187],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%80%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/counting%20bugs.mp3',
+        },
+        // {
+        //     offset: [693, 510],
+        //     url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%80%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/counting%20bugs.mp3',
+        // },
+    ],
+    23: [
+        {
+            offset: [701, 192],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%80%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/counting%20letters.mp3',
+        },
+    ],
 
     // Unit 2
     26: [
@@ -153,6 +174,31 @@ const audioList1 = {
         },
     ],
 
+    // Unit 2绘本
+    38: [
+        {
+            offset: [722, 194],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%80%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/farm%20animals.mp3',
+        },
+    ],
+    41: [
+        {
+            offset: [690, 176],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%80%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/fido%20gets%20dressed.mp3',
+        },
+    ],
+    44: [
+        {
+            offset: [680, 170],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%80%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/four.mp3',
+        },
+    ],
+    46: [
+        {
+            offset: [932, 191],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%80%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/go%20go%20go.mp3',
+        },
+    ],
 
     // Unit 3
     49: [
@@ -221,6 +267,32 @@ const audioList1 = {
         {
             offset: [897, 215],
             url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/Oxford%20Phonics%20World_1_SB_CD1/Track44.mp3',
+        },
+    ],
+
+    // Unit 3绘本
+    61: [
+        {
+            offset: [692, 684],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%80%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/in.mp3',
+        },
+    ],
+    64: [
+        {
+            offset: [701, 176],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%80%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/it%20is%20fall.mp3',
+        },
+    ],
+    66: [
+        {
+            offset: [686, 530],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%80%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/jump%20over.mp3',
+        },
+    ],
+    69: [
+        {
+            offset: [962, 200],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%80%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/little.mp3',
         },
     ],
 
@@ -294,6 +366,31 @@ const audioList1 = {
         },
     ],
 
+    // Unit 4绘本
+    84: [
+        {
+            offset: [673, 784],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%80%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/lunch%20at%20school.mp3',
+        },
+    ],
+    86: [
+        {
+            offset: [925, 186],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%80%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/my%20family.mp3',
+        },
+    ],
+    89: [
+        {
+            offset: [676, 171],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%80%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/my%20gift%20for%20mom.mp3',
+        },
+    ],
+    91: [
+        {
+            offset: [892, 170],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%80%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/my%20school%20bus.mp3',
+        },
+    ],
 
     // Unit 5
     94: [
@@ -372,6 +469,35 @@ const audioList1 = {
                 + 'Track13.mp3',
         },
     ],
+
+    // Unit 5绘本
+    106: [
+        {
+            offset: [735, 201],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%80%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/on.mp3',
+        },
+    ], 
+    
+    108: [
+        {
+            offset: [925, 524],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%80%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/one%20lnsect.mp3',
+        },
+    ], 
+    
+    111: [
+        {
+            offset: [700, 504],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%80%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/one.mp3',
+        },
+    ], 
+    
+    114: [
+        {
+            offset: [681, 696],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%80%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/out.mp3',
+        },
+    ], 
 
     // Unit 6
     117: [
@@ -453,6 +579,35 @@ const audioList1 = {
             offset: [897, 215],
             url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%80%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford%20Phonics%20World_1_SB_CD2/'
                 + 'Track26.mp3',
+        },
+    ],
+
+    // Unit 6绘本
+    129: [
+        {
+            offset: [711, 204],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%80%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/over.mp3',
+        },
+    ], 
+    
+    131: [
+        {
+            offset: [928, 538],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%80%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/pasta!.mp3',
+        },
+    ],
+
+    134: [
+        {
+            offset: [730, 528],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%80%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/pets.mp3',
+        },
+    ], 
+    
+    137: [
+        {
+            offset: [923, 198],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%80%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/piay%20ball!.mp3',
         },
     ],
 
@@ -555,6 +710,36 @@ const audioList1 = {
             offset: [896, 215],
             url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%80%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford%20Phonics%20World_1_SB_CD2/'
                 + 'Track45.mp3',
+        },
+    ],
+
+    // Unit 7 绘本
+
+    155: [
+        {
+            offset: [683, 196],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%80%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/show%20some%20love.mp3',
+        },
+    ], 
+    
+    157: [
+        {
+            offset: [946, 529],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%80%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/spring.mp3',
+        },
+    ],
+
+    160: [
+        {
+            offset: [698, 529],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%80%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/summer%20picnics.mp3',
+        },
+    ], 
+    
+    163: [
+        {
+            offset: [937, 195],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%80%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/summer.mp3',
         },
     ],
 
@@ -665,6 +850,33 @@ const audioList1 = {
                 + 'Track62.mp3',
         }
     ],
+
+    // Unit 8绘本
+    181: [
+        {
+            offset: [967, 174],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%80%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/the%20backyard.mp3',
+        },
+    ],
+    183: [
+        {
+            offset: [927, 528],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%80%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/the%20book.mp3',
+        },
+    ],
+    186: [
+        {
+            offset: [697, 532],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%80%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/the%20city.mp3',
+        },
+    ],
+    189: [
+        {
+            offset: [967, 197],
+            url: 'https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/%E7%AC%AC%E4%B8%80%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/the%20classroom.mp3',
+        },
+    ],
+
 }
 
 const audioList2 = {
