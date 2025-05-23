@@ -20,7 +20,8 @@
     "typeRoots": ["node_modules/@types"],
     "paths": {
       // TS5090 leading './'
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      // "tdesign-miniprogram/*":["./miniprogram/miniprogram_npm/tdesign-miniprogram/*"]
     },
     "types": ["wechat-miniprogram"]
   },
