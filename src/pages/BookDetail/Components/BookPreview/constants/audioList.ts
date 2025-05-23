@@ -2899,6 +2899,32 @@ const audioList4 = {
         },
     ],
 
+    // Unit 1绘本
+    16: [
+        {
+            offset: [683, 184],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E5%9B%9B%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/my%20little%20brother.mp3'
+        },
+    ],
+    19: [
+        {
+            offset: [690, 193],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E5%9B%9B%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/my%20room.mp3'
+        },
+    ],
+    21: [
+        {
+            offset: [935, 532],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E5%9B%9B%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/nice%20not%20nice.mp3'
+        },
+    ],
+    24: [
+        {
+            offset: [693, 532],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E5%9B%9B%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/now%20we%20bake.mp3'
+        },
+    ],
+
     // Unit 2
     28: [
         {
@@ -2992,6 +3018,32 @@ const audioList4 = {
         }
     ],
 
+    // Unit 2绘本
+    40: [
+        {
+            offset: [687, 198],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E5%9B%9B%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/oh%20raccoon.mp3'
+        },
+    ],
+    43: [
+        {
+            offset: [689, 191],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E5%9B%9B%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/opposites.mp3'
+        },
+    ],
+    46: [
+        {
+            offset: [695, 429],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E5%9B%9B%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/pond%20animals.mp3'
+        },
+    ],
+    49: [
+        {
+            offset: [693, 197],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E5%9B%9B%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/rabbits.mp3'
+        },
+    ],
+
     // Unit 3
 
     52: [
@@ -3079,6 +3131,32 @@ const audioList4 = {
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E5%9B%9B%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford%20Phonics%20World_4_SB_CD1/'
                 + 'Track48.mp3',
         }
+    ],
+
+    // Unit 3绘本
+    64: [
+        {
+            offset: [703, 201],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E5%9B%9B%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/safe%20not%20safe.mp3'
+        },
+    ],
+    67: [
+        {
+            offset: [689, 194],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E5%9B%9B%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/shapes%20in%20nature.mp3'
+        },
+    ],
+    70: [
+        {
+            offset: [689, 186],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E5%9B%9B%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/smells%20like%20thanksgiving.mp3'
+        },
+    ],
+    72: [
+        {
+            offset: [915, 525],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E5%9B%9B%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/smile.mp3'
+        },
     ],
 
     // Unit 4
@@ -3179,6 +3257,32 @@ const audioList4 = {
         },
     ],
 
+    // Unit 4绘本
+    88: [
+        {
+            offset: [694, 775],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E5%9B%9B%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/snake%20colors.mp3'
+        },
+    ],
+    90: [
+        {
+            offset: [934, 203],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E5%9B%9B%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/spring%20and%20fall.mp3'
+        },
+    ],
+    93: [
+        {
+            offset: [948, 531],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E5%9B%9B%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/spring%20weather.mp3'
+        },
+    ],
+    96: [
+        {
+            offset: [703, 531],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E5%9B%9B%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/sundae%20time.mp3'
+        },
+    ],
+
     // Unit 5
     100: [
         {
@@ -3269,6 +3373,32 @@ const audioList4 = {
             offset: [900, 216],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E5%9B%9B%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford%20Phonics%20World_4_SB_CD2/'
                 + 'Track16.mp3',
+        },
+    ],
+
+    // Unit 5绘本
+    112: [
+        {
+            offset: [699, 200],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E5%9B%9B%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/the%20big%20cat.mp3'
+        },
+    ],
+    114: [
+        {
+            offset: [930, 520],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E5%9B%9B%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/the%20forest.mp3'
+        },
+    ],
+    117: [
+        {
+            offset: [681, 529],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E5%9B%9B%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/the%20mall.mp3'
+        },
+    ],
+    120: [
+        {
+            offset: [695, 565],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E5%9B%9B%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/the%20parade.mp3'
         },
     ],
 
@@ -3365,6 +3495,32 @@ const audioList4 = {
         },
     ],
 
+    // Unit 6绘本
+    136: [
+        {
+            offset: [712, 194],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E5%9B%9B%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/the%20rainstorm.mp3'
+        },
+    ],
+    138: [
+        {
+            offset: [923, 522],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E5%9B%9B%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/these%20shoes.mp3'
+        },
+    ],
+    141: [
+        {
+            offset: [690, 534],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E5%9B%9B%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/this%20feels.mp3'
+        },
+    ],
+    144: [
+        {
+            offset: [675, 523],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E5%9B%9B%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/this%20insect.mp3'
+        },
+    ],
+
     // Unit 7
     148: [
         {
@@ -3455,6 +3611,32 @@ const audioList4 = {
             offset: [896, 215],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E5%9B%9B%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford%20Phonics%20World_4_SB_CD2/'
                 + 'Track48.mp3',
+        }
+    ],
+
+    // Unit 7绘本
+    160: [
+        {
+            offset: [695, 193],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E5%9B%9B%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/this%20is%20my%20bear.mp3'
+        }
+    ],
+    162: [
+        {
+            offset: [909, 530],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E5%9B%9B%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/this%20is%20my%20halloween.mp3'
+        }
+    ],
+    165: [
+        {
+            offset: [913, 520],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E5%9B%9B%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/this%20smells.mp3'
+        }
+    ],
+    168: [
+        {
+            offset: [907, 528],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E5%9B%9B%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/this%20tastes.mp3'
         }
     ],
 
@@ -3549,6 +3731,32 @@ const audioList4 = {
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E5%9B%9B%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford%20Phonics%20World_4_SB_CD2/'
                 + 'Track63.mp3',
         },
+    ],
+
+    // Unit 8绘本
+    184: [
+        {
+            offset: [693, 767],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E5%9B%9B%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/up%20and%20down.mp3'
+        }
+    ],
+    186: [
+        {
+            offset: [934, 232],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E5%9B%9B%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/vegetables.mp3'
+        }
+    ],
+    189: [
+        {
+            offset: [925, 520],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E5%9B%9B%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/we%20can%20make%20sounds.mp3'
+        }
+    ],
+    192: [
+        {
+            offset: [693, 526],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E5%9B%9B%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/what%20do%20i%20hear.mp3'
+        }
     ],
 }
 
