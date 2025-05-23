@@ -7,7 +7,7 @@ import "./BookShelf.scss";
 export const BookShelf: React.FC = () => {
   const downloadAndPreViewPDF = () => {
     const url =
-      "https://7778-wx-miniprogram-3gei9ggi2b00c55a-1356783767.tcb.qcloud.la/Oxford_Phonics_World_2_SB.pdf?sign=226e06c723dc92193357a4a539b6d6e7&t=1745741547";
+      "https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Oxford_Phonics_World_2_SB.pdf?sign=226e06c723dc92193357a4a539b6d6e7&t=1745741547";
 
     // wx.downloadFile({
     //   url: url,
