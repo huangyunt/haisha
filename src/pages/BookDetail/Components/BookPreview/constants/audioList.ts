@@ -1454,8 +1454,8 @@ const audioList2 = {
     // A Fish See 没给音频
     110: [
         {
-            offset: [709, 195],
-            url: ''
+            offset: [934, 559],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E4%BA%8C%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/a%20fish%20sees.mp3'
         },
     ],
     113: [
@@ -1467,8 +1467,8 @@ const audioList2 = {
     // Athletes 没给音频
     116: [
         {
-            offset: [709, 195],
-            url: ''
+            offset: [675, 532],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E4%BA%8C%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/athletes.mp3'
         },
     ],
 
