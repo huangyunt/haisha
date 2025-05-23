@@ -854,7 +854,7 @@ const audioList1 = {
     // Unit 8绘本
     181: [
         {
-            offset: [967, 174],
+            offset: [730, 194],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E4%B8%80%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/the%20backyard.mp3',
         },
     ],
@@ -1937,26 +1937,26 @@ const audioList3 = {
     16: [
         {
             offset: [718, 188],
-            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/fruit%20colors.mp3?sign=86bd13bedc8c6f93fd048e3c3ebb810c&t=1747986173',
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/fruit%20colors.mp3'
         },
     ],
     18: [
         {
             offset: [992, 532],
-            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/fruits.mp3?sign=e072853bf083d232e60dd1daae653c12&t=1747986203',
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/fruits.mp3'
         },
     ],
     // 没给音频
     21: [
         {
             offset: [727, 737],
-            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/fun%20in%20the%20water.mp3?sign=8ee414a5aca431a8d90ec11f3982e84e&t=1747986257',
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/fun%20in%20the%20water.mp3'
         },
     ],
     24: [
         {
             offset: [966, 200],
-            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/getting%20dressed.mp3?sign=18453b408c276556053ee930b01af409&t=1747986287',
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/getting%20dressed.mp3'
         },
     ],
 
@@ -2062,27 +2062,27 @@ const audioList3 = {
     39: [
         {
             offset: [724, 198],
-            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/go%20fiy%20a%20kite.mp3?sign=856f396972c1507cc9a4e82b34d87873&t=1747986362',
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/go%20fiy%20a%20kite.mp3'
         },
     ],
     42: [
         {
             offset: [737, 654],
-            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/going%20places.mp3?sign=a681234bab7a67e3f09b1a7af844e628&t=1747986403',
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/going%20places.mp3'
         },
     ],
     // 没给音频
     44: [
         {
             offset: [959, 436],
-            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/grandparents%20are%20great!.mp3?sign=5a727daaab9d8261611722364d65092b&t=1747986465',
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/grandparents%20are%20great!.mp3'
         },
     ],
     // 没给音频
     47: [
         {
             offset: [958, 193],
-            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/halloween%20houses.mp3?sign=4c43b1c97f22a6e0dba875439da04cd9&t=1747986504',
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/halloween%20houses.mp3'
         },
     ],
 
@@ -2177,26 +2177,26 @@ const audioList3 = {
     63: [
         {
             offset: [720, 297],
-            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/hamster%20home.mp3?sign=da1700b997fdbae73e6fb4c47b825ae3&t=1747986565',
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/hamster%20home.mp3'
         },
     ],
     65: [
         {
             offset: [965, 531],
-            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/he%20runs.mp3?sign=8cecc1f56d5dffdb3ad9ffbff10053bf&t=1747986595',
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/he%20runs.mp3'
         },
     ],
     // 没给音频
     68: [
         {
             offset: [722, 531],
-            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/hello%20butterfly.mp3?sign=fbbf626e730d35384ab21916135cbb70&t=1747986637',
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/hello%20butterfly.mp3'
         },
     ],
     71: [
         {
             offset: [955, 187],
-            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/hot%20and%20cold.mp3?sign=56181f2ebbb2d932535a79b5d0d4ce46&t=1747986674',
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/hot%20and%20cold.mp3'
         },
     ],
 
@@ -2292,30 +2292,30 @@ const audioList3 = {
     86: [
         {
             offset: [732, 204],
-            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/i%20can%20skate.mp3?sign=1a8cc4b305247911230c71a8f3f1eb20&t=1747994584',
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/i%20can%20skate.mp3'
         },
     ],
     89: [
         {
             offset: [746, 196],
-            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/I%20Can.mp3?sign=a9d91e06759df07ecf3e697b6cd3aa23&t=1747994670',
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/I%20Can.mp3'
         },
     ],
     // 没给音频
     91: [
         {
             offset: [954, 789],
-            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/i%20draw%20a%20bunny.mp3?sign=3e2c50df073bee23f49079de632c85a1&t=1747994684',
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/i%20draw%20a%20bunny.mp3'
         },
     ],
     // 没给音频
     94: [
         {
             offset: [961, 762],
-            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/i%20dream.mp3?sign=d53b18953ddb5b259da2bfbe48d530cf&t=1747994786',
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/i%20dream.mp3'
         },
     ],
-    
+
     // Unit 5
     98: [
         {
@@ -2407,6 +2407,35 @@ const audioList3 = {
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford_Phonics_World_3_CD2/'
                 + 'Track16.mp3',
         }
+    ],
+
+    // Unit 5绘本
+    // 没给音频
+    110: [
+        {
+            offset: [685, 196],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/i%20love%20flowers.mp3'
+        },
+    ],
+    112: [
+        {
+            offset: [924, 538],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/i%20love%20pirates.mp3'
+        },
+    ],
+
+    115: [
+        {
+            offset: [934, 527],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/i%20save%20money.mp3'
+        },
+    ],
+
+    118: [
+        {
+            offset: [693, 524],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/i%20see%20my%20%20colors.mp3'
+        },
     ],
 
     // Unit 6
@@ -2507,6 +2536,32 @@ const audioList3 = {
         }
     ],
 
+    // Unit 6绘本
+    134: [
+        {
+            offset: [694, 782],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/i%20set%20the%20table.mp3'
+        },
+    ],
+    136: [
+        {
+            offset: [924, 185],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/in%20and%20out.mp3'
+        },
+    ],
+    139: [
+        {
+            offset: [928, 760],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/maria%20counts%20pumpkins.mp3'
+        },
+    ],
+    142: [
+        {
+            offset: [690, 415],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/maria%20goes%20to%20school.mp3'
+        },
+    ],
+
     // Unit 7
     146: [
         {
@@ -2588,6 +2643,33 @@ const audioList3 = {
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford_Phonics_World_3_CD2/'
                 + 'Track47.mp3',
         }
+    ],
+
+
+    // Unit 7绘本
+    158: [
+        {
+            offset: [694, 741],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/mom%20and%20i.mp3'
+        },
+    ],
+    160: [
+        {
+            offset: [932, 196],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/muscles.mp3'
+        },
+    ],
+    163: [
+        {
+            offset: [930, 530],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/my%20body.mp3'
+        },
+    ],
+    166: [
+        {
+            offset: [937, 530],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/my%20dog.mp3'
+        },
     ],
 
     // Unit 8
@@ -2690,6 +2772,32 @@ const audioList3 = {
             offset: [896, 217],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford_Phonics_World_3_CD2/'
                 + 'Track64.mp3',
+        },
+    ],
+
+    // Unit 8绘本
+    182: [
+        {
+            offset: [681, 185],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/my%20easter%20eggs.mp3'
+        },
+    ],
+    185: [
+        {
+            offset: [699, 196],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/my%20face.mp3'
+        },
+    ],
+    187: [
+        {
+            offset: [927, 725],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/my%20hair.mp3'
+        },
+    ],
+    190: [
+        {
+            offset: [934, 751],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E4%B8%89%E6%9C%AC%E7%BB%98%E6%9C%AC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89/my%20house.mp3'
         },
     ],
 }

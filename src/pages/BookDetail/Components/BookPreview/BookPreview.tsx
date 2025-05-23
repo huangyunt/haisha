@@ -193,8 +193,8 @@ const BookPreview: React.FC = () => {
                         position: 'absolute',
                         left,
                         top,
-                        width: "30px",
-                        height: "30px",
+                        width: "40px",
+                        height: "40px",
                         backgroundColor: "blue",
                         opacity: 0
                       }}
@@ -211,8 +211,8 @@ const BookPreview: React.FC = () => {
                         position: 'absolute',
                         left,
                         top,
-                        width: "30px",
-                        height: "30px",
+                        width: "40px",
+                        height: "40px",
                         backgroundColor: "red",
                         opacity: 0
                       }}
