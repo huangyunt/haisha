@@ -21,6 +21,20 @@
       justify-content: center;
       align-items: center;
 
+      .hide {
+        display: none !important;
+      }
+
+      .pause {
+        position: absolute;
+        top: 2%;
+        right: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+
       .book-page {
         width: 95%;
       }

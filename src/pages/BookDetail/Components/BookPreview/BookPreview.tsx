@@ -24,10 +24,12 @@ const BookPreview: React.FC = () => {
   const [showTopBar, setShowTopBar] = useState(false);
   const [showBottomBar, setShowBottomBar] = useState(false);
   const [catalogVisible, setCatalogVisible] = useState(false);
-  const [audioListVisible, setAudioListVisible] = useState(false);
-  const [audioPlayList, setAudioPlayList] = useState<Taro.InnerAudioContext[]>([])
+  const [isAudioPlaying, setIsAudioPlaying] = useState(false); // 当前是否有音频正在播放
+  const [audioPlayingPage, setAudioPlayingPage] = useState(-1); // 播放的音频属于哪一页
+  const [allAudioPlayList, setAllAudioPlayList] = useState<Taro.InnerAudioContext[]>([]) // 所有页的音频
+  const [audioPlayList, setAudioPlayList] = useState<Taro.InnerAudioContext[]>([]) // 当前页的音频
   const [audioListPlayStatus, setAudioListPlayStatus] = useState<Boolean[]>([]) // 音频播放的状态
-  const audioListPlayStatusRef = useRef<Boolean[]>([])
+  const currentPageRef = useRef()
   const router = useRouter();
 
   useEffect(() => {
@@ -40,56 +42,55 @@ const BookPreview: React.FC = () => {
     setImageUrls(images[id])
     setCatalogList(catalogLists[id])
     setAudioList(allAudioList[id])
-  }, []);
 
-  useEffect(() => {
-    // 所有音频全部暂停
-    audioPlayList.forEach(audio => {
-      audio.stop();
-    });
+    const currentAudioList = allAudioList[id] as Record<string, {
+      audioContext?: Taro.InnerAudioContext; offset: [], url: string
+    }[]>// 当前书的所有音频
 
+    const list: Taro.InnerAudioContext[] = []
 
-    const list: Taro.InnerAudioContext[] = audioList[currentPage + 2] && audioList[currentPage + 2].map((({ url }) => {
-      const audioContext = Taro.createInnerAudioContext()
-      // IOS下无法播放音频问题
-      Taro.setInnerAudioOption({ obeyMuteSwitch: false })
-      audioContext.src = url
-      audioContext.onPlay(() => {
-        console.log('Start playback')
-      })
-      audioContext.onError((res) => {
-        console.log('Audio play error:', res.errMsg);
-        console.log('Error code:', res.errCode);
-        switch (res.errCode) {
-          case -1:
-            console.log('网络错误，请检查网络连接');
-            break;
-          case -2:
-            console.log('文件格式错误，请检查音频文件');
-            break;
-          case -3:
-            console.log('解码错误，请检查音频文件');
-            break;
-          default:
-            console.log('未知错误，请联系开发者');
-        }
+    Object.entries(currentAudioList).forEach(([key, currentPageAudioList]) => {
+      currentPageAudioList.forEach((audio, index) => {
+        const { url } = audio
+        const audioContext = Taro.createInnerAudioContext()
+        // IOS下无法播放音频问题
+        Taro.setInnerAudioOption({ obeyMuteSwitch: false })
+        audioContext.src = url
+        audioContext.onPlay(() => {
+          console.log('Start playback')
+        })
+        audioContext.onError((res) => {
+          console.log('Audio play error:', res.errMsg);
+          console.log('Error code:', res.errCode);
+          switch (res.errCode) {
+            case -1:
+              console.log('网络错误，请检查网络连接');
+              break;
+            case -2:
+              console.log('文件格式错误，请检查音频文件');
+              break;
+            case -3:
+              console.log('解码错误，请检查音频文件');
+              break;
+            default:
+              console.log('未知错误，请联系开发者');
+          }
+        });
+        currentAudioList[key][index].audioContext = audioContext
+        list.push(audioContext)
       });
-
-      return audioContext
     })
-    ) || []
-    setAudioPlayList(list)
-    setAudioListPlayStatus(Array(list.length).fill(false))
-    audioListPlayStatusRef.current = Array(list.length).fill(false)
 
-    console.log("currentPage: ", currentPage)
-    console.log("audioList: ", audioList?.[currentPage + 2])
+    // setAllAudioPlayList(list)
+
     return () => {
       list.forEach((innerAudioContext) => {
         innerAudioContext.destroy();
       })
     }
+  }, []);
 
+  useEffect(() => {
   }, [currentPage])
 
 
@@ -113,35 +114,27 @@ const BookPreview: React.FC = () => {
     // setShowBottomBar(false)
   };
 
-  // 查看音频列表
-  const handleAudioListShowingUp = () => {
-    setAudioListVisible(true)
-    // setShowTopBar(false)
-    // setShowBottomBar(false)
-  };
 
   const handlePageTurning = (page) => {
     console.log("page: ", page)
     setCurrentPage(page)
   }
 
-  const triggleAudioStatus = (index, status) => {
-    console.log("start audio")
-    // 找到哪一条音频，判断是否播放中，决定是播放还是暂停
-    if (status) {
-      audioPlayList[index] && audioPlayList[index].stop();
-    } else {
-      // 其他音频全部暂停
-      audioPlayList.forEach(audio => {
-        audio.stop();
-      });
-      audioPlayList[index] && audioPlayList[index].play();
-    }
-    // 状态改变
-    const list = [...audioListPlayStatusRef.current]
-    list.splice(index, 1, !status)
-    setAudioListPlayStatus(list)
-  };
+  const playAudio = (audioContext: Taro.InnerAudioContext) => {
+    // 关闭之前播放的音频
+    stopPlayingAudio();
+    audioContext.play();
+    setIsAudioPlaying(true);
+    setAudioPlayingPage(currentPage);
+  }
+
+  const stopPlayingAudio = () => {
+    audioList[audioPlayingPage + 2] && audioList[audioPlayingPage + 2].forEach((audio) => {
+      const { audioContext } = audio;
+      audioContext.stop()
+    })
+    setIsAudioPlaying(false)
+  }
 
   return (
     <View className="haisha-book-preview-container">
@@ -174,67 +167,15 @@ const BookPreview: React.FC = () => {
           {imageUrls.map((url, index) => (
             <SwiperItem key={index}>
               <View className="book-page-container">
-                <Image src={url} mode="widthFix" className="book-page" />
-                {/* [(x - 653)/469, (y - 167)/606 */}
-                {audioListPlayStatus.map((status, index) => {
-                  const list = audioList?.[currentPage + 2] || []
-                  const { offset = [] } = list[index] || {}
-                  const [x = 0, y = 0] = offset
-                  const left = decimalToPercentage((x - 653) / 469);
-                  const top = decimalToPercentage((y - 167) / 606);
-
-                  // console.log('list: ', list)
-                  return !status
-                    ?
-                    // 未播放
-                    <View
-                      className="float-rect"
-                      style={{
-                        position: 'absolute',
-                        left,
-                        top,
-                        width: "30px",
-                        height: "30px",
-                        // backgroundColor: "blue",
-                        // opacity: 0
-                      }}
-                      onClick={(e) => {
-                        e.stopPropagation();
-                        triggleAudioStatus(index, status)
-                      }}
-                    >
-                      <AtIcon value='volume-plus' color="red" size='25' />
-                      {/* <Image
-                        // style='width: 300px;height: 100px;background: #fff;'
-                        src='https://camo.githubusercontent.com/3e1b76e514b895760055987f164ce6c95935a3aa/687474703a2f2f73746f726167652e333630627579696d672e636f6d2f6d74642f686f6d652f6c6f676f2d3278313531333833373932363730372e706e67'
-                      /> */}
-                    </View>
-                    :
-                    // 正在播放
-                    <View
-                      className="float-rect"
-                      style={{
-                        position: 'absolute',
-                        left,
-                        top,
-                        width: "30px",
-                        height: "30px",
-                        // backgroundColor: "red",
-                        // opacity: 0
-                      }}
-                      onClick={(e) => {
-                        e.stopPropagation();
-                        triggleAudioStatus(index, status)
-                      }}
-                    >
-                      <AtIcon value='pause' color="red" size='25' />
-                      {/* <Image
-                        // style='width: 300px;height: 100px;background: #fff;'
-                        src='https://camo.githubusercontent.com/3e1b76e514b895760055987f164ce6c95935a3aa/687474703a2f2f73746f726167652e333630627579696d672e636f6d2f6d74642f686f6d652f6c6f676f2d3278313531333833373932363730372e706e67'
-                      /> */}
-                    </View>
+                {
+                  <View className={`pause ${isAudioPlaying ? '' : 'hide'}`} onClick={() => stopPlayingAudio()}>
+                    <AtIcon value='pause' color="red" size='20' />
+                    <Text style={{ color: 'red' }}>播放中..</Text>
+                  </View>
                 }
-                )}
+                <BookImage url={url} />
+                {/* [(x - 653)/469, (y - 167)/606 */}
+                <BookAudioTag audioList={audioList} currentPage={currentPage} playAudio={playAudio} />
               </View>
             </SwiperItem>
           ))}
@@ -292,36 +233,56 @@ const BookPreview: React.FC = () => {
         </AtList>
       </AtFloatLayout>
 
-      {/* 音频目录 */}
-      <AtFloatLayout
-        isOpened={audioListVisible}
-        title="音频"
-        onClose={() => setAudioListVisible(false)}
-        style={{ height: "400px" }}
-      >
-        <AtList>
-          {audioListPlayStatus.map((status, index) =>
-            !status
-              ?
-              // 未播放
-              <AtListItem
-                title={"音频" + (index + 1)}
-                iconInfo={{ size: 15, value: 'play', color: 'rgb(67, 83, 108)' }}
-                onClick={() => triggleAudioStatus(index, status)}
-              />
-              :
-              // 正在播放
-              <AtListItem
-                title={"音频" + (index + 1)}
-                iconInfo={{ size: 15, value: 'pause', color: 'rgb(67, 83, 108)' }}
-                onClick={() => triggleAudioStatus(index, status)}
-              />
-          )}
-        </AtList>
-      </AtFloatLayout>
-
     </View>
   );
 };
 
 export default BookPreview;
+
+
+
+export const BookImage: React.FC<any> = React.memo(({ url }) => {
+  console.log("book imgae rerender")
+  return (
+    <Image src={url} mode="widthFix" className="book-page" />
+  )
+})
+
+export const BookAudioTag: React.FC<any> = React.memo(({ audioList, currentPage, playAudio }) => {
+  return (
+    <>
+      {/* [(x - 653)/469, (y - 167)/606 */}
+      {
+        audioList[currentPage + 2] && audioList[currentPage + 2].map((audio) => {
+          const { offset = [], audioContext } = audio as any
+          const [x = 0, y = 0] = offset
+          const left = decimalToPercentage((x - 653) / 469);
+          const top = decimalToPercentage((y - 167) / 606);
+          return <View
+            className="float-rect"
+            style={{
+              position: 'absolute',
+              left,
+              top,
+              width: "30px",
+              height: "30px",
+              // backgroundColor: "blue",
+              // opacity: 0
+            }}
+            onClick={(e) => {
+              e.stopPropagation();
+              playAudio(audioContext)
+              // triggleAudioStatus(index, status)
+            }}
+          >
+            <AtIcon value='volume-plus' color="red" size='25' />
+            {/* <Image
+          // style='width: 300px;height: 100px;background: #fff;'
+          src='https://camo.githubusercontent.com/3e1b76e514b895760055987f164ce6c95935a3aa/687474703a2f2f73746f726167652e333630627579696d672e636f6d2f6d74642f686f6d652f6c6f676f2d3278313531333833373932363730372e706e67'
+        /> */}
+          </View>
+        })
+      }</>
+  )
+}
+)
