@@ -63,7 +63,7 @@ export const BookShelf: React.FC = () => {
       {images.map((image, index) => (
         <View className="book-item" onClick={() => navigateToBookDetail(index)}>
           <Image className="cover" src={image} mode="aspectFill" />
-          <Text className="text">{`CASA自然拼读 ${index + 1}`}</Text>
+          <Text className="text">{`CASA阅读启蒙&自然拼读 ${index + 1}`}</Text>
         </View>
       ))}
     </View>
