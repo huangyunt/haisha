@@ -34,13 +34,8 @@ const BookPreview: React.FC = () => {
     setCatalogList(catalogLists[id])
     setAudioList(allAudioList[id])
 
-    const list: Taro.InnerAudioContext[] = []
-
-    console.log("list: ", list)
     return () => {
-      list.forEach((innerAudioContext) => {
-        innerAudioContext.destroy();
-      })
+      audioContextRef.current.destroy()
     }
   }, []);
 
