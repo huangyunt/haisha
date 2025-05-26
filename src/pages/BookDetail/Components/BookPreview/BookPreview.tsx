@@ -25,64 +25,18 @@ const BookPreview: React.FC = () => {
   const [showBottomBar, setShowBottomBar] = useState(false);
   const [catalogVisible, setCatalogVisible] = useState(false);
   const [isAudioPlaying, setIsAudioPlaying] = useState(false); // 当前是否有音频正在播放
-  const [audioPlayingPage, setAudioPlayingPage] = useState(-1); // 播放的音频属于哪一页
-  const [allAudioPlayList, setAllAudioPlayList] = useState<Taro.InnerAudioContext[]>([]) // 所有页的音频
-  const [audioPlayList, setAudioPlayList] = useState<Taro.InnerAudioContext[]>([]) // 当前页的音频
-  const [audioListPlayStatus, setAudioListPlayStatus] = useState<Boolean[]>([]) // 音频播放的状态
-  const currentPageRef = useRef()
+  const audioContextRef = useRef<Taro.InnerAudioContext>(Taro.createInnerAudioContext())
   const router = useRouter();
 
   useEffect(() => {
-    // const params = Taro.getCurrentInstance()?.router.params;
-    // if (params && params.imageUrls) {
-    //     setImageUrls(JSON.parse(params.imageUrls));
-    // }
-    // innerAudioContext.autoplay = true
     const id = router.params?.id || "1";
     setImageUrls(images[id])
     setCatalogList(catalogLists[id])
     setAudioList(allAudioList[id])
 
-    const currentAudioList = allAudioList[id] as Record<string, {
-      audioContext?: Taro.InnerAudioContext; offset: [], url: string
-    }[]>// 当前书的所有音频
-
     const list: Taro.InnerAudioContext[] = []
 
-    Object.entries(currentAudioList).forEach(([key, currentPageAudioList]) => {
-      currentPageAudioList.forEach((audio, index) => {
-        const { url } = audio
-        const audioContext = Taro.createInnerAudioContext()
-        // IOS下无法播放音频问题
-        Taro.setInnerAudioOption({ obeyMuteSwitch: false })
-        audioContext.src = url
-        audioContext.onPlay(() => {
-          console.log('Start playback')
-        })
-        audioContext.onError((res) => {
-          console.log('Audio play error:', res.errMsg);
-          console.log('Error code:', res.errCode);
-          switch (res.errCode) {
-            case -1:
-              console.log('网络错误，请检查网络连接');
-              break;
-            case -2:
-              console.log('文件格式错误，请检查音频文件');
-              break;
-            case -3:
-              console.log('解码错误，请检查音频文件');
-              break;
-            default:
-              console.log('未知错误，请联系开发者');
-          }
-        });
-        currentAudioList[key][index].audioContext = audioContext
-        list.push(audioContext)
-      });
-    })
-
-    // setAllAudioPlayList(list)
-
+    console.log("list: ", list)
     return () => {
       list.forEach((innerAudioContext) => {
         innerAudioContext.destroy();
@@ -92,11 +46,6 @@ const BookPreview: React.FC = () => {
 
   useEffect(() => {
   }, [currentPage])
-
-
-  useEffect(() => {
-    console.log(audioListPlayStatus)
-  }, [JSON.stringify(audioListPlayStatus)])
 
   const handlePageTap = () => {
     setShowTopBar(!showTopBar);
@@ -110,8 +59,6 @@ const BookPreview: React.FC = () => {
   // 查看目录
   const handleCatalogShowingUp = () => {
     setCatalogVisible(true)
-    // setShowTopBar(false)
-    // setShowBottomBar(false)
   };
 
 
@@ -120,19 +67,38 @@ const BookPreview: React.FC = () => {
     setCurrentPage(page)
   }
 
-  const playAudio = (audioContext: Taro.InnerAudioContext) => {
+  const playAudio = (url: string) => {
     // 关闭之前播放的音频
     stopPlayingAudio();
-    audioContext.play();
+    // IOS下无法播放音频问题
+    Taro.setInnerAudioOption({ obeyMuteSwitch: false })
+    audioContextRef.current.src = url
+    audioContextRef.current.onPlay(() => {
+      console.log('Start playback')
+    })
+    audioContextRef.current.onError((res) => {
+      console.log('Audio play error:', res.errMsg);
+      console.log('Error code:', res.errCode);
+      switch (res.errCode) {
+        case -1:
+          console.log('网络错误，请检查网络连接');
+          break;
+        case -2:
+          console.log('文件格式错误，请检查音频文件');
+          break;
+        case -3:
+          console.log('解码错误，请检查音频文件');
+          break;
+        default:
+          console.log('未知错误，请联系开发者');
+      }
+    });
+    audioContextRef.current.play();
     setIsAudioPlaying(true);
-    setAudioPlayingPage(currentPage);
   }
 
   const stopPlayingAudio = () => {
-    audioList[audioPlayingPage + 2] && audioList[audioPlayingPage + 2].forEach((audio) => {
-      const { audioContext } = audio;
-      audioContext.stop()
-    })
+    audioContextRef.current.stop()
     setIsAudioPlaying(false)
   }
 
@@ -254,7 +220,7 @@ export const BookAudioTag: React.FC<any> = React.memo(({ audioList, currentPage,
       {/* [(x - 653)/469, (y - 167)/606 */}
       {
         audioList[currentPage + 2] && audioList[currentPage + 2].map((audio) => {
-          const { offset = [], audioContext } = audio as any
+          const { offset = [], audioContext, url } = audio as any
           const [x = 0, y = 0] = offset
           const left = decimalToPercentage((x - 653) / 469);
           const top = decimalToPercentage((y - 167) / 606);
@@ -271,7 +237,7 @@ export const BookAudioTag: React.FC<any> = React.memo(({ audioList, currentPage,
             }}
             onClick={(e) => {
               e.stopPropagation();
-              playAudio(audioContext)
+              playAudio(url)
               // triggleAudioStatus(index, status)
             }}
           >
