@@ -120,7 +120,7 @@ const BookPreview: React.FC = () => {
           duration={300}
           current={currentPage}
           onChange={(e) => setCurrentPage(e.detail.current)}
-          style={{ height: "550px", marginBottom: "15px" }}
+          style={{ height: "575px", marginBottom: "15px" }}
           className="book-container"
           vertical
           circular
