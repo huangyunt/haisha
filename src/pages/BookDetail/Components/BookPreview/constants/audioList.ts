@@ -3762,8 +3762,10 @@ const audioList4 = {
 
 // (x - 50)/427, (y - 362)/555
 export const allAudioList = {
-    "1": audioList1,
-    "2": audioList2,
-    "3": audioList3,
-    "4": audioList4,
+    '1': [],
+    '2': [],
+    "3": audioList1,
+    "4": audioList2,
+    "5": audioList3,
+    "6": audioList4,
 }

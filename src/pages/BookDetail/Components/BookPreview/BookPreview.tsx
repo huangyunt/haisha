@@ -4,7 +4,7 @@ import { AtFloatLayout, AtList, AtListItem, AtIcon } from "taro-ui"
 import { Swiper, SwiperItem, Image, View, Text } from "@tarojs/components";
 import { catalogLists } from "./constants/catalogList";
 import { allAudioList } from "./constants/audioList";
-import { images } from "./constants/images";
+import { concatImages } from "./constants/images";
 
 // import "@taroify/core/icon/style"
 
@@ -30,7 +30,7 @@ const BookPreview: React.FC = () => {
 
   useEffect(() => {
     const id = router.params?.id || "1";
-    setImageUrls(images[id])
+    setImageUrls(concatImages[id])
     setCatalogList(catalogLists[id])
     setAudioList(allAudioList[id])
 
