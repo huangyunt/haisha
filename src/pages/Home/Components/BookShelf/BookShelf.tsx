@@ -3,6 +3,15 @@ import { View, Text, Image } from "@tarojs/components";
 import { images } from "./constant";
 import "./BookShelf.scss";
 
+const titleMap = {
+  1: 'CASA阅读启蒙&自然拼读 1',
+  2: 'CASA阅读启蒙&自然拼读 2',
+  3: 'CASA阅读启蒙&自然拼读 3',
+  4: 'CASA阅读启蒙&自然拼读 4',
+  5: '海沙国际课程',
+  6: '原版教材+剑桥考试课程'
+}
+
 export const BookShelf: React.FC = () => {
 
   const navigateToBookDetail = (bookIndex) => {
@@ -36,7 +45,7 @@ export const BookShelf: React.FC = () => {
       {images.map((image, index) => (
         <View className="book-item" onClick={() => navigateToBookDetail(index)}>
           <Image className="cover" src={image} mode="aspectFill" />
-          <Text className="text">{`CASA阅读启蒙&自然拼读 ${index + 1}`}</Text>
+          <Text className="text">{titleMap[index + 1]}</Text>
         </View>
       ))}
     </View>
