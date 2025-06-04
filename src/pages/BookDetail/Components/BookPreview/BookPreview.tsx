@@ -31,7 +31,7 @@ const BookPreview: React.FC = () => {
   useEffect(() => {
     const id = router.params?.id || "1";
     setImageUrls(concatImages[id])
-    setCatalogList(catalogLists[id])
+    setCatalogList(catalogLists[id] || [])
     setAudioList(allAudioList[id])
 
     return () => {
@@ -123,7 +123,7 @@ const BookPreview: React.FC = () => {
           style={{ height: "575px", marginBottom: "15px" }}
           className="book-container"
           vertical
-          circular
+        // circular
         >
           {imageUrls.map((url, index) => (
             <SwiperItem key={index}>
@@ -203,7 +203,6 @@ export default BookPreview;
 
 
 export const BookImage: React.FC<any> = React.memo(({ url }) => {
-  console.log("book imgae rerender")
   return (
     <Image src={url} mode="widthFix" className="book-page" />
   )
