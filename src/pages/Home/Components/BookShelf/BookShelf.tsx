@@ -1,36 +1,9 @@
 import React from "react";
-import { AtGrid } from "taro-ui";
 import { View, Text, Image } from "@tarojs/components";
 import { images } from "./constant";
 import "./BookShelf.scss";
 
 export const BookShelf: React.FC = () => {
-  const downloadAndPreViewPDF = () => {
-    const url =
-      "https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Oxford_Phonics_World_2_SB.pdf?sign=226e06c723dc92193357a4a539b6d6e7&t=1745741547";
-
-    // wx.downloadFile({
-    //   url: url,
-    //   success(res) {
-    //     if (res.statusCode === 200) {
-    //       const tempFilePath = res.tempFilePath;
-    //       wx.openDocument({
-    //         filePath: tempFilePath,
-    //         fileType: "pdf",
-    //         success(docRes) {
-    //           console.log("打开PDF文件成功");
-    //         },
-    //         fail(docErr) {
-    //           console.error("打开PDF文件失败", docErr);
-    //         },
-    //       });
-    //     }
-    //   },
-    //   fail(err) {
-    //     console.error("下载PDF文件失败", err);
-    //   },
-    // });
-  };
 
   const navigateToBookDetail = (bookIndex) => {
     wx.navigateTo({

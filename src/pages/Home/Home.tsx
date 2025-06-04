@@ -3,6 +3,7 @@ import { View } from "@tarojs/components";
 import { TopTab } from "./Components/TopTab/TopTab";
 import { BookShelf } from "./Components/BookShelf/BookShelf";
 import { BottomBar } from "./Components/BottomBar/BottomBar";
+import { sharedImage } from "@/constant";
 
 import "./Home.scss";
 
@@ -15,7 +16,7 @@ export default function Home() {
     return {
       title: '海沙牛娃电子书', // 转发标题
       path: 'pages/Home/Home', // 转发路径，可以携带参数
-      imageUrl: '/images/share.png', // 自定义分享图片
+      imageUrl: sharedImage, // 自定义分享图片
       success: function (res) {
         // 转发成功
         console.log('转发成功', res);
