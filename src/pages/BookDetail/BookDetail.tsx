@@ -1,15 +1,18 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useLaunch, useLoad, useRouter, useShareAppMessage } from "@tarojs/taro";
 import BookPreview from "./Components/BookPreview/BookPreview";
 import { sharedImage } from "@/constant";
 
 export default function BookDetail() {
   const router = useRouter();
+  const id = router.params?.id || "1"
+  const page = Number(router.params?.page) || 0
+  const [currentPage, setCurrentPage] = useState(page);
 
   useShareAppMessage(() => {
     return {
       title: '海沙牛娃电子书', // 转发标题
-      path: 'pages/BookDetail/BookDetail?id=' + (router.params?.id || "1"), // 转发路径，可以携带参数
+      path: 'pages/BookDetail/BookDetail?id=' + (id) + ('&page=' + currentPage), // 转发路径，可以携带参数
       imageUrl: sharedImage, // 自定义分享图片
       success: function (res) {
         // 转发成功
@@ -35,6 +38,6 @@ export default function BookDetail() {
   });
 
   return (
-    <BookPreview />
+    <BookPreview id={id} currentPage={currentPage} setCurrentPage={setCurrentPage} />
   );
 }

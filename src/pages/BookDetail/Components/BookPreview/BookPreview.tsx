@@ -16,11 +16,16 @@ const decimalToPercentage = (decimal) => {
   return (decimal * 100).toFixed(2) + '%';
 }
 
-const BookPreview: React.FC = () => {
+interface IBookPreviewProps {
+  id: string;
+  currentPage: number;
+  setCurrentPage: (v: number) => void
+}
+
+const BookPreview: React.FC<IBookPreviewProps> = ({ id = "1", currentPage, setCurrentPage }) => {
   const [imageUrls, setImageUrls] = useState<string[]>([]);
   const [catalogList, setCatalogList] = useState([])
   const [audioList, setAudioList] = useState({})
-  const [currentPage, setCurrentPage] = useState(0);
   const [showTopBar, setShowTopBar] = useState(false);
   const [showBottomBar, setShowBottomBar] = useState(false);
   const [catalogVisible, setCatalogVisible] = useState(false);
@@ -29,7 +34,6 @@ const BookPreview: React.FC = () => {
   const router = useRouter();
 
   useEffect(() => {
-    const id = router.params?.id || "1";
     setImageUrls(concatImages[id])
     setCatalogList(catalogLists[id] || [])
     setAudioList(allAudioList[id])
