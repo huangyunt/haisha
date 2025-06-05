@@ -24,11 +24,11 @@ Object.entries(images).forEach(([_, value]) => {
 const concatImages = {
     "5": Array(5).fill(0).map((_, index) =>
     (
-        'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/CASA%E6%89%98%E7%A6%8F%E9%9B%85%E6%80%9DSAT%E5%AD%A6%E7%A7%91/CASA%E6%89%98%E7%A6%8F%E9%9B%85%E6%80%9DSAT%E5%AD%A6%E7%A7%91_' + (index + 1) + '.png'
+        'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/CASA%E6%89%98%E7%A6%8F%E9%9B%85%E6%80%9DSAT%E5%AD%A6%E7%A7%91-1/CASA%E6%89%98%E7%A6%8F%E9%9B%85%E6%80%9DSAT%E5%AD%A6%E7%A7%91(1)_' + (index + 1) + '.png'
     )),
-    "6": Array(2).fill(0).map((_, index) =>
+    "6": Array(3).fill(0).map((_, index) =>
     (
-        'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KPFC%E6%B5%B7%E6%8A%A5/KPFC%E6%B5%B7%E6%8A%A5_' + (index + 1) + '.png'
+        'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E6%B5%B7%E6%B2%99%E8%AF%BE%E7%A8%8B%E6%B5%B7%E6%8A%A5/%E6%B5%B7%E6%B2%99%E8%AF%BE%E7%A8%8B_' + (index + 1) + '.png'
 
     )),
     ...images,

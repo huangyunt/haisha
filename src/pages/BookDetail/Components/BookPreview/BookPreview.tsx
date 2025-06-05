@@ -22,6 +22,24 @@ interface IBookPreviewProps {
   setCurrentPage: (v: number) => void
 }
 
+enum EBookType {
+  READING_BOOK_1 = "1",
+  READING_BOOK_2 = "2",
+  READING_BOOK_3 = "3",
+  READING_BOOK_4 = "4",
+  HAISHA_ADVERTISEMENT = "5",
+  HAISHA_INTRODUCTION = "6",
+}
+
+const bookTypeMap = {
+  [EBookType.READING_BOOK_1]: true,
+  [EBookType.READING_BOOK_2]: true,
+  [EBookType.READING_BOOK_3]: true,
+  [EBookType.READING_BOOK_4]: true,
+  [EBookType.HAISHA_ADVERTISEMENT]: false,
+  [EBookType.HAISHA_INTRODUCTION]: false,
+}
+
 const BookPreview: React.FC<IBookPreviewProps> = ({ id = "1", currentPage, setCurrentPage }) => {
   const [imageUrls, setImageUrls] = useState<string[]>([]);
   const [catalogList, setCatalogList] = useState([])
@@ -151,8 +169,14 @@ const BookPreview: React.FC<IBookPreviewProps> = ({ id = "1", currentPage, setCu
         * 页码 
         * 封面和目录页不需要展示页码，且页数需要减去封面和目录页
       */}
-      {currentPage > 1 ? <View className="page-number">{(currentPage - 1) + ' / ' + (imageUrls.length - 2)}</View> : null}
-
+      {
+        // 图书和广告的页码分开处理
+        bookTypeMap[id]
+          ? (currentPage > 1 ? <View className="page-number">{(currentPage - 1) + ' / ' + (imageUrls.length - 2)}</View> : null)
+          : (
+            <View className="page-number">{(currentPage + 1) + ' / ' + (imageUrls.length)}</View>
+          )
+      }
       {/* 底栏 */}
       <View className={`bottom-bar ${showTopBar ? 'height' : ''}`} onClick={handleCatalogShowingUp}>
         {/* <View className={`flex-container`} onClick={handleCatalogShowingUp}>
