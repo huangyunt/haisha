@@ -3787,11 +3787,109 @@ const audioList5 = {
     ],
 }
 
+//x_fullpage2106
+//y_fullpage2716
+//[2106-x, 2716-y]
+
+//PET练习册
 const audioList6 = {
     0: [],
-    1: [],
-    2: [],
-    3: [],
+    //Unit 1
+    6: [
+        {
+            offset: [3958, 538],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2002_Unit%201%20My%20Life%20and%20home.mp3',
+            flag: true,
+        },
+    ],
+    //Unit 2
+    11: [
+        {
+            offset: [3605, 520],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2003_Unit%202%20At%20School.mp3',
+            flag: true,
+        },
+    ],
+    //Unit 3
+    15: [
+        {
+            offset: [3605, 520],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2004_Unit%203%20Having%20fun.mp3',
+            flag: true,
+        },
+    ],
+    //Unit 4
+    19: [
+        {
+            offset: [4000, 748],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2005_Unit%204%20On%20holiday.mp3',
+            flag: true,
+        },
+    ],
+    //Unit 5 
+    23: [
+        {
+            offset: [3605, 520],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2006_Unit%205%20Different%20feelings.mp3',
+            flag: true,
+        },
+    ],
+    //Unit 6 
+    27: [
+        {              
+            offset: [3988, 447],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2007_Unit%206%20That'+'\''+'s%20entertainment!.mp3',
+            flag: true,
+        },
+    ],
+    //Unit 7 
+    31: [
+        {
+            offset: [3605, 508],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2008_Unit%207%20Getting%20Around.mp3',
+            flag: true,
+        },
+    ],
+    //Unit 8
+    36: [
+        {
+            offset: [3600, 476],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2009_Unit%208%20Influencers.mp3',
+            flag: true,
+        },
+    ],
+    //Unit 9
+    37: [
+        {
+            offset: [3613, 642],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2010_Unit%209%20Stay%20fit%20and%20healthy.mp3',
+            flag: true,
+        },
+    ],
+    //Unit 10
+    43: [
+        {
+            offset: [4000, 470],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2011_Unit%2010%20Looks%20amazing!.mp3',
+            flag: true,
+        },
+    ],
+    //Unit 11
+    45: [
+        {
+            offset: [3605, 598],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2012_Unit%2011%20The%20natural%20world.mp3',
+            flag: true,
+        },
+    ],
+    //Unit 12
+    49: [
+        {
+            offset: [3613, 583],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2013_Unit%2012%20Express%20yourself!.mp3',
+            flag: true,
+        },
+    ],
 }
 
 const audioList7 = {
@@ -3807,7 +3905,7 @@ const audioList8 = {
     2: [],
     3: [],
 }
-
+// [(x - 653)/469, (y - 167)/606
 // (x - 50)/427, (y - 362)/555
 export const allAudioList = {
     "1": audioList1,
