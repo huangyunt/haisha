@@ -3760,16 +3760,64 @@ const audioList4 = {
     ],
 }
 
+const audioList5 = {
+    0: [],
+    1: [
+        {
+            offset: ["23%", "24%"],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/' + 'Track%2002.mp3',
+            flag: true,
+        },
+    ],
+    2: [
+        {
+            offset: ["23%", "24%"],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E5%9B%9B%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford%20Phonics%20World_4_SB_CD1/'
+                + 'Track03.mp3',
+            flag: true,
+        },
+    ],
+    3: [
+        {
+            offset: ["23%", "24%"],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E5%9B%9B%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford%20Phonics%20World_4_SB_CD1/'
+                + 'Track03.mp3',
+            flag: true,
+        },
+    ],
+}
+
+const audioList6 = {
+    0: [],
+    1: [],
+    2: [],
+    3: [],
+}
+
+const audioList7 = {
+    0: [],
+    1: [],
+    2: [],
+    3: [],
+}
+
+const audioList8 = {
+    0: [],
+    1: [],
+    2: [],
+    3: [],
+}
+
 // (x - 50)/427, (y - 362)/555
 export const allAudioList = {
     "1": audioList1,
     "2": audioList2,
     "3": audioList3,
     "4": audioList4,
-    '5': [],
-    '6': [],
-    '7': [],
-    '8': [],
+    '5': audioList5,
+    '6': audioList6,
+    '7': audioList7,
+    '8': audioList8,
     '9': [],
     '10': [],
 }

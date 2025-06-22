@@ -242,10 +242,11 @@ export const BookAudioTag: React.FC<any> = React.memo(({ audioList, currentPage,
       {/* [(x - 653)/469, (y - 167)/606 */}
       {
         audioList[currentPage + 2] && audioList[currentPage + 2].map((audio) => {
-          const { offset = [], audioContext, url } = audio as any
+          const { offset = [], url, flag } = audio as any
           const [x = 0, y = 0] = offset
-          const left = decimalToPercentage((x - 653) / 469);
-          const top = decimalToPercentage((y - 167) / 606);
+
+          const left = flag ? x : decimalToPercentage((x - 653) / 469);
+          const top = flag ? y : decimalToPercentage((y - 167) / 606);
           return <View
             className="float-rect"
             style={{
