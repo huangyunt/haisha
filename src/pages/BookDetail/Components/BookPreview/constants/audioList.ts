@@ -3759,29 +3759,220 @@ const audioList4 = {
         }
     ],
 }
-
+//PET学生用书
 const audioList5 = {
     0: [],
-    1: [
+    //Unit 1
+    8: [
         {
-            offset: ["23%", "24%"],
-            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/' + 'Track%2002.mp3',
+            offset: [3613,943],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%2002.mp3',
             flag: true,
         },
     ],
-    2: [
+    13: [
         {
-            offset: ["23%", "24%"],
-            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E5%9B%9B%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford%20Phonics%20World_4_SB_CD1/'
-                + 'Track03.mp3',
+            offset: [3990,975],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%2003.mp3',
             flag: true,
         },
     ],
-    3: [
+    //Unit 2
+    18: [
         {
-            offset: ["23%", "24%"],
-            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E5%9B%9B%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford%20Phonics%20World_4_SB_CD1/'
-                + 'Track03.mp3',
+            offset: [3608,270],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%2004.mp3',
+            flag: true,
+        },
+
+        {
+            offset: [3608,578],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%2004.mp3',
+            flag: true,
+        },
+
+        {
+            offset: [3608,839],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%2005.mp3',
+            flag: true,
+        },
+
+        {
+            offset: [3608,985],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%2006.mp3',
+            flag: true,
+        },
+    ],
+
+    19: [
+        {
+            offset: [3614,405],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%2007.mp3',
+            flag: true,
+        },
+
+        {
+            offset: [3614,453],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%2008.mp3',
+            flag: true,
+        },
+
+        {
+            offset: [4001,985],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%2009.mp3',
+            flag: true,
+        },
+    ],
+
+    20: [
+        {
+            offset: [3996,627],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%2010.mp3',
+            flag: true,
+        },
+    ],
+//从这里开始没有核对链接，直接改编号
+    21: [
+        {
+            offset: [3613,760],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2011.mp3',
+            flag: true,
+        },
+        {
+            offset: [3920,298],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2012.mp3',
+            flag: true,
+        },
+    ],
+    //Unit 3
+    26: [
+        {
+            offset: [3614,266],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2013.mp3',
+            flag: true,
+        },
+        {
+            offset: [3614,1022],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2014.mp3',
+            flag: true,
+        },
+    ],
+
+    28: [
+        {
+            offset: [4001,871],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2015.mp3',
+            flag: true,
+        },
+    ],
+
+    29: [
+        {
+            offset: [4001,1064],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2016.mp3',
+            flag: true,
+        },
+    ],
+
+    31: [
+        {
+            offset: [3608,1058],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2017.mp3',
+            flag: true,
+        },
+        {
+            offset: [4050,267],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2017.mp3',
+            flag: true,
+        },
+    ],
+    //Unit 4
+    33: [
+        {
+            offset: [3612,1164],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2018.mp3',
+            flag: true,
+        },
+    ],
+
+    36: [
+        {
+            offset: [3605,1064],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2019.mp3',
+            flag: true,
+        },
+
+        {
+            offset: [3605,1119],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2020.mp3',
+            flag: true,
+        },
+    ],
+
+    38: [
+        {
+            offset: [4053,1000],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2021.mp3',
+            flag: true,
+        },
+    ],
+
+    39: [
+        {
+            offset: [3986,206],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2022.mp3',
+            flag: true,
+        },
+
+        {
+            offset: [3986,351],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2022.mp3',
+            flag: true,
+        },
+    ],
+
+    40: [
+        {
+            offset: [3904,1106],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2023.mp3',
+            flag: true,
+        },
+
+        {
+            offset: [3924,226],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2023.mp3',
+            flag: true,
+        },
+    ],
+    //Unit 5
+    44: [
+        {
+            offset: [3910,751],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2024.mp3',
+            flag: true,
+        },
+
+        {
+            offset: [3991,503],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2024.mp3',
             flag: true,
         },
     ],
