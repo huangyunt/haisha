@@ -4655,13 +4655,6 @@ const audioList6 = {
 
 const audioList7 = {
     0: [],
-    1: [],
-    2: [],
-    3: [],
-}
-
-const audioList8 = {
-    0: [],
     //Unit 1
     9: [
         {
@@ -5011,8 +5004,138 @@ const audioList8 = {
         },
     ],
     //Unit 7
+    51: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
+            +'42.mp3',
+            flag: true,
+        },
+    ],
 
-    
+    53: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
+            +'43.mp3',
+            flag: true,
+        },
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
+            +'44.mp3',
+            flag: true,
+        },
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
+            +'45.mp3',
+            flag: true,
+        },
+    ],
+
+    54: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
+            +'46.mp3',
+            flag: true,
+        },
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
+            +'46.mp3',
+            flag: true,
+        },
+    ],
+
+    55: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
+            +'47.mp3',
+            flag: true,
+        },
+    ],
+
+    56: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
+            +'48.mp3',
+            flag: true,
+        },
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
+            +'48.mp3',
+            flag: true,
+        },
+    ],
+    //Unit 8
+    58: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
+            +'49.mp3',
+            flag: true,
+        },
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
+            +'49.mp3',
+            flag: true,
+        },
+    ],
+
+    60: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
+            +'50.mp3',
+            flag: true,
+        },
+    ],
+
+    61: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
+            +'51.mp3',
+            flag: true,
+        },
+    ],
+
+    62: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
+            +'52.mp3',
+            flag: true,
+        },
+    ],
+    //Unit 9
+    67: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
+            +'53.mp3',
+            flag: true,
+        },
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
+            +'54.mp3',
+            flag: true,
+        },
+    ],
+}
+
+const audioList8 = {
+    0: [],
+    1: [],
+    2: [],
+    3: [],
 }
 
 // [(x - 653)/469, (y - 167)/606
