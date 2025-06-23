@@ -3759,39 +3759,898 @@ const audioList4 = {
         }
     ],
 }
-
+//PET学生用书
 const audioList5 = {
     0: [],
-    1: [
+    //Unit 1
+    8: [
         {
-            offset: ["23%", "24%"],
-            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/' + 'Track%2002.mp3',
+            offset: [3613,943],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%2002.mp3',
             flag: true,
         },
     ],
-    2: [
+    13: [
         {
-            offset: ["23%", "24%"],
-            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E5%9B%9B%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford%20Phonics%20World_4_SB_CD1/'
-                + 'Track03.mp3',
+            offset: [3990,975],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%2003.mp3',
             flag: true,
         },
     ],
-    3: [
+    //Unit 2
+    18: [
         {
-            offset: ["23%", "24%"],
-            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E7%AC%AC%E5%9B%9B%E6%9C%AC%E8%87%AA%E6%8B%BC%E9%83%A8%E5%88%86%E9%9F%B3%E9%A2%91%EF%BC%88%E6%8C%89%E6%95%B0%E5%AD%97%E9%A1%BA%E5%BA%8F%EF%BC%89/Oxford%20Phonics%20World_4_SB_CD1/'
-                + 'Track03.mp3',
+            offset: [3608,270],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%2004.mp3',
+            flag: true,
+        },
+
+        {
+            offset: [3608,578],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%2004.mp3',
+            flag: true,
+        },
+
+        {
+            offset: [3608,839],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%2005.mp3',
+            flag: true,
+        },
+
+        {
+            offset: [3608,985],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%2006.mp3',
+            flag: true,
+        },
+    ],
+
+    19: [
+        {
+            offset: [3614,405],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%2007.mp3',
+            flag: true,
+        },
+
+        {
+            offset: [3614,453],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%2008.mp3',
+            flag: true,
+        },
+
+        {
+            offset: [4001,985],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%2009.mp3',
+            flag: true,
+        },
+    ],
+
+    20: [
+        {
+            offset: [3996,627],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%2010.mp3',
+            flag: true,
+        },
+    ],
+//从这里开始没有核对链接，直接改编号
+    21: [
+        {
+            offset: [3613,760],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2011.mp3',
+            flag: true,
+        },
+        {
+            offset: [3920,298],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2012.mp3',
+            flag: true,
+        },
+    ],
+    //Unit 3
+    26: [
+        {
+            offset: [3614,266],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2013.mp3',
+            flag: true,
+        },
+        {
+            offset: [3614,1022],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2014.mp3',
+            flag: true,
+        },
+    ],
+
+    28: [
+        {
+            offset: [4001,871],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2015.mp3',
+            flag: true,
+        },
+    ],
+
+    29: [
+        {
+            offset: [4001,1064],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2016.mp3',
+            flag: true,
+        },
+    ],
+
+    31: [
+        {
+            offset: [3608,1058],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2017.mp3',
+            flag: true,
+        },
+        {
+            offset: [4050,267],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2017.mp3',
+            flag: true,
+        },
+    ],
+    //Unit 4
+    33: [
+        {
+            offset: [3612,1164],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2018.mp3',
+            flag: true,
+        },
+    ],
+
+    36: [
+        {
+            offset: [3605,1064],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2019.mp3',
+            flag: true,
+        },
+
+        {
+            offset: [3605,1119],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2020.mp3',
+            flag: true,
+        },
+    ],
+
+    38: [
+        {
+            offset: [4053,1000],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2021.mp3',
+            flag: true,
+        },
+    ],
+
+    39: [
+        {
+            offset: [3986,206],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2022.mp3',
+            flag: true,
+        },
+
+        {
+            offset: [3986,351],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2022.mp3',
+            flag: true,
+        },
+    ],
+
+    40: [
+        {
+            offset: [3904,1106],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2023.mp3',
+            flag: true,
+        },
+
+        {
+            offset: [3924,226],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2023.mp3',
+            flag: true,
+        },
+    ],
+    //Unit 5
+    44: [
+        {
+            offset: [3910,751],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2024.mp3',
+            flag: true,
+        },
+
+        {
+            offset: [3991,503],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2024.mp3',
+            flag: true,
+        },
+    ],
+
+    45: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2025.mp3',
+            flag: true,
+        },
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2025.mp3',
+            flag: true,
+        },
+    ],
+
+    47: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2026.mp3',
+            flag: true,
+        },
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2026.mp3',
+            flag: true,
+        },
+    ],
+        //Unit 6
+        51: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2027.mp3',
+            flag: true,
+        },
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2027.mp3',
+            flag: true,
+        },
+    ],
+
+        53: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2028.mp3',
+            flag: true,
+        },
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2028.mp3',
+            flag: true,
+        },
+    ],
+
+    56: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2029.mp3',
+            flag: true,
+        },
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2030.mp3',
+            flag: true,
+        },
+    ],
+
+    57: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2031.mp3',
+            flag: true,
+        },
+    ],
+    //Unit 7
+    61: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2032.mp3',
+            flag: true,
+        },
+    ],
+
+    62: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2032.mp3',
+            flag: true,
+        },
+    ],
+
+    65: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2033.mp3',
+            flag: true,
+        },
+    ],
+
+    66: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2034.mp3',
+            flag: true,
+        },
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2034.mp3',
+            flag: true,
+        },
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2035.mp3',
+            flag: true,
+        },
+    ],
+
+    67: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2036.mp3',
+            flag: true,
+        },
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2036.mp3',
+            flag: true,
+        },
+    ],
+    //Unit 8
+    71: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2037.mp3',
+            flag: true,
+        },
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2038.mp3',
+            flag: true,
+        },
+    ],
+
+    72: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2039.mp3',
+            flag: true,
+        },
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2039.mp3',
+            flag: true,
+        },
+    ],
+
+    73: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2040.mp3',
+            flag: true,
+        },
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2041.mp3',
+            flag: true,
+        },
+    ],
+    75: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2042.mp3',
+            flag: true,
+        },
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2042.mp3',
+            flag: true,
+        },
+    ],
+    //Unit 9
+    80: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2043.mp3',
+            flag: true,
+        },
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2044.mp3',
+            flag: true,
+        },
+    ],
+
+    86: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2045.mp3',
+            flag: true,
+        },
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2045.mp3',
+            flag: true,
+        },
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2045.mp3',
+            flag: true,
+        },
+    ],
+    //Unit 10
+    89: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2046.mp3',
+            flag: true,
+        },
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2046.mp3',
+            flag: true,
+        },
+    ],
+
+    90: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2047.mp3',
+            flag: true,
+        },
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2048.mp3',
+            flag: true,
+        },
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2049.mp3',
+            flag: true,
+        },
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2050.mp3',
+            flag: true,
+        },
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2051.mp3',
+            flag: true,
+        },
+    ],
+
+    91: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2052.mp3',
+            flag: true,
+        },
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2052.mp3',
+            flag: true,
+        },
+    ],
+
+    93: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2053.mp3',
+            flag: true,
+        },
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2053.mp3',
+            flag: true,
+        },
+    ],
+    //Unit 11
+    98: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2054.mp3',
+            flag: true,
+        },
+    ],
+
+    99: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2055.mp3',
+            flag: true,
+        },
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2055.mp3',
+            flag: true,
+        },
+    ],
+
+    100: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2056.mp3',
+            flag: true,
+        },
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2057.mp3',
+            flag: true,
+        },
+    ],
+
+    103: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2058.mp3',
+            flag: true,
+        },
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2058.mp3',
+            flag: true,
+        },
+    ],
+    //Unit 12
+    108: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2059.mp3',
+            flag: true,
+        },
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2060.mp3',
+            flag: true,
+        },
+    ],
+
+    109: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2061.mp3',
+            flag: true,
+        },
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2061.mp3',
+            flag: true,
+        },
+    ],
+
+    110: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2062.mp3',
+            flag: true,
+        },
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2062.mp3',
+            flag: true,
+        },
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2063.mp3',
+            flag: true,
+        },
+    ],
+
+    111: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2064.mp3',
+            flag: true,
+        },
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2065.mp3',
+            flag: true,
+        },
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2066.mp3',
+            flag: true,
+        },
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2066.mp3',
+            flag: true,
+        },
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2067.mp3',
+            flag: true,
+        },
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2068.mp3',
+            flag: true,
+        },
+    ],
+    //附录 speaking bank PAGE_151
+
+    151: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2069.mp3',
+            flag: true,
+        },
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2070.mp3',
+            flag: true,
+        },
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2070.mp3',
+            flag: true,
+        },
+    ],
+
+    152: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2071.mp3',
+            flag: true,
+        },
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2071.mp3',
+            flag: true,
+        },
+    ],
+
+    153: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2072.mp3',
+            flag: true,
+        },
+    ],
+
+    154: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2073.mp3',
+            flag: true,
+        },
+    ],
+
+    155: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2074.mp3',
+            flag: true,
+        },
+    ],
+
+    158: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2075.mp3',
+            flag: true,
+        },
+    ],
+
+    159: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2075.mp3',
+            flag: true,
+        },
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2076.mp3',
+            flag: true,
+        },
+    ],
+
+    160: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2077.mp3',
+            flag: true,
+        },
+    ],
+
+    161: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
+            +'Track%2078.mp3',
             flag: true,
         },
     ],
 }
 
+//x_fullpage2106
+//y_fullpage2716
+//[2106-x, 2716-y]
+
+//PET练习册
 const audioList6 = {
     0: [],
-    1: [],
-    2: [],
-    3: [],
+    //Unit 1
+    6: [
+        {
+            offset: [3958, 538],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2002_Unit%201%20My%20Life%20and%20home.mp3',
+            flag: true,
+        },
+    ],
+    //Unit 2
+    11: [
+        {
+            offset: [3605, 520],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2003_Unit%202%20At%20School.mp3',
+            flag: true,
+        },
+    ],
+    //Unit 3
+    15: [
+        {
+            offset: [3605, 520],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2004_Unit%203%20Having%20fun.mp3',
+            flag: true,
+        },
+    ],
+    //Unit 4
+    19: [
+        {
+            offset: [4000, 748],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2005_Unit%204%20On%20holiday.mp3',
+            flag: true,
+        },
+    ],
+    //Unit 5 
+    23: [
+        {
+            offset: [3605, 520],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2006_Unit%205%20Different%20feelings.mp3',
+            flag: true,
+        },
+    ],
+    //Unit 6 
+    27: [
+        {              
+            offset: [3988, 447],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2007_Unit%206%20That'+'\''+'s%20entertainment!.mp3',
+            flag: true,
+        },
+    ],
+    //Unit 7 
+    31: [
+        {
+            offset: [3605, 508],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2008_Unit%207%20Getting%20Around.mp3',
+            flag: true,
+        },
+    ],
+    //Unit 8
+    36: [
+        {
+            offset: [3600, 476],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2009_Unit%208%20Influencers.mp3',
+            flag: true,
+        },
+    ],
+    //Unit 9
+    37: [
+        {
+            offset: [3613, 642],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2010_Unit%209%20Stay%20fit%20and%20healthy.mp3',
+            flag: true,
+        },
+    ],
+    //Unit 10
+    43: [
+        {
+            offset: [4000, 470],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2011_Unit%2010%20Looks%20amazing!.mp3',
+            flag: true,
+        },
+    ],
+    //Unit 11
+    45: [
+        {
+            offset: [3605, 598],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2012_Unit%2011%20The%20natural%20world.mp3',
+            flag: true,
+        },
+    ],
+    //Unit 12
+    49: [
+        {
+            offset: [3613, 583],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2013_Unit%2012%20Express%20yourself!.mp3',
+            flag: true,
+        },
+    ],
 }
 
 const audioList7 = {
@@ -3803,11 +4662,360 @@ const audioList7 = {
 
 const audioList8 = {
     0: [],
-    1: [],
-    2: [],
-    3: [],
+    //Unit 1
+    9: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
+            +'02.mp3',
+            flag: true,
+        },
+    ],
+
+    10: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
+            +'03.mp3',
+            flag: true,
+        },
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
+            +'03.mp3',
+            flag: true,
+        },
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
+            +'04.mp3',
+            flag: true,
+        },
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
+            +'05.mp3',
+            flag: true,
+        },
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
+            +'06.mp3',
+            flag: true,
+        },
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
+            +'07.mp3',
+            flag: true,
+        },
+    ],
+
+    11: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
+            +'08.mp3',
+            flag: true,
+        },
+    ],
+
+    13: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
+            +'09.mp3',
+            flag: true,
+        },
+    ],
+
+    14: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
+            +'10.mp3',
+            flag: true,
+        },
+    ],
+    //Unit 2
+    16: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
+            +'11.mp3',
+            flag: true,
+        },
+    ],
+
+    17: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
+            +'12.mp3',
+            flag: true,
+        },
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
+            +'13.mp3',
+            flag: true,
+        },
+    ],
+
+    19: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
+            +'14.mp3',
+            flag: true,
+        },
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
+            +'14.mp3',
+            flag: true,
+        },
+    ],
+
+    20: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
+            +'15.mp3',
+            flag: true,
+        },
+    ],
+
+    //Unit 3
+    24: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
+            +'16.mp3',
+            flag: true,
+        },
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
+            +'17.mp3',
+            flag: true,
+        },
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
+            +'18.mp3',
+            flag: true,
+        },
+    ],
+
+    25: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
+            +'19.mp3',
+            flag: true,
+        },
+    ],
+
+    26: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
+            +'20.mp3',
+            flag: true,
+        },
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
+            +'21.mp3',
+            flag: true,
+        },
+    ],
+
+    27: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
+            +'22.mp3',
+            flag: true,
+        },
+    ],
+
+    28: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
+            +'23.mp3',
+            flag: true,
+        },
+    ],
+    //Unit 4
+    30: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
+            +'24.mp3',
+            flag: true,
+        },
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
+            +'25.mp3',
+            flag: true,
+        },
+    ],
+
+    33: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
+            +'26.mp3',
+            flag: true,
+        },
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
+            +'27.mp3',
+            flag: true,
+        },
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
+            +'28.mp3',
+            flag: true,
+        },
+    ],
+
+    34: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
+            +'29.mp3',
+            flag: true,
+        },
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
+            +'30.mp3',
+            flag: true,
+        },
+    ],
+
+    //Unit 5
+    37: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
+            +'31.mp3',
+            flag: true,
+        },
+    ],
+
+    38: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
+            +'32.mp3',
+            flag: true,
+        },
+    ],
+
+    39: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
+            +'33.mp3',
+            flag: true,
+        },
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
+            +'34.mp3',
+            flag: true,
+        },
+    ],
+
+    40: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
+            +'35.mp3',
+            flag: true,
+        },
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
+            +'35.mp3',
+            flag: true,
+        },
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
+            +'36.mp3',
+            flag: true,
+        },
+    ],
+
+    42: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
+            +'37.mp3',
+            flag: true,
+        },
+    ],
+
+    //Unit 6
+    44: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
+            +'38.mp3',
+            flag: true,
+        },
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
+            +'38.mp3',
+            flag: true,
+        },
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
+            +'39.mp3',
+            flag: true,
+        },
+    ],
+
+    45: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
+            +'40.mp3',
+            flag: true,
+        },
+    ],
+
+    48: [
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
+            +'41.mp3',
+            flag: true,
+        },
+        {
+            offset: [],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
+            +'41.mp3',
+            flag: true,
+        },
+    ],
+    //Unit 7
+
+    
 }
 
+// [(x - 653)/469, (y - 167)/606
 // (x - 50)/427, (y - 362)/555
 export const allAudioList = {
     "1": audioList1,

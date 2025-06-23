@@ -245,8 +245,8 @@ export const BookAudioTag: React.FC<any> = React.memo(({ audioList, currentPage,
           const { offset = [], url, flag } = audio as any
           const [x = 0, y = 0] = offset
 
-          const left = flag ? x : decimalToPercentage((x - 653) / 469);
-          const top = flag ? y : decimalToPercentage((y - 167) / 606);
+          const left = flag ? decimalToPercentage((x-3576) / 825) : decimalToPercentage((x - 653) / 469);
+          const top  = flag ? decimalToPercentage((y-202) / 1061) : decimalToPercentage((y - 167) / 606);
           return <View
             className="float-rect"
             style={{
