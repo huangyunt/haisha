@@ -3976,7 +3976,7 @@ const audioList5 = {
             flag: true,
         },
     ],
-//
+
     45: [
         {
             offset: [3956,420],
@@ -4009,7 +4009,7 @@ const audioList5 = {
         //Unit 6
         51: [
         {
-            offset: [3609,1098],
+            offset: [3609,1088],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2027.mp3',
             flag: true,
@@ -5434,7 +5434,7 @@ const audioList7 = {
 
     104: [
         {
-            offset: [3630,1194],
+            offset: [3630,1168],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'87.mp3',
             flag: true,
