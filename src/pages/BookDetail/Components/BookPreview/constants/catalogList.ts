@@ -431,62 +431,62 @@ export const catalogLists = {
         // Unit 1
         {
             name: "Unit 1: My life and home",
-            page: 5
+            page: 6
         },
         // Unit 2
         {
             name: "Unit 2: At school",
-            page: 13
+            page: 14
         },
         // Unit 3
         {
             name: "Unit 3: Having fun",
-            page: 23
+            page: 24
         },
         // Unit 4
         {
             name: "Unit 4: On holiday",
-            page: 31
+            page: 32
         },
         // Unit 5
         {
             name: "Unit 5: Different feelings",
-            page: 41
+            page: 42
         },
         // Unit 6
         {
             name: "Unit 6: That’s entertainment!",
-            page: 49
+            page: 50
         },
         // Unit 7
         {
             name: "Unit 7: Getting around",
-            page: 59
+            page: 60
         },
         // Unit 8
         {
             name: "Unit 8: Influencers",
-            page: 67
+            page: 68
         },
         // Unit 9
         {
             name: "Unit 9: Stay fit and healthy",
-            page: 77
+            page: 78
         },
         // Unit 10
         {
             name: "Unit 10: Looks amazing!",
-            page: 85
+            page: 86
         },
         // Unit 11
         {
             name: "Unit 11: The natural world",
-            page: 95
+            page: 96
         },
         // Unit 12
         {
             name: "Unit 12: Express yourself!",
-            page: 103
+            page: 104
         }
     ],
 
@@ -494,62 +494,62 @@ export const catalogLists = {
         // Unit 1
         {
             name: 'Unit 1: My life and home',
-            page: 3
+            page: 4
         },
         // Unit 2
         {
             name: 'Unit 2: At school',
-            page: 7
+            page: 8
         },
         // Unit 3
         {
             name: 'Unit 3: Having fun',
-            page: 11
+            page: 12
         },
         // Unit 4
         {
             name: 'Unit 4: On holiday',
-            page: 15
+            page: 16
         },
         // Unit 5
         {
             name: 'Unit 5: Different feelings',
-            page: 19
+            page: 20
         },
         // Unit 6
         {
             name: 'Unit 6: That’s entertainment!',
-            page: 23
+            page: 24
         },
         // Unit 7
         {
             name: 'Unit 7: Getting around',
-            page: 27
+            page: 28
         },
         // Unit 8
         {
             name: 'Unit 8: Influencers',
-            page: 31
+            page: 32
         },
         // Unit 9
         {
             name: 'Unit 9: Stay fit and healthy',
-            page: 35
+            page: 36
         },
         // Unit 10
         {
             name: 'Unit 10: Looks amazing!',
-            page: 39
+            page: 40
         },
         // Unit 11
         {
             name: 'Unit 11: The natural world',
-            page: 43
+            page: 44
         },
         // Unit 12
         {
             name: 'Unit 12: Express yourself!',
-            page: 47
+            page: 48
         }
     ],
 
@@ -558,72 +558,72 @@ export const catalogLists = {
         // Unit 1
         {
             name: "Unit 1: Hi, how are you?",
-            page: 7
+            page: 8
         },
         // Unit 2
         {
             name: "Unit 2: We're going home",
-            page: 13
+            page: 14
         },
         // Unit 3
         {
             name: "Unit 3: Dinner time",
-            page: 21
+            page: 22
         },
         // Unit 4
         {
             name: "Unit 4: I'm shopping!",
-            page: 27
+            page: 28
         },
         // Unit 5
         {
             name: "Unit 5: It's my favourite sport!",
-            page: 35
+            page: 36
         },
         // Unit 6
         {
             name: "Unit 6: Have you got any homework?",
-            page: 41
+            page: 42
         },
         // Unit 7
         {
             name: "Unit 7: Let's go to the museum",
-            page: 49
+            page: 50
         },
         // Unit 8
         {
             name: "Unit 8: Did you get my message?",
-            page: 55
+            page: 56
         },
         // Unit 9
         {
             name: "Unit 9: I love that film!",
-            page: 63
+            page: 64
         },
         // Unit 10
         {
             name: "Unit 10: It's going to be sunny",
-            page: 69
+            page: 70
         },
         // Unit 11
         {
             name: "Unit 11: I like to keep fit",
-            page: 77
+            page: 78
         },
         // Unit 12
         {
             name: "Unit 12: Have you ever been on a plane?",
-            page: 83
+            page: 84
         },
         // Unit 13
         {
             name: "Unit 13: What's your hobby?",
-            page: 91
+            page: 92
         },
         // Unit 14
         {
             name: "Unit 14: Keep in touch!",
-            page: 97
+            page: 98
         }
     ],
 
@@ -631,128 +631,128 @@ export const catalogLists = {
         // Unit 1
         {
             name: "Unit 1: Hi, how are you?",
-            page: 3
+            page: 4
         },
         {
             name: "Vocabulary extra",
-            page: 6
+            page: 7
         },
         // Unit 2
         {
             name: "Unit 2: We're going home",
-            page: 7
+            page: 8
         },
         {
             name: "Vocabulary extra",
-            page: 10
+            page: 11
         },
         // Unit 3
         {
             name: "Unit 3: Dinner time",
-            page: 11
+            page: 12
         },
         {
             name: "Vocabulary extra",
-            page: 14
+            page: 15
         },
         // Unit 4
         {
             name: "Unit 4: I'm shopping!",
-            page: 15
+            page: 16
         },
         {
             name: "Vocabulary extra",
-            page: 18
+            page: 19
         },
         // Unit 5
         {
             name: "Unit 5: It's my favourite sport!",
-            page: 19
+            page: 20
         },
         {
             name: "Vocabulary extra",
-            page: 22
+            page: 23
         },
         // Unit 6
         {
             name: "Unit 6: Have you got any homework?",
-            page: 23
+            page: 24
         },
         {
             name: "Vocabulary extra",
-            page: 26
+            page: 27
         },
         // Unit 7
         {
             name: "Unit 7: Let's go to the museum",
-            page: 27
+            page: 28
         },
         {
             name: "Vocabulary extra",
-            page: 30
+            page: 31
         },
         // Unit 8
         {
             name: "Unit 8: Did you get my message?",
-            page: 31
+            page: 32
         },
         {
             name: "Vocabulary extra",
-            page: 34
+            page: 35
         },
         // Unit 9
         {
             name: "Unit 9: I love that film!",
-            page: 35
+            page: 36
         },
         {
             name: "Vocabulary extra",
-            page: 38
+            page: 39
         },
         // Unit 10
         {
             name: "Unit 10: It's going to be sunny",
-            page: 39
+            page: 40
         },
         {
             name: "Vocabulary extra",
-            page: 42
+            page: 43
         },
         // Unit 11
         {
             name: "Unit 11: I like to keep fit",
-            page: 43
+            page: 44
         },
         {
             name: "Vocabulary extra",
-            page: 46
+            page: 47
         },
         // Unit 12
         {
             name: "Unit 12: Have you ever been on a plane?",
-            page: 47
+            page: 48
         },
         {
             name: "Vocabulary extra",
-            page: 50
+            page: 51
         },
         // Unit 13
         {
             name: "Unit 13: What's your hobby?",
-            page: 51
+            page: 52
         },
         {
             name: "Vocabulary extra",
-            page: 54
+            page: 55
         },
         // Unit 14
         {
             name: "Unit 14: Keep in touch!",
-            page: 55
+            page: 56
         },
         {
             name: "Vocabulary extra",
-            page: 58
+            page: 59
         }
     ]
 }
