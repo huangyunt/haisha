@@ -31,6 +31,20 @@ enum EBookType {
   HAISHA_INTRODUCTION = "6",
 }
 
+const titleMap = {
+  "1": 'CASA阅读启蒙&自然拼读 1',
+  "2": 'CASA阅读启蒙&自然拼读 2',
+  "3": 'CASA阅读启蒙&自然拼读 3',
+  "4": 'CASA阅读启蒙&自然拼读 4',
+  "5": '剑桥PET学生用书',
+  "6": '剑桥PET练习册',
+  "7": '剑桥KET学生用书',
+  "8": '剑桥KET练习册',
+  "9": '海沙国际课程',
+  "10": '原版教材+剑桥考试课程'
+}
+
+
 const bookTypeMap = {
   [EBookType.READING_BOOK_1]: true,
   [EBookType.READING_BOOK_2]: true,
@@ -132,7 +146,7 @@ const BookPreview: React.FC<IBookPreviewProps> = ({ id = "1", currentPage, setCu
         </View> */}
         {/* <View className="right-container"> */}
         <View className={showTopBar ? '' : 'none'}>
-          <Text className='title'>{`CASA阅读启蒙&自然拼读 ${router.params?.id || "1"}`}</Text>
+          <Text className='title'>{titleMap[router.params?.id || '1'] || ''}</Text>
         </View>
       </View>
 
