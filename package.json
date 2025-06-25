@@ -62,8 +62,6 @@
     "@types/wechat-miniprogram": "^3.4.8",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "react-native": "0.70.0",
-    "stylus": "^0.64.0",
     "taro-ui": "^3.3.0"
   },
   "devDependencies": {
@@ -72,7 +70,6 @@
     "@babel/preset-react": "^7.24.1",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.5",
     "@tarojs/cli": "4.0.12",
-    "@tarojs/service": "4.0.12",
     "@tarojs/taro-loader": "4.0.12",
     "@tarojs/webpack5-runner": "4.0.12",
     "@types/node": "^18",
