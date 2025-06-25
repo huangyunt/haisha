@@ -15,7 +15,13 @@ const images = {
     (
         'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/4.CASA%E9%98%85%E8%AF%BB%E4%B8%8E%E8%87%AA%E6%8B%BC-%E5%9B%BE%E7%89%87/CASA%E9%98%85%E8%AF%BB%E4%B8%8E%E8%87%AA%E6%8B%BCReading%20%26%20Phonics%204_' + (index + 1) + '.png'
     )),
+}
 
+Object.entries(images).forEach(([_, value]) => {
+    value.splice(1, 1);
+})
+
+const concatImages = {
     "5": Array(210).fill(0).map((_, index) =>
     (
         'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6/%E3%80%90%E8%AF%BE%E6%9C%AC%E3%80%91%E5%89%91%E6%A1%A5PET%E7%BB%BC%E5%90%88%E6%95%99%E7%A8%8B-%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6(for%20the%20revised%20exam%20from%202020)._' + (index + 1) + '.png'
@@ -24,7 +30,7 @@ const images = {
     (
         'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E7%BB%83%E4%B9%A0%E5%86%8C/%E3%80%90%E8%AF%BE%E6%9C%AC%E3%80%91%E5%89%91%E6%A1%A5PET%E7%BB%BC%E5%90%88%E6%95%99%E7%A8%8B-%E7%BB%83%E4%B9%A0%E5%86%8C(for%20the%20revised%20exam%20from%202020)._' + (index + 1) + '.png'
     )),
-    
+
     "7": Array(189).fill(0).map((_, index) =>
     (
         'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6/%E5%89%91%E6%A1%A5KET%E7%BB%BC%E5%90%88%E6%95%99%E7%A8%8B%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6_' + (index + 1) + '.png'
@@ -33,13 +39,6 @@ const images = {
     (
         'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E7%BB%83%E4%B9%A0%E5%86%8C/%E5%89%91%E6%A1%A5KET%E7%BB%BC%E5%90%88%E6%95%99%E7%A8%8B%E7%BB%83%E4%B9%A0%E5%86%8C_' + (index + 1) + '.png'
     )),
-}
-
-Object.entries(images).forEach(([_, value]) => {
-    value.splice(1, 1);
-})
-
-const concatImages = {
     "9": Array(5).fill(0).map((_, index) =>
     (
         'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/CASA%E6%89%98%E7%A6%8F%E9%9B%85%E6%80%9DSAT%E5%AD%A6%E7%A7%91-1/CASA%E6%89%98%E7%A6%8F%E9%9B%85%E6%80%9DSAT%E5%AD%A6%E7%A7%91(1)_' + (index + 1) + '.png'
