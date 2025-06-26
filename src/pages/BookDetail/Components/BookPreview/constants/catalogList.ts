@@ -455,7 +455,7 @@ export const catalogLists = {
         },
         // Unit 6
         {
-            name: "Unit 6: That’s entertainment!",
+            name: "Unit 6: That's entertainment!",
             page: 50
         },
         // Unit 7
@@ -487,6 +487,38 @@ export const catalogLists = {
         {
             name: "Unit 12: Express yourself!",
             page: 104
+        },
+        {
+        name: "Grammar reference",
+        page: 114
+        },
+        {
+            name: "Phrasal verb builder",
+            page: 139
+        },
+        {
+            name: "Irregular verbs",
+            page: 141
+        },
+        {
+            name: "Writing bank",
+            page: 142
+        },
+        {
+            name: "Speaking bank",
+            page: 150
+        },
+        {
+            name: "Extra resources",
+            page: 161
+        },
+        {
+            name: "Answer key and audio scripts",
+            page: 163
+        },
+        {
+            name: "Acknowledgements",
+            page: 208
         }
     ],
 
@@ -518,7 +550,7 @@ export const catalogLists = {
         },
         // Unit 6
         {
-            name: 'Unit 6: That’s entertainment!',
+            name: 'Unit 6: That\'s entertainment!',
             page: 24
         },
         // Unit 7
@@ -624,6 +656,38 @@ export const catalogLists = {
         {
             name: "Unit 14: Keep in touch!",
             page: 98
+        },
+        {
+            name: "Grammar reference",
+            page: 106
+        },
+        {
+            name: "Phrasal verb builder",
+            page: 132
+        },
+        {
+            name: "Irregular verbs",
+            page: 134
+        },
+        {
+            name: "Writing bank",
+            page: 135
+        },
+        {
+            name: "Speaking bank",
+            page: 143
+        },
+        {
+            name: "Extra resources",
+            page: 149
+        },
+        {
+            name: "Answer key and audio scripts",
+            page: 151
+        },
+        {
+            name: "Acknowledgements",
+            page: 186
         }
     ],
 

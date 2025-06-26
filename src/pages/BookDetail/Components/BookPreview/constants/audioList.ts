@@ -4758,13 +4758,13 @@ const audioList7 = {
 
     20: [
         {
-            offset: [3980,895],
+            offset: [3980,888],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'14.mp3',
             flag: true,
         },
         {
-            offset: [3980,1003],
+            offset: [3980,983],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'14.mp3',
             flag: true,
@@ -4968,13 +4968,13 @@ const audioList7 = {
             flag: true,
         },
         {
-            offset: [3620,1133],
+            offset: [3620,1126],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'38.mp3',
             flag: true,
         },
         {
-            offset: [3980,930],
+            offset: [3980,923],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'39.mp3',
             flag: true,
@@ -4983,7 +4983,7 @@ const audioList7 = {
 
     46: [
         {
-            offset: [3620,269],
+            offset: [3620,289],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'40.mp3',
             flag: true,
