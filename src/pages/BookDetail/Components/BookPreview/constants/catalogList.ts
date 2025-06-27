@@ -1,5 +1,5 @@
 export const catalogLists = {
-    "1": [
+    "3": [
         // Unit 1
         {
             name: 'Unit 1 课文',
@@ -106,7 +106,7 @@ export const catalogLists = {
         },
     ],
 
-    "2": [
+    "4": [
         // Unit 1
         {
             name: 'Unit 1 课文',
@@ -213,7 +213,7 @@ export const catalogLists = {
         },
     ],
 
-    "3": [
+    "5": [
         // Unit 1
         {
             name: 'Unit 1 课文',
@@ -320,7 +320,7 @@ export const catalogLists = {
         },
     ],
 
-    "4": [
+    "6": [
         // Unit 1
         {
             name: 'Unit 1 课文',
@@ -427,7 +427,7 @@ export const catalogLists = {
         },
     ],
 
-    "5": [
+    "7": [
         // Unit 1
         {
             name: "Unit 1: My life and home",
@@ -522,7 +522,7 @@ export const catalogLists = {
         }
     ],
 
-    "6": [
+    "8": [
         // Unit 1
         {
             name: 'Unit 1: My life and home',
@@ -586,7 +586,7 @@ export const catalogLists = {
     ],
 
 
-    "7": [
+    "9": [
         // Unit 1
         {
             name: "Unit 1: Hi, how are you?",
@@ -691,7 +691,7 @@ export const catalogLists = {
         }
     ],
 
-        "8": [
+        "10": [
         // Unit 1
         {
             name: "Unit 1: Hi, how are you?",

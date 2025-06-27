@@ -22,6 +22,7 @@ interface IBookPreviewProps {
   setCurrentPage: (v: number) => void
 }
 
+//还没改这块看不懂
 enum EBookType {
   READING_BOOK_1 = "1",
   READING_BOOK_2 = "2",
@@ -30,18 +31,18 @@ enum EBookType {
   HAISHA_ADVERTISEMENT = "5",
   HAISHA_INTRODUCTION = "6",
 }
-
+//
 const titleMap = {
-  "1": 'CASA阅读启蒙&自然拼读 1',
-  "2": 'CASA阅读启蒙&自然拼读 2',
-  "3": 'CASA阅读启蒙&自然拼读 3',
-  "4": 'CASA阅读启蒙&自然拼读 4',
-  "5": '剑桥PET学生用书',
-  "6": '剑桥PET练习册',
-  "7": '剑桥KET学生用书',
-  "8": '剑桥KET练习册',
-  "9": '海沙国际课程',
-  "10": '原版教材+剑桥考试课程'
+  "3": 'CASA阅读启蒙&自然拼读 1',
+  "4": 'CASA阅读启蒙&自然拼读 2',
+  "5": 'CASA阅读启蒙&自然拼读 3',
+  "6": 'CASA阅读启蒙&自然拼读 4',
+  "7": '剑桥PET学生用书',
+  "8": '剑桥PET练习册',
+  "9": '剑桥KET学生用书',
+  "10": '剑桥KET练习册',
+  "1": '海沙国际课程',
+  "2": '原版教材+剑桥考试课程'
 }
 
 
@@ -185,7 +186,7 @@ const BookPreview: React.FC<IBookPreviewProps> = ({ id = "1", currentPage, setCu
       */}
       {
         // 图书和广告的页码分开处理
-        bookTypeMap[id]
+         [id]
           ? (currentPage > 1 ? <View className="page-number">{(currentPage - 1) + ' / ' + (imageUrls.length - 2)}</View> : null)
           : (
             <View className="page-number">{(currentPage + 1) + ' / ' + (imageUrls.length)}</View>

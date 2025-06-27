@@ -2,7 +2,7 @@
 // [1122, 773]
 // [469, 606]
 // [(x - 653)/469, (y - 167)/606
-const audioList1 = {
+const audioList3 = {
     0: [],
     1: [],
     4: [
@@ -879,7 +879,7 @@ const audioList1 = {
 
 }
 
-const audioList2 = {
+const audioList4 = {
     0: [],
     1: [],
     2: [],
@@ -1831,7 +1831,7 @@ const audioList2 = {
     ],
 }
 
-const audioList3 = {
+const audioList5 = {
     0: [],
     1: [],
     2: [],
@@ -2802,7 +2802,7 @@ const audioList3 = {
     ],
 }
 
-const audioList4 = {
+const audioList6 = {
     0: [],
     1: [],
     2: [],
@@ -3761,7 +3761,7 @@ const audioList4 = {
 }
 
 //PET学生用书
-const audioList5 = {
+const audioList7 = {
     0: [],
     //Unit 1
     9: [
@@ -4554,7 +4554,7 @@ const audioList5 = {
 //[2106-x, 2716-y]
 
 //PET练习册
-const audioList6 = {
+const audioList8 = {
     0: [],
     //Unit 1
     7: [
@@ -4654,7 +4654,7 @@ const audioList6 = {
     ],
 }
 
-const audioList7 = {
+const audioList9 = {
     0: [],
     //Unit 1
     10: [
@@ -5637,7 +5637,7 @@ const audioList7 = {
 }
 
 //KET综合练习册
-const audioList8 = {
+const audioList10 = {
     0: [],
     6: [
         {
@@ -5753,14 +5753,14 @@ const audioList8 = {
 }
 
 export const allAudioList = {
-    "1": audioList1,
-    "2": audioList2,
     "3": audioList3,
     "4": audioList4,
-    '5': audioList5,
-    '6': audioList6,
+    "5": audioList5,
+    "6": audioList6,
     '7': audioList7,
     '8': audioList8,
-    '9': [],
-    '10': [],
+    '9': audioList9,
+    '10': audioList10,
+    '1': [],
+    '2': [],
 }
