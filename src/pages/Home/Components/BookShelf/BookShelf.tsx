@@ -4,16 +4,16 @@ import { images } from "./constant";
 import "./BookShelf.scss";
 
 const titleMap = {
-  3: 'CASA阅读启蒙&自然拼读 1',
-  4: 'CASA阅读启蒙&自然拼读 2',
-  5: 'CASA阅读启蒙&自然拼读 3',
-  6: 'CASA阅读启蒙&自然拼读 4',
-  7: '剑桥PET学生用书',
-  8: '剑桥PET练习册',
-  9: '剑桥KET学生用书',
-  10: '剑桥KET练习册',
-  2: '海沙国际课程',
-  1: '原版教材+剑桥考试课程'
+  1:  '原版教材+剑桥考试课程',
+  2:  '海沙国际课程',
+  3:  'CASA阅读启蒙&自然拼读 1',
+  4:  'CASA阅读启蒙&自然拼读 2',
+  5:  'CASA阅读启蒙&自然拼读 3',
+  6:  'CASA阅读启蒙&自然拼读 4',
+  7:  '剑桥PET学生用书',
+  8:  '剑桥PET练习册',
+  9:  '剑桥KET学生用书',
+  10: '剑桥KET练习册'
 }
 
 export const BookShelf: React.FC = () => {

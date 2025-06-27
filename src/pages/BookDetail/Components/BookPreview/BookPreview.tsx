@@ -22,17 +22,23 @@ interface IBookPreviewProps {
   setCurrentPage: (v: number) => void
 }
 
-//还没改这块看不懂
+
 enum EBookType {
-  READING_BOOK_1 = "1",
-  READING_BOOK_2 = "2",
-  READING_BOOK_3 = "3",
-  READING_BOOK_4 = "4",
-  HAISHA_ADVERTISEMENT = "5",
-  HAISHA_INTRODUCTION = "6",
+  HAISHA_ADVERTISEMENT  = "1",
+  HAISHA_INTRODUCTION   = "2",
+  READING_BOOK_1        = "3",
+  READING_BOOK_2        = "4",
+  READING_BOOK_3        = "5",
+  READING_BOOK_4        = "6",
+  PET_STUDENT_BOOK_B1   = "7",
+  PET_PRACTICE_BOOK_B1  = "8",
+  KET_STUDENT_BOOK_A2   = "9",
+  KET_PRACTICE_BOOK_A2  = "10",
 }
 //
 const titleMap = {
+  "1": '原版教材+剑桥考试课程',
+  "2": '海沙国际课程',
   "3": 'CASA阅读启蒙&自然拼读 1',
   "4": 'CASA阅读启蒙&自然拼读 2',
   "5": 'CASA阅读启蒙&自然拼读 3',
@@ -41,16 +47,26 @@ const titleMap = {
   "8": '剑桥PET练习册',
   "9": '剑桥KET学生用书',
   "10": '剑桥KET练习册',
-  "1": '海沙国际课程',
-  "2": '原版教材+剑桥考试课程'
 }
 
+/* 
+  1. bookTypeMap[id] 为 true 表示该类型书籍（如学生用书）存在封面和目录页，不应计入页码中。
+    - 页码从第 2 页开始显示（currentPage > 1）
+    - 页码显示为 "(当前页 - 1) / (总页数 - 2)"，扣除封面和目录页。
+    - 第 1 页（封面或目录）则不显示页码。
 
+  2. bookTypeMap[id] 为 false 表示该类型书籍（如广告页或介绍页）不扣除封面和目录页。
+   - 页码从第 1 页开始全部计算，直接显示 "当前页 + 1 / 总页数"。
+*/
 const bookTypeMap = {
   [EBookType.READING_BOOK_1]: true,
   [EBookType.READING_BOOK_2]: true,
   [EBookType.READING_BOOK_3]: true,
   [EBookType.READING_BOOK_4]: true,
+  [EBookType.PET_STUDENT_BOOK_B1]: true,
+  [EBookType.PET_PRACTICE_BOOK_B1]: true,
+  [EBookType.KET_STUDENT_BOOK_A2]: true,
+  [EBookType.KET_PRACTICE_BOOK_A2]: true,
   [EBookType.HAISHA_ADVERTISEMENT]: false,
   [EBookType.HAISHA_INTRODUCTION]: false,
 }
@@ -186,11 +202,9 @@ const BookPreview: React.FC<IBookPreviewProps> = ({ id = "1", currentPage, setCu
       */}
       {
         // 图书和广告的页码分开处理
-         [id]
+        bookTypeMap[id]
           ? (currentPage > 1 ? <View className="page-number">{(currentPage - 1) + ' / ' + (imageUrls.length - 2)}</View> : null)
-          : (
-            <View className="page-number">{(currentPage + 1) + ' / ' + (imageUrls.length)}</View>
-          )
+          : (<View className="page-number">{(currentPage + 1) + ' / ' + (imageUrls.length)}</View>)
       }
       {/* 底栏 */}
       <View className={`bottom-bar ${showTopBar ? 'height' : ''}`} onClick={handleCatalogShowingUp}>
