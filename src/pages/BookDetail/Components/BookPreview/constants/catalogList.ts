@@ -1,5 +1,5 @@
 export const catalogLists = {
-    "1": [
+    "3": [
         // Unit 1
         {
             name: 'Unit 1 课文',
@@ -106,7 +106,7 @@ export const catalogLists = {
         },
     ],
 
-    "2": [
+    "4": [
         // Unit 1
         {
             name: 'Unit 1 课文',
@@ -213,7 +213,7 @@ export const catalogLists = {
         },
     ],
 
-    "3": [
+    "5": [
         // Unit 1
         {
             name: 'Unit 1 课文',
@@ -320,7 +320,7 @@ export const catalogLists = {
         },
     ],
 
-    "4": [
+    "6": [
         // Unit 1
         {
             name: 'Unit 1 课文',
@@ -425,5 +425,398 @@ export const catalogLists = {
             name: 'Unit 8 绘本',
             page: 182
         },
+    ],
+
+    "7": [
+        // Unit 1
+        {
+            name: "Unit 1: My life and home",
+            page: 6
+        },
+        // Unit 2
+        {
+            name: "Unit 2: At school",
+            page: 14
+        },
+        // Unit 3
+        {
+            name: "Unit 3: Having fun",
+            page: 24
+        },
+        // Unit 4
+        {
+            name: "Unit 4: On holiday",
+            page: 32
+        },
+        // Unit 5
+        {
+            name: "Unit 5: Different feelings",
+            page: 42
+        },
+        // Unit 6
+        {
+            name: "Unit 6: That's entertainment!",
+            page: 50
+        },
+        // Unit 7
+        {
+            name: "Unit 7: Getting around",
+            page: 60
+        },
+        // Unit 8
+        {
+            name: "Unit 8: Influencers",
+            page: 68
+        },
+        // Unit 9
+        {
+            name: "Unit 9: Stay fit and healthy",
+            page: 78
+        },
+        // Unit 10
+        {
+            name: "Unit 10: Looks amazing!",
+            page: 86
+        },
+        // Unit 11
+        {
+            name: "Unit 11: The natural world",
+            page: 96
+        },
+        // Unit 12
+        {
+            name: "Unit 12: Express yourself!",
+            page: 104
+        },
+        {
+        name: "Grammar reference",
+        page: 114
+        },
+        {
+            name: "Phrasal verb builder",
+            page: 139
+        },
+        {
+            name: "Irregular verbs",
+            page: 141
+        },
+        {
+            name: "Writing bank",
+            page: 142
+        },
+        {
+            name: "Speaking bank",
+            page: 150
+        },
+        {
+            name: "Extra resources",
+            page: 161
+        },
+        {
+            name: "Answer key and audio scripts",
+            page: 163
+        },
+        {
+            name: "Acknowledgements",
+            page: 208
+        }
+    ],
+
+    "8": [
+        // Unit 1
+        {
+            name: 'Unit 1: My life and home',
+            page: 4
+        },
+        // Unit 2
+        {
+            name: 'Unit 2: At school',
+            page: 8
+        },
+        // Unit 3
+        {
+            name: 'Unit 3: Having fun',
+            page: 12
+        },
+        // Unit 4
+        {
+            name: 'Unit 4: On holiday',
+            page: 16
+        },
+        // Unit 5
+        {
+            name: 'Unit 5: Different feelings',
+            page: 20
+        },
+        // Unit 6
+        {
+            name: 'Unit 6: That\'s entertainment!',
+            page: 24
+        },
+        // Unit 7
+        {
+            name: 'Unit 7: Getting around',
+            page: 28
+        },
+        // Unit 8
+        {
+            name: 'Unit 8: Influencers',
+            page: 32
+        },
+        // Unit 9
+        {
+            name: 'Unit 9: Stay fit and healthy',
+            page: 36
+        },
+        // Unit 10
+        {
+            name: 'Unit 10: Looks amazing!',
+            page: 40
+        },
+        // Unit 11
+        {
+            name: 'Unit 11: The natural world',
+            page: 44
+        },
+        // Unit 12
+        {
+            name: 'Unit 12: Express yourself!',
+            page: 48
+        }
+    ],
+
+
+    "9": [
+        // Unit 1
+        {
+            name: "Unit 1: Hi, how are you?",
+            page: 8
+        },
+        // Unit 2
+        {
+            name: "Unit 2: We're going home",
+            page: 14
+        },
+        // Unit 3
+        {
+            name: "Unit 3: Dinner time",
+            page: 22
+        },
+        // Unit 4
+        {
+            name: "Unit 4: I'm shopping!",
+            page: 28
+        },
+        // Unit 5
+        {
+            name: "Unit 5: It's my favourite sport!",
+            page: 36
+        },
+        // Unit 6
+        {
+            name: "Unit 6: Have you got any homework?",
+            page: 42
+        },
+        // Unit 7
+        {
+            name: "Unit 7: Let's go to the museum",
+            page: 50
+        },
+        // Unit 8
+        {
+            name: "Unit 8: Did you get my message?",
+            page: 56
+        },
+        // Unit 9
+        {
+            name: "Unit 9: I love that film!",
+            page: 64
+        },
+        // Unit 10
+        {
+            name: "Unit 10: It's going to be sunny",
+            page: 70
+        },
+        // Unit 11
+        {
+            name: "Unit 11: I like to keep fit",
+            page: 78
+        },
+        // Unit 12
+        {
+            name: "Unit 12: Have you ever been on a plane?",
+            page: 84
+        },
+        // Unit 13
+        {
+            name: "Unit 13: What's your hobby?",
+            page: 92
+        },
+        // Unit 14
+        {
+            name: "Unit 14: Keep in touch!",
+            page: 98
+        },
+        {
+            name: "Grammar reference",
+            page: 106
+        },
+        {
+            name: "Phrasal verb builder",
+            page: 132
+        },
+        {
+            name: "Irregular verbs",
+            page: 134
+        },
+        {
+            name: "Writing bank",
+            page: 135
+        },
+        {
+            name: "Speaking bank",
+            page: 143
+        },
+        {
+            name: "Extra resources",
+            page: 149
+        },
+        {
+            name: "Answer key and audio scripts",
+            page: 151
+        },
+        {
+            name: "Acknowledgements",
+            page: 186
+        }
+    ],
+
+        "10": [
+        // Unit 1
+        {
+            name: "Unit 1: Hi, how are you?",
+            page: 4
+        },
+        {
+            name: "Vocabulary extra",
+            page: 7
+        },
+        // Unit 2
+        {
+            name: "Unit 2: We're going home",
+            page: 8
+        },
+        {
+            name: "Vocabulary extra",
+            page: 11
+        },
+        // Unit 3
+        {
+            name: "Unit 3: Dinner time",
+            page: 12
+        },
+        {
+            name: "Vocabulary extra",
+            page: 15
+        },
+        // Unit 4
+        {
+            name: "Unit 4: I'm shopping!",
+            page: 16
+        },
+        {
+            name: "Vocabulary extra",
+            page: 19
+        },
+        // Unit 5
+        {
+            name: "Unit 5: It's my favourite sport!",
+            page: 20
+        },
+        {
+            name: "Vocabulary extra",
+            page: 23
+        },
+        // Unit 6
+        {
+            name: "Unit 6: Have you got any homework?",
+            page: 24
+        },
+        {
+            name: "Vocabulary extra",
+            page: 27
+        },
+        // Unit 7
+        {
+            name: "Unit 7: Let's go to the museum",
+            page: 28
+        },
+        {
+            name: "Vocabulary extra",
+            page: 31
+        },
+        // Unit 8
+        {
+            name: "Unit 8: Did you get my message?",
+            page: 32
+        },
+        {
+            name: "Vocabulary extra",
+            page: 35
+        },
+        // Unit 9
+        {
+            name: "Unit 9: I love that film!",
+            page: 36
+        },
+        {
+            name: "Vocabulary extra",
+            page: 39
+        },
+        // Unit 10
+        {
+            name: "Unit 10: It's going to be sunny",
+            page: 40
+        },
+        {
+            name: "Vocabulary extra",
+            page: 43
+        },
+        // Unit 11
+        {
+            name: "Unit 11: I like to keep fit",
+            page: 44
+        },
+        {
+            name: "Vocabulary extra",
+            page: 47
+        },
+        // Unit 12
+        {
+            name: "Unit 12: Have you ever been on a plane?",
+            page: 48
+        },
+        {
+            name: "Vocabulary extra",
+            page: 51
+        },
+        // Unit 13
+        {
+            name: "Unit 13: What's your hobby?",
+            page: 52
+        },
+        {
+            name: "Vocabulary extra",
+            page: 55
+        },
+        // Unit 14
+        {
+            name: "Unit 14: Keep in touch!",
+            page: 56
+        },
+        {
+            name: "Vocabulary extra",
+            page: 59
+        }
     ]
 }

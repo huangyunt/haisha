@@ -2,7 +2,7 @@
 // [1122, 773]
 // [469, 606]
 // [(x - 653)/469, (y - 167)/606
-const audioList1 = {
+const audioList3 = {
     0: [],
     1: [],
     4: [
@@ -879,7 +879,7 @@ const audioList1 = {
 
 }
 
-const audioList2 = {
+const audioList4 = {
     0: [],
     1: [],
     2: [],
@@ -1831,7 +1831,7 @@ const audioList2 = {
     ],
 }
 
-const audioList3 = {
+const audioList5 = {
     0: [],
     1: [],
     2: [],
@@ -2802,7 +2802,7 @@ const audioList3 = {
     ],
 }
 
-const audioList4 = {
+const audioList6 = {
     0: [],
     1: [],
     2: [],
@@ -3759,18 +3759,19 @@ const audioList4 = {
         }
     ],
 }
+
 //PET学生用书
-const audioList5 = {
+const audioList7 = {
     0: [],
     //Unit 1
-    8: [
+    9: [
         {
             offset: [3613,943],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%2002.mp3',
             flag: true,
         },
     ],
-    13: [
+    14: [
         {
             offset: [3990,975],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%2003.mp3',
@@ -3778,7 +3779,7 @@ const audioList5 = {
         },
     ],
     //Unit 2
-    18: [
+    19: [
         {
             offset: [3608,270],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%2004.mp3',
@@ -3804,7 +3805,7 @@ const audioList5 = {
         },
     ],
 
-    19: [
+    20: [
         {
             offset: [3614,405],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%2007.mp3',
@@ -3824,15 +3825,15 @@ const audioList5 = {
         },
     ],
 
-    20: [
+    21: [
         {
             offset: [3996,627],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%2010.mp3',
             flag: true,
         },
     ],
-//从这里开始没有核对链接，直接改编号
-    21: [
+
+    22: [
         {
             offset: [3613,760],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
@@ -3847,7 +3848,7 @@ const audioList5 = {
         },
     ],
     //Unit 3
-    26: [
+    27: [
         {
             offset: [3614,266],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
@@ -3862,7 +3863,7 @@ const audioList5 = {
         },
     ],
 
-    28: [
+    29: [
         {
             offset: [4001,871],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
@@ -3871,7 +3872,7 @@ const audioList5 = {
         },
     ],
 
-    29: [
+    30: [
         {
             offset: [4001,1064],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
@@ -3880,7 +3881,7 @@ const audioList5 = {
         },
     ],
 
-    31: [
+    32: [
         {
             offset: [3608,1058],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
@@ -3895,7 +3896,7 @@ const audioList5 = {
         },
     ],
     //Unit 4
-    33: [
+    34: [
         {
             offset: [3612,1164],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
@@ -3904,7 +3905,7 @@ const audioList5 = {
         },
     ],
 
-    36: [
+    37: [
         {
             offset: [3605,1064],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
@@ -3920,7 +3921,7 @@ const audioList5 = {
         },
     ],
 
-    38: [
+    39: [
         {
             offset: [4053,1000],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
@@ -3929,7 +3930,7 @@ const audioList5 = {
         },
     ],
 
-    39: [
+    40: [
         {
             offset: [3986,268],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
@@ -3945,7 +3946,7 @@ const audioList5 = {
         },
     ],
 
-    40: [
+    41: [
         {
             offset: [3609,959],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
@@ -3961,7 +3962,7 @@ const audioList5 = {
         },
     ],
     //Unit 5
-    44: [
+    45: [
         {
             offset: [3609,751],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
@@ -3977,7 +3978,7 @@ const audioList5 = {
         },
     ],
 
-    45: [
+    46: [
         {
             offset: [3956,420],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
@@ -3992,7 +3993,7 @@ const audioList5 = {
         },
     ],
 
-    47: [
+    48: [
         {
             offset: [3609,263],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
@@ -4007,7 +4008,7 @@ const audioList5 = {
         },
     ],
         //Unit 6
-        51: [
+        52: [
         {
             offset: [3609,1088],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
@@ -4022,7 +4023,7 @@ const audioList5 = {
         },
     ],
 
-        53: [
+        54: [
         {
             offset: [3609,1068],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
@@ -4037,7 +4038,7 @@ const audioList5 = {
         },
     ],
 
-    56: [
+    57: [
         {
             offset: [3961,800],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
@@ -4052,7 +4053,7 @@ const audioList5 = {
         },
     ],
 
-    57: [
+    58: [
         {
             offset: [3609,948],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
@@ -4061,7 +4062,7 @@ const audioList5 = {
         },
     ],
     //Unit 7
-    61: [
+    62: [
         {
             offset: [3991,990],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
@@ -4070,7 +4071,7 @@ const audioList5 = {
         },
     ],
 
-    62: [
+    63: [
         {
             offset: [3609,1105],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
@@ -4079,7 +4080,7 @@ const audioList5 = {
         },
     ],
 
-    65: [
+    66: [
         {
             offset: [3609,363],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
@@ -4088,7 +4089,7 @@ const audioList5 = {
         },
     ],
 
-    66: [
+    67: [
         {
             offset: [3609,305],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
@@ -4109,7 +4110,7 @@ const audioList5 = {
         },
     ],
 
-    67: [
+    68: [
         {
             offset: [3609,623],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
@@ -4124,7 +4125,7 @@ const audioList5 = {
         },
     ],
     //Unit 8
-    71: [
+    72: [
         {
             offset: [3875,650],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
@@ -4139,7 +4140,7 @@ const audioList5 = {
         },
     ],
 
-    72: [
+    73: [
         {
             offset: [3609,492],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
@@ -4154,7 +4155,7 @@ const audioList5 = {
         },
     ],
 
-    73: [
+    74: [
         {
             offset: [3609,968],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
@@ -4168,7 +4169,7 @@ const audioList5 = {
             flag: true,
         },
     ],
-    75: [
+    76: [
         {
             offset: [3609,347],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
@@ -4183,7 +4184,7 @@ const audioList5 = {
         },
     ],
     //Unit 9
-    80: [
+    81: [
         {
             offset: [3609,563],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
@@ -4198,7 +4199,7 @@ const audioList5 = {
         },
     ],
 
-    86: [
+    87: [
         {
             offset: [3609,743],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
@@ -4219,7 +4220,7 @@ const audioList5 = {
         },
     ],
     //Unit 10
-    89: [
+    90: [
         {
             offset: [3960,774],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
@@ -4234,7 +4235,7 @@ const audioList5 = {
         },
     ],
 
-    90: [
+    91: [
         {
             offset: [3609,613],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
@@ -4267,7 +4268,7 @@ const audioList5 = {
         },
     ],
 
-    91: [
+    92: [
         {
             offset: [3609,1057],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
@@ -4282,7 +4283,7 @@ const audioList5 = {
         },
     ],
 
-    93: [
+    94: [
         {
             offset: [3961,349],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
@@ -4297,7 +4298,7 @@ const audioList5 = {
         },
     ],
     //Unit 11
-    98: [
+    99: [
         {
             offset: [3609,267],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
@@ -4306,7 +4307,7 @@ const audioList5 = {
         },
     ],
 
-    99: [
+    100: [
         {
             offset: [3609,1014],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
@@ -4321,7 +4322,7 @@ const audioList5 = {
         },
     ],
 
-    100: [
+    101: [
         {
             offset: [3609,1050],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
@@ -4336,7 +4337,7 @@ const audioList5 = {
         },
     ],
 
-    103: [
+    104: [
         {
             offset: [3609,848],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
@@ -4351,7 +4352,7 @@ const audioList5 = {
         },
     ],
     //Unit 12
-    108: [
+    109: [
         {
             offset: [3609,546],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
@@ -4366,7 +4367,7 @@ const audioList5 = {
         },
     ],
 
-    109: [
+    110: [
         {
             offset: [3961,990],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
@@ -4381,7 +4382,7 @@ const audioList5 = {
         },
     ],
 
-    110: [
+    111: [
         {
             offset: [3609,362],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
@@ -4402,7 +4403,7 @@ const audioList5 = {
         },
     ],
 
-    111: [
+    112: [
         {
             offset: [3609,331],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
@@ -4442,7 +4443,7 @@ const audioList5 = {
     ],
     //附录 speaking bank PAGE_151
 
-    151: [
+    152: [
         {
             offset: [3609,363],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
@@ -4463,7 +4464,7 @@ const audioList5 = {
         },
     ],
 
-    152: [
+    153: [
         {
             offset: [3609,326],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
@@ -4478,7 +4479,7 @@ const audioList5 = {
         },
     ],
 
-    153: [
+    154: [
         {
             offset: [3609,356],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
@@ -4487,7 +4488,7 @@ const audioList5 = {
         },
     ],
 
-    154: [
+    155: [
         {
             offset: [3609,1023],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
@@ -4496,7 +4497,7 @@ const audioList5 = {
         },
     ],
 
-    155: [
+    156: [
         {
             offset: [3609,1129],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
@@ -4505,7 +4506,7 @@ const audioList5 = {
         },
     ],
 
-    158: [
+    159: [
         {
             offset: [3609,349],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
@@ -4514,7 +4515,7 @@ const audioList5 = {
         },
     ],
 
-    159: [
+    160: [
         {
             offset: [3609,325],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
@@ -4529,7 +4530,7 @@ const audioList5 = {
         },
     ],
 
-    160: [
+    161: [
         {
             offset: [3609,340],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
@@ -4538,7 +4539,7 @@ const audioList5 = {
         },
     ],
 
-    161: [
+    162: [
         {
             offset: [3609,684],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
@@ -4553,10 +4554,10 @@ const audioList5 = {
 //[2106-x, 2716-y]
 
 //PET练习册
-const audioList6 = {
+const audioList8 = {
     0: [],
     //Unit 1
-    6: [
+    7: [
         {
             offset: [3958, 538],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2002_Unit%201%20My%20Life%20and%20home.mp3',
@@ -4564,7 +4565,7 @@ const audioList6 = {
         },
     ],
     //Unit 2
-    11: [
+    12: [
         {
             offset: [3605, 520],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2003_Unit%202%20At%20School.mp3',
@@ -4572,7 +4573,7 @@ const audioList6 = {
         },
     ],
     //Unit 3
-    15: [
+    16: [
         {
             offset: [3605, 520],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2004_Unit%203%20Having%20fun.mp3',
@@ -4580,7 +4581,7 @@ const audioList6 = {
         },
     ],
     //Unit 4
-    19: [
+    20: [
         {
             offset: [4000, 748],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2005_Unit%204%20On%20holiday.mp3',
@@ -4588,7 +4589,7 @@ const audioList6 = {
         },
     ],
     //Unit 5 
-    23: [
+    24: [
         {
             offset: [3605, 520],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2006_Unit%205%20Different%20feelings.mp3',
@@ -4596,7 +4597,7 @@ const audioList6 = {
         },
     ],
     //Unit 6 
-    27: [
+    28: [
         {              
             offset: [3988, 447],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2007_Unit%206%20That'+'\''+'s%20entertainment!.mp3',
@@ -4604,7 +4605,7 @@ const audioList6 = {
         },
     ],
     //Unit 7 
-    31: [
+    32: [
         {
             offset: [3605, 508],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2008_Unit%207%20Getting%20Around.mp3',
@@ -4612,7 +4613,7 @@ const audioList6 = {
         },
     ],
     //Unit 8
-    36: [
+    37: [
         {
             offset: [3600, 476],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2009_Unit%208%20Influencers.mp3',
@@ -4620,7 +4621,7 @@ const audioList6 = {
         },
     ],
     //Unit 9
-    37: [
+    38: [
         {
             offset: [3613, 642],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2010_Unit%209%20Stay%20fit%20and%20healthy.mp3',
@@ -4628,7 +4629,7 @@ const audioList6 = {
         },
     ],
     //Unit 10
-    43: [
+    44: [
         {
             offset: [4000, 470],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2011_Unit%2010%20Looks%20amazing!.mp3',
@@ -4636,7 +4637,7 @@ const audioList6 = {
         },
     ],
     //Unit 11
-    45: [
+    46: [
         {
             offset: [3605, 598],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2012_Unit%2011%20The%20natural%20world.mp3',
@@ -4644,7 +4645,7 @@ const audioList6 = {
         },
     ],
     //Unit 12
-    49: [
+    50: [
         {
             offset: [3613, 583],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2013_Unit%2012%20Express%20yourself!.mp3',
@@ -4653,10 +4654,10 @@ const audioList6 = {
     ],
 }
 
-const audioList7 = {
+const audioList9 = {
     0: [],
     //Unit 1
-    9: [
+    10: [
         {
             offset: [3993,1000],//3960,1025
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
@@ -4665,7 +4666,7 @@ const audioList7 = {
         },
     ],
 
-    10: [
+    11: [
         {
             offset: [3620,338],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
@@ -4704,7 +4705,7 @@ const audioList7 = {
         },
     ],
 
-    11: [
+    12: [
         {
             offset: [3620,537],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
@@ -4713,7 +4714,7 @@ const audioList7 = {
         },
     ],
 
-    13: [
+    14: [
         {
             offset: [3980,649],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
@@ -4722,7 +4723,7 @@ const audioList7 = {
         },
     ],
 
-    14: [
+    15: [
         {
             offset: [3620,856],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
@@ -4731,7 +4732,7 @@ const audioList7 = {
         },
     ],
     //Unit 2
-    16: [
+    17: [
         {
             offset: [3620,880],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
@@ -4740,7 +4741,7 @@ const audioList7 = {
         },
     ],
 
-    17: [
+    18: [
         {
             offset: [3635,1108],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
@@ -4755,22 +4756,22 @@ const audioList7 = {
         },
     ],
 
-    19: [
+    20: [
         {
-            offset: [3980,895],
+            offset: [3980,888],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'14.mp3',
             flag: true,
         },
         {
-            offset: [3980,1003],
+            offset: [3980,983],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'14.mp3',
             flag: true,
         },
     ],
 
-    20: [
+    21: [
         {
             offset: [3620,538],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
@@ -4780,7 +4781,7 @@ const audioList7 = {
     ],
 
     //Unit 3
-    24: [
+    25: [
         {
             offset: [3980,768],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
@@ -4801,7 +4802,7 @@ const audioList7 = {
         },
     ],
 
-    25: [
+    26: [
         {
             offset: [3980,625],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
@@ -4810,7 +4811,7 @@ const audioList7 = {
         },
     ],
 
-    26: [
+    27: [
         {
             offset: [3620,875],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
@@ -4825,7 +4826,7 @@ const audioList7 = {
         },
     ],
 
-    27: [
+    28: [
         {
             offset: [3620,569],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
@@ -4834,7 +4835,7 @@ const audioList7 = {
         },
     ],
 
-    28: [
+    29: [
         {
             offset: [4060,283],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
@@ -4843,7 +4844,7 @@ const audioList7 = {
         },
     ],
     //Unit 4
-    30: [
+    31: [
         {
             offset: [3620,284],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
@@ -4858,7 +4859,7 @@ const audioList7 = {
         },
     ],
 
-    33: [
+    34: [
         {
             offset: [3620,366],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
@@ -4879,7 +4880,7 @@ const audioList7 = {
         },
     ],
 
-    34: [
+    35: [
         {
             offset: [3620,465],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
@@ -4895,7 +4896,7 @@ const audioList7 = {
     ],
 
     //Unit 5
-    37: [
+    38: [
         {
             offset: [3625,1006],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
@@ -4904,7 +4905,7 @@ const audioList7 = {
         },
     ],
 
-    38: [
+    39: [
         {
             offset: [3988,350],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
@@ -4913,7 +4914,7 @@ const audioList7 = {
         },
     ],
 
-    39: [
+    40: [
         {
             offset: [3620, 755],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
@@ -4928,7 +4929,7 @@ const audioList7 = {
         },
     ],
 
-    40: [
+    41: [
         {
             offset: [3980,273],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
@@ -4949,7 +4950,7 @@ const audioList7 = {
         },
     ],
 
-    42: [
+    43: [
         {
             offset: [3980,816],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
@@ -4959,7 +4960,7 @@ const audioList7 = {
     ],
 
     //Unit 6
-    44: [
+    45: [
         {
             offset: [3620,725],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
@@ -4967,29 +4968,29 @@ const audioList7 = {
             flag: true,
         },
         {
-            offset: [3620,1133],
+            offset: [3620,1126],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'38.mp3',
             flag: true,
         },
         {
-            offset: [3980,930],
+            offset: [3980,923],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'39.mp3',
             flag: true,
         },
     ],
 
-    45: [
+    46: [
         {
-            offset: [3620,269],
+            offset: [3620,289],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'40.mp3',
             flag: true,
         },
     ],
 
-    48: [
+    49: [
         {
             offset: [3980,724],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
@@ -5004,7 +5005,7 @@ const audioList7 = {
         },
     ],
     //Unit 7
-    51: [
+    52: [
         {
             offset: [3620,900],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
@@ -5013,7 +5014,7 @@ const audioList7 = {
         },
     ],
 
-    53: [
+    54: [
         {
             offset: [3980,477],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
@@ -5034,7 +5035,7 @@ const audioList7 = {
         },
     ],
 
-    54: [
+    55: [
         {
             offset: [4020,549],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
@@ -5049,7 +5050,7 @@ const audioList7 = {
         },
     ],
 
-    55: [
+    56: [
         {
             offset: [3620,558],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
@@ -5058,7 +5059,7 @@ const audioList7 = {
         },
     ],
 
-    56: [
+    57: [
         {
             offset: [3620,446],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
@@ -5073,7 +5074,7 @@ const audioList7 = {
         },
     ],
     //Unit 8
-    58: [
+    59: [
         {
             offset: [3980,270],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
@@ -5088,7 +5089,7 @@ const audioList7 = {
         },
     ],
 
-    60: [
+    61: [
         {
             offset: [3980,329],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
@@ -5097,7 +5098,7 @@ const audioList7 = {
         },
     ],
 
-    61: [
+    62: [
         {
             offset: [3620,980],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
@@ -5106,7 +5107,7 @@ const audioList7 = {
         },
     ],
 
-    62: [
+    63: [
         {
             offset: [3985,357],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
@@ -5115,7 +5116,7 @@ const audioList7 = {
         },
     ],
     //Unit 9
-    67: [
+    68: [
         {
             offset: [3620,699],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
@@ -5130,7 +5131,7 @@ const audioList7 = {
         },
     ],
 
-    68: [
+    69: [
         {
             offset: [3980,711],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
@@ -5139,7 +5140,7 @@ const audioList7 = {
         },
     ],
 
-    70: [
+    71: [
         {
             offset: [3980,861],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
@@ -5149,7 +5150,7 @@ const audioList7 = {
     ],
 
     //Unit 10
-    71: [
+    72: [
         {
             offset: [3620,1034],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
@@ -5158,7 +5159,7 @@ const audioList7 = {
         },
     ],
 
-    72: [
+    73: [
         {
             offset: [3620,270],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
@@ -5173,7 +5174,7 @@ const audioList7 = {
         },
     ],
 
-    73: [
+    74: [
         {
             offset: [4001,1155],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
@@ -5182,7 +5183,7 @@ const audioList7 = {
         },
     ],
 
-    74: [
+    75: [
         {
             offset: [3620,272],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
@@ -5191,7 +5192,7 @@ const audioList7 = {
         },
     ],
 
-    76: [
+    77: [
         {
             offset: [3620,982],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
@@ -5207,7 +5208,7 @@ const audioList7 = {
     ],
 
     //Unit 11
-    79: [
+    80: [
         {
             offset: [3620,1047],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
@@ -5216,7 +5217,7 @@ const audioList7 = {
         },
     ],
     
-    80: [
+    81: [
         {
             offset: [3980,937],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
@@ -5225,7 +5226,7 @@ const audioList7 = {
         },
     ],
 
-    81: [
+    82: [
         {
             offset: [3980,274],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
@@ -5234,7 +5235,7 @@ const audioList7 = {
         },
     ],
 
-    82: [
+    83: [
         {
             offset: [3620,736],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
@@ -5243,7 +5244,7 @@ const audioList7 = {
         },
     ],
 
-    84: [
+    85: [
         {
             offset: [3620,862],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
@@ -5253,7 +5254,7 @@ const audioList7 = {
     ],
 
     //Unit 12
-    85: [
+    86: [
         {
             offset: [3620,839],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
@@ -5268,7 +5269,7 @@ const audioList7 = {
         },
     ],
 
-    87: [
+    88: [
         {
             offset: [3980,505],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
@@ -5277,7 +5278,7 @@ const audioList7 = {
         },
     ],
 
-    88: [
+    89: [
         {
             offset: [3980,657],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
@@ -5298,7 +5299,7 @@ const audioList7 = {
         },
     ],
 
-    89: [
+    90: [
         {
             offset: [3980,270],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
@@ -5319,7 +5320,7 @@ const audioList7 = {
         },
     ],
 
-    90: [
+    91: [
         {
             offset: [3980,650],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
@@ -5329,7 +5330,7 @@ const audioList7 = {
     ],
 
     //Unit 13
-    93: [
+    94: [
         {
             offset: [3980,1056],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
@@ -5338,7 +5339,7 @@ const audioList7 = {
         },
     ],
 
-    94: [
+    95: [
         {
             offset: [3620,637],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
@@ -5353,7 +5354,7 @@ const audioList7 = {
         },
     ],
 
-    97: [
+    98: [
         {
             offset: [3980,506],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
@@ -5368,7 +5369,7 @@ const audioList7 = {
         },
     ],
 
-    98: [
+    99: [
         {
             offset: [3980,1025],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
@@ -5378,7 +5379,7 @@ const audioList7 = {
     ],
 
     //Unit 14
-    100: [
+    101: [
         {
             offset: [3620,278],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
@@ -5393,7 +5394,7 @@ const audioList7 = {
         },
     ],
 
-    101: [
+    102: [
         {
             offset: [3620,725],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
@@ -5402,7 +5403,7 @@ const audioList7 = {
         },
     ],
 
-    102: [
+    103: [
         {
             offset: [3954,890],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
@@ -5411,7 +5412,7 @@ const audioList7 = {
         },
     ],
 
-    103: [
+    104: [
         {
             offset: [3620,930],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
@@ -5432,7 +5433,7 @@ const audioList7 = {
         },
     ],
 
-    104: [
+    105: [
         {
             offset: [3630,1168],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
@@ -5460,7 +5461,7 @@ const audioList7 = {
     ],
 
     //附录：speaking bank
-    144: [
+    145: [
         {
             offset: [3620,367],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
@@ -5493,7 +5494,7 @@ const audioList7 = {
         },
     ],
 
-    145: [
+    146: [
         {
             offset: [3632,622],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
@@ -5526,7 +5527,7 @@ const audioList7 = {
         },
     ],
 
-    146: [
+    147: [
         {
             offset: [3650,573],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
@@ -5565,7 +5566,7 @@ const audioList7 = {
         },
     ],
 
-    147: [
+    148: [
         {
             offset: [3620,294],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
@@ -5598,7 +5599,7 @@ const audioList7 = {
         },
     ],
 
-    148: [
+    149: [
         {
             offset: [3620,546],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
@@ -5613,7 +5614,7 @@ const audioList7 = {
         },
     ],
 
-    149: [
+    150: [
         {
             offset: [3620,267],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
@@ -5636,9 +5637,9 @@ const audioList7 = {
 }
 
 //KET综合练习册
-const audioList8 = {
+const audioList10 = {
     0: [],
-    5: [
+    6: [
         {
             offset: [3617,583],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2002_Unit%201%20Hi%2C%20how%20are%20you%EF%BC%9F.mp3',
@@ -5646,7 +5647,7 @@ const audioList8 = {
         },
     ],
 
-    9: [
+    10: [
         {
             offset: [3611,609],//
             url:'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2003_Unit%202%20We\'re%20going%20home.mp3',
@@ -5654,7 +5655,7 @@ const audioList8 = {
         },
     ],
 
-    14: [
+    15: [
         {
             offset: [3989,831],//3944,838
             url:'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2004_Unit%203%20Dinner%20time.mp3',
@@ -5662,7 +5663,7 @@ const audioList8 = {
         },
     ],
     
-    17: [
+    18: [
         {
             offset: [3613,534],//3568
             url:'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2005_Unit%204%20I\'m%20shopping!.mp3',
@@ -5670,7 +5671,7 @@ const audioList8 = {
         },
     ],
 
-    22: [
+    23: [
         {
             offset: [3994,401],
             url:'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2006_Unit%205%20It\'s%20my%20favourite%20sport!.mp3',
@@ -5678,7 +5679,7 @@ const audioList8 = {
         },
     ],
 
-    25: [
+    26: [
         {
             offset: [3612,442],
             url:'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2007_Unit%206%20Have%20you%20got%20any%20homework%EF%BC%9F.mp3',
@@ -5686,7 +5687,7 @@ const audioList8 = {
         },
     ],
 
-    30: [
+    31: [
         {
             offset: [3985,265],
             url:'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2008_Unit%207%20Let\'s%20go%20to%20the%20museum.mp3',
@@ -5694,7 +5695,7 @@ const audioList8 = {
         },
     ],
 
-    34: [
+    35: [
         {
             offset: [3611,427],
             url:'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2009_Unit%208%20Did%20you%20get%20my%20message%EF%BC%9F.mp3',
@@ -5702,7 +5703,7 @@ const audioList8 = {
         },
     ],
 
-    38: [
+    39: [
         {
             offset: [3609,684],
             url:'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2010_Unit%209%20I%20love%20that%20film!.mp3',
@@ -5710,7 +5711,7 @@ const audioList8 = {
         },
     ],
 
-    41: [
+    42: [
         {
             offset: [3607,546],
             url:'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2011_Unit%2010%20It\'s%20going%20to%20be%20sunny.mp3',
@@ -5718,7 +5719,7 @@ const audioList8 = {
         },
     ],
 
-    46: [
+    47: [
         {
             offset: [3986,426],
             url:'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2012_Unit%2011%20I%20like%20to%20keep%20fit.mp3',
@@ -5726,7 +5727,7 @@ const audioList8 = {
         },
     ],
 
-    50: [
+    51: [
         {
             offset: [3998,428],
             url:'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2013_Unit%2012%20Have%20you%20ever%20been%20on%20a%20plane%EF%BC%9F.mp3',
@@ -5734,7 +5735,7 @@ const audioList8 = {
         },
     ],
 
-    53: [
+    54: [
         {
             offset: [3608,542],
             url:'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2014_Unit%2013%20What\'s%20your%20hobby%EF%BC%9F.mp3',
@@ -5742,7 +5743,7 @@ const audioList8 = {
         },
     ],
 
-    57: [
+    58: [
         {
             offset: [3611,567],
             url:'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2015_Unit%2014%20Keep%20in%20touch!.mp3',
@@ -5751,17 +5752,15 @@ const audioList8 = {
     ],
 }
 
-// [(x - 653)/469, (y - 167)/606
-// (x - 50)/427, (y - 362)/555
 export const allAudioList = {
-    "1": audioList1,
-    "2": audioList2,
     "3": audioList3,
     "4": audioList4,
-    '5': audioList5,
-    '6': audioList6,
+    "5": audioList5,
+    "6": audioList6,
     '7': audioList7,
     '8': audioList8,
-    '9': [],
-    '10': [],
+    '9': audioList9,
+    '10': audioList10,
+    '1': [],
+    '2': [],
 }
