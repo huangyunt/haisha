@@ -51,6 +51,13 @@ const concatImages = {
         'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E6%B5%B7%E6%B2%99%E8%AF%BE%E7%A8%8B%E6%B5%B7%E6%8A%A5/%E6%B5%B7%E6%B2%99%E8%AF%BE%E7%A8%8B_' + (index + 1) + '.png'
 
     )),
+
+    //OW 4本书
+    "11": Array(3).fill(0).map((_, index) =>
+    (
+        'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E6%B5%B7%E6%B2%99%E8%AF%BE%E7%A8%8B%E6%B5%B7%E6%8A%A5/%E6%B5%B7%E6%B2%99%E8%AF%BE%E7%A8%8B_' + (index + 1) + '.png'
+
+    )),
     ...images,
 }
 export { concatImages };

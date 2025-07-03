@@ -24,29 +24,37 @@ interface IBookPreviewProps {
 
 
 enum EBookType {
-  HAISHA_ADVERTISEMENT  = "1",
-  HAISHA_INTRODUCTION   = "2",
-  READING_BOOK_1        = "3",
-  READING_BOOK_2        = "4",
-  READING_BOOK_3        = "5",
-  READING_BOOK_4        = "6",
-  PET_STUDENT_BOOK_B1   = "7",
-  PET_PRACTICE_BOOK_B1  = "8",
-  KET_STUDENT_BOOK_A2   = "9",
-  KET_PRACTICE_BOOK_A2  = "10",
+  HAISHA_ADVERTISEMENT      = "1",
+  HAISHA_INTRODUCTION       = "2",
+  READING_BOOK_1            = "3",
+  READING_BOOK_2            = "4",
+  READING_BOOK_3            = "5",
+  READING_BOOK_4            = "6",
+  PET_STUDENT_BOOK_B1       = "7",
+  PET_PRACTICE_BOOK_B1      = "8",
+  KET_STUDENT_BOOK_A2       = "9",
+  KET_PRACTICE_BOOK_A2      = "10",
+  OW_STUDENT_BOOK_L1        = "11",
+  OW_PRACTICE_BOOK_L1       = "12",
+  OW_STUDENT_BOOK_STARTER   = "13",
+  OW_PRACTICE_BOOK_STARTER  = "14",
 }
-//
+
 const titleMap = {
-  "1": '原版教材+剑桥考试课程',
-  "2": '海沙国际课程',
-  "3": 'CASA阅读启蒙&自然拼读 1',
-  "4": 'CASA阅读启蒙&自然拼读 2',
-  "5": 'CASA阅读启蒙&自然拼读 3',
-  "6": 'CASA阅读启蒙&自然拼读 4',
-  "7": '剑桥PET学生用书',
-  "8": '剑桥PET练习册',
-  "9": '剑桥KET学生用书',
+  "1" : '原版教材+剑桥考试课程',
+  "2" : '海沙国际课程',
+  "3" : 'CASA阅读启蒙&自然拼读 1',
+  "4" : 'CASA阅读启蒙&自然拼读 2',
+  "5" : 'CASA阅读启蒙&自然拼读 3',
+  "6" : 'CASA阅读启蒙&自然拼读 4',
+  "7" : '剑桥PET学生用书',
+  "8" : '剑桥PET练习册',
+  "9" : '剑桥KET学生用书',
   "10": '剑桥KET练习册',
+  "11": 'Our World L1 学生用书',
+  "12": 'Our World L1 练习册',
+  "13": 'Our World Starter 学生用书',
+  "14": 'Our World Starter 练习册',
 }
 
 /* 
@@ -67,6 +75,10 @@ const bookTypeMap = {
   [EBookType.PET_PRACTICE_BOOK_B1]: true,
   [EBookType.KET_STUDENT_BOOK_A2]: true,
   [EBookType.KET_PRACTICE_BOOK_A2]: true,
+  [EBookType.OW_STUDENT_BOOK_L1]:true, 
+  [EBookType.OW_PRACTICE_BOOK_L1]:true,
+  [EBookType.OW_STUDENT_BOOK_STARTER]:true,
+  [EBookType.OW_PRACTICE_BOOK_STARTER]:true,
   [EBookType.HAISHA_ADVERTISEMENT]: false,
   [EBookType.HAISHA_INTRODUCTION]: false,
 }
