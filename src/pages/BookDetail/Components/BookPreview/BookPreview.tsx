@@ -22,24 +22,6 @@ interface IBookPreviewProps {
   setCurrentPage: (v: number) => void
 }
 
-
-enum EBookType {
-  HAISHA_ADVERTISEMENT      = "1",
-  HAISHA_INTRODUCTION       = "2",
-  READING_BOOK_1            = "3",
-  READING_BOOK_2            = "4",
-  READING_BOOK_3            = "5",
-  READING_BOOK_4            = "6",
-  PET_STUDENT_BOOK_B1       = "7",
-  PET_PRACTICE_BOOK_B1      = "8",
-  KET_STUDENT_BOOK_A2       = "9",
-  KET_PRACTICE_BOOK_A2      = "10",
-  OW_STUDENT_BOOK_L1        = "11",
-  OW_PRACTICE_BOOK_L1       = "12",
-  OW_STUDENT_BOOK_STARTER   = "13",
-  OW_PRACTICE_BOOK_STARTER  = "14",
-}
-
 const titleMap = {
   "1" : '原版教材+剑桥考试课程',
   "2" : '海沙国际课程',
@@ -66,21 +48,50 @@ const titleMap = {
   2. bookTypeMap[id] 为 false 表示该类型书籍（如广告页或介绍页）不扣除封面和目录页。
    - 页码从第 1 页开始全部计算，直接显示 "当前页 + 1 / 总页数"。
 */
-const bookTypeMap = {
-  [EBookType.READING_BOOK_1]: true,
-  [EBookType.READING_BOOK_2]: true,
-  [EBookType.READING_BOOK_3]: true,
-  [EBookType.READING_BOOK_4]: true,
-  [EBookType.PET_STUDENT_BOOK_B1]: true,
-  [EBookType.PET_PRACTICE_BOOK_B1]: true,
-  [EBookType.KET_STUDENT_BOOK_A2]: true,
-  [EBookType.KET_PRACTICE_BOOK_A2]: true,
-  [EBookType.OW_STUDENT_BOOK_L1]:true, 
-  [EBookType.OW_PRACTICE_BOOK_L1]:true,
-  [EBookType.OW_STUDENT_BOOK_STARTER]:true,
-  [EBookType.OW_PRACTICE_BOOK_STARTER]:true,
-  [EBookType.HAISHA_ADVERTISEMENT]: false,
-  [EBookType.HAISHA_INTRODUCTION]: false,
+
+enum EBookType {
+  HAISHA_ADVERTISEMENT      = "1",
+  HAISHA_INTRODUCTION       = "2",
+  READING_BOOK_1            = "3",
+  READING_BOOK_2            = "4",
+  READING_BOOK_3            = "5",
+  READING_BOOK_4            = "6",
+  PET_STUDENT_BOOK_B1       = "7",
+  PET_PRACTICE_BOOK_B1      = "8",
+  KET_STUDENT_BOOK_A2       = "9",
+  KET_PRACTICE_BOOK_A2      = "10",
+  OW_STUDENT_BOOK_L1        = "11",
+  OW_PRACTICE_BOOK_L1       = "12",
+  OW_STUDENT_BOOK_STARTER   = "13",
+  OW_PRACTICE_BOOK_STARTER  = "14",
+}
+
+// 定义一个新的类型枚举，来表示页码显示策略
+enum PageNumberingStrategy {
+  EXCLUDE_COVER_AND_TOC = "exclude_cover_and_toc",  // 不计入封面和目录页
+  INCLUDE_ALL_PAGE = "include_all_page",            // 所有页都计入
+  OW_STUDENT_BOOK = "ow_student_book",              // 只排除封面
+
+  //CUSTOM = "custom",                              // 自定义策略
+}
+
+const bookPageStrategyMap: Record<EBookType, PageNumberingStrategy> = {
+  [EBookType.HAISHA_ADVERTISEMENT]: PageNumberingStrategy.INCLUDE_ALL_PAGE,
+  [EBookType.HAISHA_INTRODUCTION]: PageNumberingStrategy.INCLUDE_ALL_PAGE,
+
+  [EBookType.READING_BOOK_1]: PageNumberingStrategy.EXCLUDE_COVER_AND_TOC,
+  [EBookType.READING_BOOK_2]: PageNumberingStrategy.EXCLUDE_COVER_AND_TOC,
+  [EBookType.READING_BOOK_3]: PageNumberingStrategy.EXCLUDE_COVER_AND_TOC,
+  [EBookType.READING_BOOK_4]: PageNumberingStrategy.EXCLUDE_COVER_AND_TOC,
+  [EBookType.PET_STUDENT_BOOK_B1]: PageNumberingStrategy.EXCLUDE_COVER_AND_TOC,
+  [EBookType.PET_PRACTICE_BOOK_B1]: PageNumberingStrategy.EXCLUDE_COVER_AND_TOC,
+  [EBookType.KET_STUDENT_BOOK_A2]: PageNumberingStrategy.EXCLUDE_COVER_AND_TOC,
+  [EBookType.KET_PRACTICE_BOOK_A2]: PageNumberingStrategy.EXCLUDE_COVER_AND_TOC,
+
+  [EBookType.OW_STUDENT_BOOK_L1]: PageNumberingStrategy.OW_STUDENT_BOOK,
+  [EBookType.OW_PRACTICE_BOOK_L1]: PageNumberingStrategy.OW_STUDENT_BOOK,
+  [EBookType.OW_STUDENT_BOOK_STARTER]: PageNumberingStrategy.OW_STUDENT_BOOK,
+  [EBookType.OW_PRACTICE_BOOK_STARTER]: PageNumberingStrategy.OW_STUDENT_BOOK,
 }
 
 const BookPreview: React.FC<IBookPreviewProps> = ({ id = "1", currentPage, setCurrentPage }) => {
@@ -214,10 +225,20 @@ const BookPreview: React.FC<IBookPreviewProps> = ({ id = "1", currentPage, setCu
       */}
       {
         // 图书和广告的页码分开处理
-        bookTypeMap[id]
+        const strategy = bookPageStrategyMap[id];
+        let pageDisplay = null;
+        switch (strategy) {
+          case value:
+            
+            break;
+        
+          default:
+            break;
+        }
           ? (currentPage > 1 ? <View className="page-number">{(currentPage - 1) + ' / ' + (imageUrls.length - 2)}</View> : null)
           : (<View className="page-number">{(currentPage + 1) + ' / ' + (imageUrls.length)}</View>)
       }
+      
       {/* 底栏 */}
       <View className={`bottom-bar ${showTopBar ? 'height' : ''}`} onClick={handleCatalogShowingUp}>
         {/* <View className={`flex-container`} onClick={handleCatalogShowingUp}>
