@@ -3768,14 +3768,14 @@ const audioList7 = {
         {
             offset: [3613,943],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%2002.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
     14: [
         {
             offset: [3990,975],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%2003.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
     //Unit 2
@@ -3783,25 +3783,25 @@ const audioList7 = {
         {
             offset: [3608,270],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%2004.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
 
         {
             offset: [3608,578],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%2004.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
 
         {
             offset: [3608,839],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%2005.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
 
         {
             offset: [3608,985],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%2006.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -3809,19 +3809,19 @@ const audioList7 = {
         {
             offset: [3614,405],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%2007.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
 
         {
             offset: [3614,453],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%2008.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
 
         {
             offset: [4001,985],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%2009.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -3829,7 +3829,7 @@ const audioList7 = {
         {
             offset: [3996,627],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%2010.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -3838,13 +3838,13 @@ const audioList7 = {
             offset: [3613,760],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2011.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3920,298],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2012.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
     //Unit 3
@@ -3853,13 +3853,13 @@ const audioList7 = {
             offset: [3614,266],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2013.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3614,1022],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2014.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -3868,7 +3868,7 @@ const audioList7 = {
             offset: [4001,871],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2015.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -3877,7 +3877,7 @@ const audioList7 = {
             offset: [4001,1064],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2016.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -3886,13 +3886,13 @@ const audioList7 = {
             offset: [3608,1058],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2017.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [4050,267],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2017.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
     //Unit 4
@@ -3901,7 +3901,7 @@ const audioList7 = {
             offset: [3612,1164],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2018.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -3910,14 +3910,14 @@ const audioList7 = {
             offset: [3605,1064],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2019.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
 
         {
             offset: [3605,1119],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2020.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -3926,7 +3926,7 @@ const audioList7 = {
             offset: [4053,1000],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2021.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -3935,14 +3935,14 @@ const audioList7 = {
             offset: [3986,268],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2022.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
 
         {
             offset: [3986,351],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2022.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -3951,14 +3951,14 @@ const audioList7 = {
             offset: [3609,959],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2023.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
 
         {
             offset: [3924,268],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2023.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
     //Unit 5
@@ -3967,14 +3967,14 @@ const audioList7 = {
             offset: [3609,751],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2024.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
 
         {
             offset: [3991,503],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2024.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -3983,13 +3983,13 @@ const audioList7 = {
             offset: [3956,420],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2025.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3956,836],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2025.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -3998,13 +3998,13 @@ const audioList7 = {
             offset: [3609,263],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2026.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3609,443],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2026.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
         //Unit 6
@@ -4013,13 +4013,13 @@ const audioList7 = {
             offset: [3609,1088],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2027.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3609,1158],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2027.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -4028,13 +4028,13 @@ const audioList7 = {
             offset: [3609,1068],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2028.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3998,332],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2028.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -4043,13 +4043,13 @@ const audioList7 = {
             offset: [3961,800],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2029.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3961,960],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2030.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -4058,7 +4058,7 @@ const audioList7 = {
             offset: [3609,948],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2031.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
     //Unit 7
@@ -4067,7 +4067,7 @@ const audioList7 = {
             offset: [3991,990],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2032.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -4076,7 +4076,7 @@ const audioList7 = {
             offset: [3609,1105],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2032.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -4085,7 +4085,7 @@ const audioList7 = {
             offset: [3609,363],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2033.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -4094,19 +4094,19 @@ const audioList7 = {
             offset: [3609,305],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2034.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3609,708],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2034.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3609,988],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2035.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -4115,13 +4115,13 @@ const audioList7 = {
             offset: [3609,623],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2036.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3609,673],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2036.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
     //Unit 8
@@ -4130,13 +4130,13 @@ const audioList7 = {
             offset: [3875,650],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2037.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3875,728],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2038.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -4145,13 +4145,13 @@ const audioList7 = {
             offset: [3609,492],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2039.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3609,667],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2039.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -4160,13 +4160,13 @@ const audioList7 = {
             offset: [3609,968],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2040.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [4068,331],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2041.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
     76: [
@@ -4174,13 +4174,13 @@ const audioList7 = {
             offset: [3609,347],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2042.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3609,860],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2042.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
     //Unit 9
@@ -4189,13 +4189,13 @@ const audioList7 = {
             offset: [3609,563],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2043.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3960,336],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2044.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -4204,19 +4204,19 @@ const audioList7 = {
             offset: [3609,743],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2045.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3609,1044],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2045.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3609,1129],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2045.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
     //Unit 10
@@ -4225,13 +4225,13 @@ const audioList7 = {
             offset: [3960,774],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2046.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3960,820],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2046.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -4240,31 +4240,31 @@ const audioList7 = {
             offset: [3609,613],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2047.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3609,659],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2048.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3963,868],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2049.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3963,925],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2050.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3963,1083],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2051.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -4273,13 +4273,13 @@ const audioList7 = {
             offset: [3609,1057],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2052.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3609,1164],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2052.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -4288,13 +4288,13 @@ const audioList7 = {
             offset: [3961,349],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2053.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3961,549],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2053.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
     //Unit 11
@@ -4303,7 +4303,7 @@ const audioList7 = {
             offset: [3609,267],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2054.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -4312,13 +4312,13 @@ const audioList7 = {
             offset: [3609,1014],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2055.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3609,1060],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2055.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -4327,13 +4327,13 @@ const audioList7 = {
             offset: [3609,1050],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2056.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3609,1151],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2057.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -4342,13 +4342,13 @@ const audioList7 = {
             offset: [3609,848],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2058.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3609,913],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2058.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
     //Unit 12
@@ -4357,13 +4357,13 @@ const audioList7 = {
             offset: [3609,546],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2059.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3609,937],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2060.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -4372,13 +4372,13 @@ const audioList7 = {
             offset: [3961,990],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2061.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3961,1050],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2061.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -4387,19 +4387,19 @@ const audioList7 = {
             offset: [3609,362],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2062.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3609,511],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2062.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3609,1060],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2063.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -4408,37 +4408,37 @@ const audioList7 = {
             offset: [3609,331],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2064.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3609,716],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2065.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3957,437],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2066.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3957,493],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2066.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3957,942],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2067.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3957,1009],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2068.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
     //附录 speaking bank PAGE_151
@@ -4448,19 +4448,19 @@ const audioList7 = {
             offset: [3609,363],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2069.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3609,500],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2070.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3972,331],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2070.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -4469,13 +4469,13 @@ const audioList7 = {
             offset: [3609,326],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2071.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3609,757],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2071.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -4484,7 +4484,7 @@ const audioList7 = {
             offset: [3609,356],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2072.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -4493,7 +4493,7 @@ const audioList7 = {
             offset: [3609,1023],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2073.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -4502,7 +4502,7 @@ const audioList7 = {
             offset: [3609,1129],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2074.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -4511,7 +4511,7 @@ const audioList7 = {
             offset: [3609,349],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2075.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -4520,13 +4520,13 @@ const audioList7 = {
             offset: [3609,325],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2075.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3609,709],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2076.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -4535,7 +4535,7 @@ const audioList7 = {
             offset: [3609,340],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2077.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -4544,7 +4544,7 @@ const audioList7 = {
             offset: [3609,684],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/'
             +'Track%2078.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 }
@@ -4561,7 +4561,7 @@ const audioList8 = {
         {
             offset: [3958, 538],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2002_Unit%201%20My%20Life%20and%20home.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
     //Unit 2
@@ -4569,7 +4569,7 @@ const audioList8 = {
         {
             offset: [3605, 520],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2003_Unit%202%20At%20School.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
     //Unit 3
@@ -4577,7 +4577,7 @@ const audioList8 = {
         {
             offset: [3605, 520],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2004_Unit%203%20Having%20fun.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
     //Unit 4
@@ -4585,31 +4585,31 @@ const audioList8 = {
         {
             offset: [4000, 748],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2005_Unit%204%20On%20holiday.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
-    //Unit 5 
+    //Unit 5
     24: [
         {
             offset: [3605, 520],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2006_Unit%205%20Different%20feelings.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
-    //Unit 6 
+    //Unit 6
     28: [
-        {              
+        {
             offset: [3988, 447],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2007_Unit%206%20That'+'\''+'s%20entertainment!.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
-    //Unit 7 
+    //Unit 7
     32: [
         {
             offset: [3605, 508],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2008_Unit%207%20Getting%20Around.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
     //Unit 8
@@ -4617,7 +4617,7 @@ const audioList8 = {
         {
             offset: [3600, 476],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2009_Unit%208%20Influencers.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
     //Unit 9
@@ -4625,7 +4625,7 @@ const audioList8 = {
         {
             offset: [3613, 642],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2010_Unit%209%20Stay%20fit%20and%20healthy.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
     //Unit 10
@@ -4633,7 +4633,7 @@ const audioList8 = {
         {
             offset: [4000, 470],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2011_Unit%2010%20Looks%20amazing!.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
     //Unit 11
@@ -4641,7 +4641,7 @@ const audioList8 = {
         {
             offset: [3605, 598],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2012_Unit%2011%20The%20natural%20world.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
     //Unit 12
@@ -4649,7 +4649,7 @@ const audioList8 = {
         {
             offset: [3613, 583],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/PET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2013_Unit%2012%20Express%20yourself!.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 }
@@ -4662,7 +4662,7 @@ const audioList9 = {
             offset: [3993,1000],//3960,1025
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'02.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -4671,37 +4671,37 @@ const audioList9 = {
             offset: [3620,338],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'03.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3620,516],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'03.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3620,564],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'04.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3620,671],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'05.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3620,906],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'06.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3980,1105],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'07.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -4710,7 +4710,7 @@ const audioList9 = {
             offset: [3620,537],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'08.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -4719,7 +4719,7 @@ const audioList9 = {
             offset: [3980,649],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'09.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -4728,7 +4728,7 @@ const audioList9 = {
             offset: [3620,856],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'10.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
     //Unit 2
@@ -4737,7 +4737,7 @@ const audioList9 = {
             offset: [3620,880],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'11.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -4746,13 +4746,13 @@ const audioList9 = {
             offset: [3635,1108],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'12.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3980,270],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'13.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -4761,13 +4761,13 @@ const audioList9 = {
             offset: [3980,888],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'14.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3980,983],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'14.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -4776,7 +4776,7 @@ const audioList9 = {
             offset: [3620,538],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'15.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -4786,19 +4786,19 @@ const audioList9 = {
             offset: [3980,768],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'16.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3980,915],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'17.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3980,990],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'18.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -4807,7 +4807,7 @@ const audioList9 = {
             offset: [3980,625],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'19.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -4816,13 +4816,13 @@ const audioList9 = {
             offset: [3620,875],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'20.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3980,369],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'21.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -4831,7 +4831,7 @@ const audioList9 = {
             offset: [3620,569],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'22.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -4840,7 +4840,7 @@ const audioList9 = {
             offset: [4060,283],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'23.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
     //Unit 4
@@ -4849,13 +4849,13 @@ const audioList9 = {
             offset: [3620,284],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'24.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3620,441],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'25.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -4864,19 +4864,19 @@ const audioList9 = {
             offset: [3620,366],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'26.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3980, 971],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'27.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3980,1065],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'28.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -4885,13 +4885,13 @@ const audioList9 = {
             offset: [3620,465],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'29.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3620,720],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'30.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -4901,7 +4901,7 @@ const audioList9 = {
             offset: [3625,1006],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'31.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -4910,7 +4910,7 @@ const audioList9 = {
             offset: [3988,350],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'32.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -4919,13 +4919,13 @@ const audioList9 = {
             offset: [3620, 755],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'33.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3620,859],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'34.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -4934,19 +4934,19 @@ const audioList9 = {
             offset: [3980,273],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'35.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3980,625],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'35.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3980,689],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'36.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -4955,7 +4955,7 @@ const audioList9 = {
             offset: [3980,816],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'37.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -4965,19 +4965,19 @@ const audioList9 = {
             offset: [3620,725],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'38.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3620,1126],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'38.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3980,923],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'39.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -4986,7 +4986,7 @@ const audioList9 = {
             offset: [3620,289],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'40.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -4995,13 +4995,13 @@ const audioList9 = {
             offset: [3980,724],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'41.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3980,867],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'41.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
     //Unit 7
@@ -5010,7 +5010,7 @@ const audioList9 = {
             offset: [3620,900],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'42.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -5019,19 +5019,19 @@ const audioList9 = {
             offset: [3980,477],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'43.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3980,650],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'44.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3980,720],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'45.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -5040,13 +5040,13 @@ const audioList9 = {
             offset: [4020,549],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'46.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [4020,1065],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'46.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -5055,7 +5055,7 @@ const audioList9 = {
             offset: [3620,558],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'47.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -5064,13 +5064,13 @@ const audioList9 = {
             offset: [3620,446],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'48.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3620,1054],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'48.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
     //Unit 8
@@ -5079,13 +5079,13 @@ const audioList9 = {
             offset: [3980,270],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'49.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3980,541],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'49.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -5094,7 +5094,7 @@ const audioList9 = {
             offset: [3980,329],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'50.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -5103,7 +5103,7 @@ const audioList9 = {
             offset: [3620,980],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'51.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -5112,7 +5112,7 @@ const audioList9 = {
             offset: [3985,357],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'52.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
     //Unit 9
@@ -5121,13 +5121,13 @@ const audioList9 = {
             offset: [3620,699],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'53.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3980,848],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'54.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -5136,7 +5136,7 @@ const audioList9 = {
             offset: [3980,711],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'55.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -5145,7 +5145,7 @@ const audioList9 = {
             offset: [3980,861],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'56.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -5155,7 +5155,7 @@ const audioList9 = {
             offset: [3620,1034],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'57.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -5164,13 +5164,13 @@ const audioList9 = {
             offset: [3620,270],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'58.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3980,654],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'59.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -5179,7 +5179,7 @@ const audioList9 = {
             offset: [4001,1155],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'60.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -5188,7 +5188,7 @@ const audioList9 = {
             offset: [3620,272],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'61.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -5197,13 +5197,13 @@ const audioList9 = {
             offset: [3620,982],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'62.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3980,274],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'62.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -5213,16 +5213,16 @@ const audioList9 = {
             offset: [3620,1047],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'63.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
-    
+
     81: [
         {
             offset: [3980,937],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'64.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -5231,7 +5231,7 @@ const audioList9 = {
             offset: [3980,274],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'65.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -5240,7 +5240,7 @@ const audioList9 = {
             offset: [3620,736],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'66.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -5249,7 +5249,7 @@ const audioList9 = {
             offset: [3620,862],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'67.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -5259,13 +5259,13 @@ const audioList9 = {
             offset: [3620,839],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'68.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3620,926],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'69.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -5274,7 +5274,7 @@ const audioList9 = {
             offset: [3980,505],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'70.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -5283,19 +5283,19 @@ const audioList9 = {
             offset: [3980,657],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'71.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3980,1080],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'72.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3980,1161],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'72.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -5304,19 +5304,19 @@ const audioList9 = {
             offset: [3980,270],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'73.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3980,358],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'74.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3980,467],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'74.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -5325,7 +5325,7 @@ const audioList9 = {
             offset: [3980,650],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'75.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -5335,7 +5335,7 @@ const audioList9 = {
             offset: [3980,1056],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'76.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -5344,13 +5344,13 @@ const audioList9 = {
             offset: [3620,637],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'77.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3980,274],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'78.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -5359,13 +5359,13 @@ const audioList9 = {
             offset: [3980,506],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'79.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3980,767],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'80.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -5374,7 +5374,7 @@ const audioList9 = {
             offset: [3980,1025],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'81.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -5384,13 +5384,13 @@ const audioList9 = {
             offset: [3620,278],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'82.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3620,511],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'82.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -5399,7 +5399,7 @@ const audioList9 = {
             offset: [3620,725],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'83.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -5408,7 +5408,7 @@ const audioList9 = {
             offset: [3954,890],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'84.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -5417,19 +5417,19 @@ const audioList9 = {
             offset: [3620,930],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'85.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3620,978],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'85.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3980,274],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'86.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -5438,25 +5438,25 @@ const audioList9 = {
             offset: [3630,1168],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'87.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3980,392],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'88.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3980,711],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'88.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3980,750],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'89.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -5466,31 +5466,31 @@ const audioList9 = {
             offset: [3620,367],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'90.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3620,739],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'90.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3980,388],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'91.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3980,858],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'91.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3980,1039],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'92.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -5499,31 +5499,31 @@ const audioList9 = {
             offset: [3632,622],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'92.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3631,837],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'93.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3631,883],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'93.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3985,270],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'94.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3985,883],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'95.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -5532,37 +5532,37 @@ const audioList9 = {
             offset: [3650,573],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'96.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3650,870],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'96.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3981,294],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'97.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3981,404],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'97.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3981,512],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'98.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3981,857],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'98.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -5571,31 +5571,31 @@ const audioList9 = {
             offset: [3620,294],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'99.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3620,339],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'99.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3620,450],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'99.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3620,592],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'100.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [4030,558],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'101.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -5604,13 +5604,13 @@ const audioList9 = {
             offset: [3620,546],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'102.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3620,1090],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'103.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -5619,19 +5619,19 @@ const audioList9 = {
             offset: [3620,267],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'104.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3620,609],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'105.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
         {
             offset: [3620,1077],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E5%AD%A6%E7%94%9F%E7%94%A8%E4%B9%A6-%E9%9F%B3%E9%A2%91/Track%20'
             +'106.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 }
@@ -5643,7 +5643,7 @@ const audioList10 = {
         {
             offset: [3617,583],
             url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2002_Unit%201%20Hi%2C%20how%20are%20you%EF%BC%9F.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -5651,7 +5651,7 @@ const audioList10 = {
         {
             offset: [3611,609],//
             url:'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2003_Unit%202%20We\'re%20going%20home.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -5659,15 +5659,15 @@ const audioList10 = {
         {
             offset: [3989,831],//3944,838
             url:'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2004_Unit%203%20Dinner%20time.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
-    
+
     18: [
         {
             offset: [3613,534],//3568
             url:'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2005_Unit%204%20I\'m%20shopping!.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -5675,7 +5675,7 @@ const audioList10 = {
         {
             offset: [3994,401],
             url:'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2006_Unit%205%20It\'s%20my%20favourite%20sport!.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -5683,7 +5683,7 @@ const audioList10 = {
         {
             offset: [3612,442],
             url:'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2007_Unit%206%20Have%20you%20got%20any%20homework%EF%BC%9F.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -5691,7 +5691,7 @@ const audioList10 = {
         {
             offset: [3985,265],
             url:'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2008_Unit%207%20Let\'s%20go%20to%20the%20museum.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -5699,7 +5699,7 @@ const audioList10 = {
         {
             offset: [3611,427],
             url:'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2009_Unit%208%20Did%20you%20get%20my%20message%EF%BC%9F.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -5707,7 +5707,7 @@ const audioList10 = {
         {
             offset: [3609,684],
             url:'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2010_Unit%209%20I%20love%20that%20film!.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -5715,7 +5715,7 @@ const audioList10 = {
         {
             offset: [3607,546],
             url:'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2011_Unit%2010%20It\'s%20going%20to%20be%20sunny.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -5723,7 +5723,7 @@ const audioList10 = {
         {
             offset: [3986,426],
             url:'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2012_Unit%2011%20I%20like%20to%20keep%20fit.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -5731,7 +5731,7 @@ const audioList10 = {
         {
             offset: [3998,428],
             url:'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2013_Unit%2012%20Have%20you%20ever%20been%20on%20a%20plane%EF%BC%9F.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -5739,7 +5739,7 @@ const audioList10 = {
         {
             offset: [3608,542],
             url:'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2014_Unit%2013%20What\'s%20your%20hobby%EF%BC%9F.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 
@@ -5747,20 +5747,52 @@ const audioList10 = {
         {
             offset: [3611,567],
             url:'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/KET%E7%BB%83%E4%B9%A0%E5%86%8C-%E9%9F%B3%E9%A2%91/Track%2015_Unit%2014%20Keep%20in%20touch!.mp3',
-            flag: true,
+            flag: 'Cambridge',
         },
     ],
 }
 
+const audioList11 = {
+    0: [],
+    1: [],
+    2: [],
+}
+
+const audioList12 = {
+    0: [],
+    1: [],
+    2: [],
+}
+
+const audioList13 = {
+    0: [],
+    1: [],
+    2: [],
+}
+
+const audioList14 = {
+    0: [],
+    1: [],
+    2: [],
+}
+
 export const allAudioList = {
+    //广告
+    '1': [],
+    '2': [],
+    //绘本
     "3": audioList3,
     "4": audioList4,
     "5": audioList5,
     "6": audioList6,
+    //剑桥
     '7': audioList7,
     '8': audioList8,
     '9': audioList9,
     '10': audioList10,
-    '1': [],
-    '2': [],
+    //OW
+    '11': audioList11,
+    '12': audioList12,
+    '13': audioList13,
+    '14': audioList14,
 }

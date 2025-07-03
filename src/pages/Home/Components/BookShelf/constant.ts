@@ -24,11 +24,11 @@ export const images = [
   'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E5%B0%81%E9%9D%A2%E5%9B%BE%E7%89%87-%E4%B9%A6%E6%9E%B6/%E5%89%91%E6%A1%A5KET%E7%BB%BC%E5%90%88%E6%95%99%E7%A8%8B%E7%BB%83%E4%B9%A0%E5%86%8CA2.png',
 
   //Our World L1 学生用书
-  'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E5%B0%81%E9%9D%A2%E5%9B%BE%E7%89%87-%E4%B9%A6%E6%9E%B6/OW_2E_L1_Studentbook_001.png',
+  'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E5%9B%BE%E7%89%87/OW_2E_L1_Studentbook_1.png',
   //Our World L1 练习册
-  'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E5%B0%81%E9%9D%A2%E5%9B%BE%E7%89%87-%E4%B9%A6%E6%9E%B6/OW_2E_L1_Workbook_001.png',
+  'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E5%9B%BE%E7%89%87/OW_2E_L1_Workbook_1.png',
   //Our World Starter 学生用书
-  'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E5%B0%81%E9%9D%A2%E5%9B%BE%E7%89%87-%E4%B9%A6%E6%9E%B6/OW_2E_L1_Studentbook_001.png',
+  'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E5%9B%BE%E7%89%87/OW_2E_Starter_Studentbook_1.png',
   //Our World Starter 练习册
-  'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E5%B0%81%E9%9D%A2%E5%9B%BE%E7%89%87-%E4%B9%A6%E6%9E%B6/OW_2E_Starter_Workbook_001.png',
+  'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E5%9B%BE%E7%89%87/OW_2E_Starter_Workbook_1.png',
 ];

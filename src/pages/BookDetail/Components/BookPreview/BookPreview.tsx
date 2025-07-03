@@ -118,6 +118,19 @@ const BookPreview: React.FC<IBookPreviewProps> = ({ id = "1", currentPage, setCu
   useEffect(() => {
   }, [currentPage])
 
+  const renderPageNumber = () => {
+  switch (bookPageStrategyMap[id]) {
+    case PageNumberingStrategy.EXCLUDE_COVER_AND_TOC:
+      return (currentPage > 1 ? (<View className="page-number">{(currentPage - 1) + ' / ' + (imageUrls.length - 2)}</View>) : null);
+    case PageNumberingStrategy.INCLUDE_ALL_PAGE:
+      return (<View className="page-number">{(currentPage + 1) + ' / ' + imageUrls.length}</View>);
+    case PageNumberingStrategy.OW_STUDENT_BOOK:
+      return (<View className="page-number">{(currentPage + 1) + ' / ' + imageUrls.length}</View>);
+    default:
+      return null;
+  }
+};
+
   const handlePageTap = () => {
     setShowTopBar(!showTopBar);
     setShowBottomBar(!showBottomBar);
@@ -222,22 +235,10 @@ const BookPreview: React.FC<IBookPreviewProps> = ({ id = "1", currentPage, setCu
       {/* 
         * 页码 
         * 封面和目录页不需要展示页码，且页数需要减去封面和目录页
+        * 调用函数
       */}
-      {
-        // 图书和广告的页码分开处理
-        const strategy = bookPageStrategyMap[id];
-        let pageDisplay = null;
-        switch (strategy) {
-          case value:
-            
-            break;
-        
-          default:
-            break;
-        }
-          ? (currentPage > 1 ? <View className="page-number">{(currentPage - 1) + ' / ' + (imageUrls.length - 2)}</View> : null)
-          : (<View className="page-number">{(currentPage + 1) + ' / ' + (imageUrls.length)}</View>)
-      }
+      {renderPageNumber()}
+      
       
       {/* 底栏 */}
       <View className={`bottom-bar ${showTopBar ? 'height' : ''}`} onClick={handleCatalogShowingUp}>
@@ -303,12 +304,28 @@ export const BookAudioTag: React.FC<any> = React.memo(({ audioList, currentPage,
     <>
       {/* [(x - 653)/469, (y - 167)/606 */}
       {
-        audioList[currentPage + 2] && audioList[currentPage + 2].map((audio) => {
+        //加入数组判断，防止当audioList.ts中对象没有2[]这个属性时报错——无法正常显示页面
+        Array.isArray(audioList[currentPage + 2]) && audioList[currentPage + 2].map((audio) => {
           const { offset = [], url, flag } = audio as any
-          const [x = 0, y = 0] = offset
+          const [x = 0, y = 0] = Array.isArray(offset) ? offset : [0, 0];
 
-          const left = flag ? decimalToPercentage((x-3576) / 825) : decimalToPercentage((x - 653) / 469);
-          const top  = flag ? decimalToPercentage((y-202) / 1061) : decimalToPercentage((y - 167) / 606);
+          let left = '0px';
+          let top = '0px';
+          switch (flag) {
+            case 'Cambridge':
+              left = decimalToPercentage((x - 3576) / 825);
+              top = decimalToPercentage((y - 202) / 1061);
+              break;
+            case 'OW_Studentbook':
+              //left = 
+              //top = 
+              break;
+            default:
+              left = decimalToPercentage((x - 653) / 469);
+              top = decimalToPercentage((y - 167) / 606);
+              break;
+          }
+
           return <View
             className="float-rect"
             style={{
