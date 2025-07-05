@@ -111,6 +111,8 @@ const BookPreview: React.FC<IBookPreviewProps> = ({ id = "1", currentPage, setCu
   const audioContextRef = useRef<Taro.InnerAudioContext>(Taro.createInnerAudioContext())
   const router = useRouter();
   const [clickRecords, setClickRecords] = useState<Record<number, ClickRecord[]>>({});
+  //花活——页数audioIndex的初始值 1
+  const [audioIndex, setAudioIndex] = useState(1);
 
   useEffect(() => {
     setImageUrls(concatImages[id])
@@ -216,9 +218,9 @@ const BookPreview: React.FC<IBookPreviewProps> = ({ id = "1", currentPage, setCu
 
           const record: ClickRecord = {
             offset: [`"${(ratioX * 100).toFixed(0)}%"`, `"${(ratioY * 100).toFixed(0)}%"`],
-            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
-            +'0.0.mp3', // 示例URL
-            flag: "true",
+            url: `https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'8.${audioIndex.toFixed(0)}.mp3`,
+            flag: "OW_L1_Starter",
           };
 
           setClickRecords(prev => {
@@ -230,6 +232,10 @@ const BookPreview: React.FC<IBookPreviewProps> = ({ id = "1", currentPage, setCu
             Taro.setStorageSync('book_click_records', newRecords);
             return newRecords;
           });
+
+          //花活——页数audioIndex的初始值 1
+          // 更新audioIndex，下次点击时使用新的数字
+          setAudioIndex(prev => prev + 1);
 
           Taro.showToast({
             title: `第${currentPage+2}页: x=${(ratioX*100).toFixed(1)}%, y=${(ratioY*100).toFixed(1)}%`,
@@ -405,7 +411,7 @@ export const BookAudioTag: React.FC<any> = React.memo(({ audioList, currentPage,
               left = decimalToPercentage((x - 3576) / 825);
               top = decimalToPercentage((y - 202) / 1061);
               break;
-            case 'true':
+            case 'OW_L1_Starter':
               left = x;
               top = y;
               break;

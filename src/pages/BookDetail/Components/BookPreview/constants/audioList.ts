@@ -5752,16 +5752,18 @@ const audioList10 = {
     ],
 }
 
+//Our_World_2E_L1_Studentbook
 const audioList11 = {
     0: [],
     1: [],
     2: [],
+    //Unit 0
     5: [
         {
         offset: ["42%", "87%"],
         url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
         +'0.1.mp3',
-        flag: "true",
+        flag: "OW_L1_Starter",
       }
     ],
     6: [
@@ -5769,19 +5771,19 @@ const audioList11 = {
         offset: ["47%", "63%"],
         url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
         +'0.2.mp3',
-        flag: "true",
+        flag: "OW_L1_Starter",
       },
         {
         offset: ["47%", "69%"],
         url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
         +'0.3.mp3',
-        flag: "true",
+        flag: "OW_L1_Starter",
       },
         {
         offset: ["45%", "78%"],
         url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
         +'0.4.mp3',
-        flag: "true",
+        flag: "OW_L1_Starter",
       }
     ],
     8: [
@@ -5789,7 +5791,7 @@ const audioList11 = {
         offset: ["66%", "82%"],
         url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
         +'0.5.mp3',
-        flag: "true",
+        flag: "OW_L1_Starter",
       }
     ],
     9: [
@@ -5797,31 +5799,31 @@ const audioList11 = {
         offset: ["41%", "7%"],
         url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
         +'0.6.mp3',
-        flag: "true",
+        flag: "OW_L1_Starter",
       },
         {
         offset: ["41%", "24%"],
         url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
         +'0.7.mp3',
-        flag: "true",
+        flag: "OW_L1_Starter",
       },
         {
         offset: ["42%", "30%"],
         url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
         +'0.8.mp3',
-        flag: "true",
+        flag: "OW_L1_Starter",
       },
         {
         offset: ["42%", "53%"],
         url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
         +'0.9.mp3',
-        flag: "true",
+        flag: "OW_L1_Starter",
       },
         {
         offset: ["36%", "59%"],
         url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
         +'1.0.mp3',
-        flag: "true",
+        flag: "OW_L1_Starter",
       }
     ],
     10: [
@@ -5829,33 +5831,34 @@ const audioList11 = {
         offset: ["78%", "75%"],
         url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
         +'0.11.mp3',
-        flag: "true",
+        flag: "OW_L1_Starter",
       },
         {
         offset: ["78%", "81%"],
         url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
         +'0.12.mp3',
-        flag: "true",
+        flag: "OW_L1_Starter",
       },
         {
         offset: ["69%", "87%"],
         url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
         +'0.13.mp3',
-        flag: "true",
+        flag: "OW_L1_Starter",
       }
     ],
+    //Unit 1
     13: [
         {
         offset: ["34%", "8%"],
         url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
         +'1.1.mp3',
-        flag: "true",
+        flag: "OW_L1_Starter",
       },
         {
         offset: ["42%", "14%"],
         url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
         +'1.2.mp3',
-        flag: "true",
+        flag: "OW_L1_Starter",
       }
     ],
     14: [
@@ -5863,793 +5866,923 @@ const audioList11 = {
         offset: ["88%", "71%"],
         url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
         +'1.3.mp3',
-        flag: "true",
+        flag: "OW_L1_Starter",
       }
     ],
     15: [
         {
         offset: ["43%", "8%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'1.4.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
     17: [
         {
         offset: ["37%", "8%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'1.5.mp3',
+        flag: "OW_L1_Starter",
       },
         {
         offset: ["44%", "20%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'1.6.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
     19: [
         {
         offset: ["33%", "7%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'1.7.mp3',
+        flag: "OW_L1_Starter",
       },
         {
         offset: ["66%", "55%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'1.8.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
     20: [
         {
         offset: ["36%", "8%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'1.9.mp3',
+        flag: "OW_L1_Starter",
       },
         {
         offset: ["40%", "25%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'1.10.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
     21: [
         {
         offset: ["37%", "7%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'1.11.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
     23: [
         {
         offset: ["74%", "70%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'1.12.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
+    //Unit 2
     29: [
         {
         offset: ["33%", "8%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'2.1.mp3',
+        flag: "OW_L1_Starter",
       },
         {
         offset: ["42%", "13%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'2.2.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
     30: [
         {
         offset: ["61%", "76%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'2.3.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
     31: [
         {
         offset: ["32%", "11%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'2.4.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
     33: [
         {
         offset: ["23%", "9%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'2.5.mp3',
+        flag: "OW_L1_Starter",
       },
         {
         offset: ["44%", "22%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'2.6.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
     35: [
         {
         offset: ["33%", "8%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'2.7.mp3',
+        flag: "OW_L1_Starter",
       },
         {
         offset: ["65%", "62%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'2.8.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
     36: [
         {
         offset: ["34%", "8%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'2.9.mp3',
+        flag: "OW_L1_Starter",
       },
         {
         offset: ["69%", "22%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'2.10.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
     37: [
         {
         offset: ["36%", "8%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'2.11.mp3',
+        flag: "OW_L1_Starter",
       },
         {
         offset: ["60%", "28%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'2.12.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
+    //Unit 3
     45: [
         {
         offset: ["33%", "8%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'3.1.mp3',
+        flag: "OW_L1_Starter",
       },
         {
         offset: ["23%", "16%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'3.2.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
     46: [
         {
         offset: ["88%", "78%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'3.3.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
     47: [
         {
         offset: ["42%", "8%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'3.4.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
     49: [
         {
         offset: ["17%", "9%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'3.5.mp3',
+        flag: "OW_L1_Starter",
       },
         {
         offset: ["53%", "20%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'3.6.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
     51: [
         {
         offset: ["33%", "8%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'3.7.mp3',
+        flag: "OW_L1_Starter",
       },
         {
         offset: ["71%", "67%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'3.8.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
     52: [
         {
         offset: ["34%", "8%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'3.9.mp3',
+        flag: "OW_L1_Starter",
       },
         {
         offset: ["41%", "22%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'3.10.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
     53: [
         {
         offset: ["39%", "9%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'3.11.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
     54: [
         {
         offset: ["58%", "4%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'3.12.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
     59: [
         {
         offset: ["38%", "10%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'3.13.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
     60: [
         {
         offset: ["56%", "10%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'3.14.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
+    //Unit 4
     65: [
         {
         offset: ["33%", "8%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'4.1.mp3',
+        flag: "OW_L1_Starter",
       },
         {
         offset: ["42%", "14%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'4.2.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
     66: [
         {
         offset: ["26%", "6%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'4.3.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
     67: [
         {
         offset: ["32%", "10%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'4.4.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
     69: [
         {
         offset: ["57%", "8%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'4.5.mp3',
+        flag: "OW_L1_Starter",
       },
         {
         offset: ["46%", "21%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'4.6.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
+    //有问题
     71: [
         {
         offset: ["34%", "7%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'4.7.mp3',
+        flag: "OW_L1_Starter",
       },
         {
         offset: ["71%", "67%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'4.8.mp3',
+        flag: "OW_L1_Starter",
       },
-        {
-        offset: ["34%", "8%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
-      },
-        {
-        offset: ["71%", "67%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
-      }
     ],
     72: [
         {
         offset: ["29%", "8%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'4.9.mp3',
+        flag: "OW_L1_Starter",
       },
         {
         offset: ["67%", "19%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'4.10.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
     73: [
         {
         offset: ["36%", "8%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'4.11.mp3',
+        flag: "OW_L1_Starter",
       },
         {
         offset: ["55%", "77%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'4.12.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
+    //Unit 5
     81: [
         {
         offset: ["33%", "7%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'5.1.mp3',
+        flag: "OW_L1_Starter",
       },
         {
         offset: ["23%", "16%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'5.2.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
     82: [
         {
         offset: ["78%", "68%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'5.3.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
     83: [
         {
         offset: ["43%", "8%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'5.4.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
     85: [
         {
         offset: ["55%", "8%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'5.5.mp3',
+        flag: "OW_L1_Starter",
       },
         {
         offset: ["43%", "20%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'5.6.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
     86: [
         {
         offset: ["73%", "3%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'5.7.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
     87: [
         {
         offset: ["33%", "8%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'5.8.mp3',
+        flag: "OW_L1_Starter",
       },
         {
         offset: ["46%", "49%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'5.9.mp3',
+        flag: "OW_L1_Starter",
       },
         {
         offset: ["72%", "65%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'5.10.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
     88: [
         {
         offset: ["47%", "8%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'5.11.mp3',
+        flag: "OW_L1_Starter",
       },
         {
         offset: ["75%", "20%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'5.12.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
     89: [
         {
         offset: ["36%", "7%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'5.13.mp3',
+        flag: "OW_L1_Starter",
       },
         {
         offset: ["69%", "82%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'5.14.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
     90: [
         {
         offset: ["45%", "73%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'5.15.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
+    //Unit 6
     97: [
         {
         offset: ["34%", "7%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'6.1.mp3',
+        flag: "OW_L1_Starter",
       },
         {
         offset: ["41%", "14%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'6.2.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
     98: [
         {
         offset: ["81%", "71%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'6.3.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
     99: [
         {
         offset: ["43%", "8%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'6.4.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
     101: [
         {
         offset: ["54%", "9%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'6.5.mp3',
+        flag: "OW_L1_Starter",
       },
         {
         offset: ["52%", "26%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'6.6.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
     102: [
         {
         offset: ["41%", "3%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'6.7.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
     103: [
         {
         offset: ["33%", "7%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'6.8.mp3',
+        flag: "OW_L1_Starter",
       },
         {
         offset: ["60%", "52%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'6.9.mp3',
+        flag: "OW_L1_Starter",
       },
         {
         offset: ["63%", "64%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'6.10.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
     104: [
         {
         offset: ["46%", "8%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'6.11.mp3',
+        flag: "OW_L1_Starter",
       },
         {
         offset: ["74%", "53%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'6.12.mp3',
+        flag: "OW_L1_Starter",
       },
         {
         offset: ["76%", "72%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'6.13.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
     105: [
         {
         offset: ["35%", "8%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'6.14.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
     106: [
         {
         offset: ["64%", "3%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+       url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'6.15.mp3',
+        flag: "OW_L1_Starter",
       },
         {
         offset: ["45%", "75%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'6.16.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
     111: [
         {
         offset: ["38%", "10%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'6.17.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
     112: [
         {
         offset: ["65%", "6%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'6.18.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
+    //Unit 7
     117: [
         {
         offset: ["11%", "19%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'7.1.mp3',
+        flag: "OW_L1_Starter",
       },
         {
         offset: ["31%", "26%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'7.2.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
     118: [
         {
         offset: ["72%", "67%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'7.3.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
     119: [
         {
         offset: ["43%", "7%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'7.4.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
     121: [
         {
         offset: ["32%", "8%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'7.5.mp3',
+        flag: "OW_L1_Starter",
       },
         {
         offset: ["76%", "25%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'7.6.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
     123: [
         {
         offset: ["33%", "8%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'7.7.mp3',
+        flag: "OW_L1_Starter",
       },
         {
         offset: ["62%", "62%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'7.8.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
     124: [
         {
         offset: ["30%", "8%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'7.9.mp3',
+        flag: "OW_L1_Starter",
       },
         {
         offset: ["54%", "23%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'7.10.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
     125: [
         {
         offset: ["36%", "7%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'7.11.mp3',
+        flag: "OW_L1_Starter",
       },
         {
         offset: ["46%", "35%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'7.12.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
+    //Unit 8
     133: [
         {
         offset: ["33%", "8%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'8.1.mp3',
+        flag: "OW_L1_Starter",
       },
         {
         offset: ["42%", "14%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'8.2.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
     134: [
         {
         offset: ["78%", "64%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'8.3.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
     135: [
         {
         offset: ["43%", "8%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'8.4.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
     137: [
         {
         offset: ["49%", "9%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'8.5.mp3',
+        flag: "OW_L1_Starter",
       },
         {
         offset: ["82%", "26%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'8.6.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
     138: [
         {
         offset: ["85%", "4%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'8.7.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
     139: [
         {
         offset: ["34%", "8%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'8.8.mp3',
+        flag: "OW_L1_Starter",
       },
         {
         offset: ["59%", "49%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'8.9.mp3',
+        flag: "OW_L1_Starter",
       },
         {
         offset: ["62%", "64%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'8.10.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
     140: [
         {
         offset: ["39%", "8%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'8.11.mp3',
+        flag: "OW_L1_Starter",
       },
         {
         offset: ["51%", "20%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'8.12.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
     141: [
         {
         offset: ["36%", "8%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'8.13.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
     142: [
         {
         offset: ["72%", "3%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'8.14.mp3',
+        flag: "OW_L1_Starter",
       },
         {
         offset: ["45%", "79%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'8.15.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
+    //Unit 9
     149: [
         {
         offset: ["34%", "8%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'9.1.mp3',
+        flag: "OW_L1_Starter",
       },
         {
         offset: ["41%", "13%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'9.2.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
     150: [
         {
         offset: ["72%", "68%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'9.3.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
     151: [
         {
         offset: ["43%", "8%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'9.4.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
     153: [
         {
         offset: ["74%", "8%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'9.5.mp3',
+        flag: "OW_L1_Starter",
       },
         {
         offset: ["45%", "82%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'9.6.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
     154: [
         {
         offset: ["47%", "3%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'9.7.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
     155: [
         {
         offset: ["33%", "7%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'9.8.mp3',
+        flag: "OW_L1_Starter",
       },
         {
         offset: ["67%", "55%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'9.9.mp3',
+        flag: "OW_L1_Starter",
+      },
+      {//
+        offset: ["23%", "80%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'9.10.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
     156: [
         {
         offset: ["31%", "7%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'9.11.mp3',
+        flag: "OW_L1_Starter",
       },
         {
         offset: ["56%", "49%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'9.12.mp3',
+        flag: "OW_L1_Starter",
       },
         {
         offset: ["76%", "67%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'9.13.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
     157: [
         {
         offset: ["36%", "8%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'9.14.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
     158: [
         {
         offset: ["64%", "3%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'9.15.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
     163: [
         {
         offset: ["38%", "10%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'9.15.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
     164: [
         {
         offset: ["39%", "9%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'9.16.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
+    //Unit 10
     167: [
         {
         offset: ["11%", "25%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'10.1.mp3',
+        flag: "OW_L1_Starter",
       }
     ]
 }
@@ -6659,28 +6792,563 @@ const audioList11 = {
 
 
 
-
+//Our_World_2E_L1_Workbook
 const audioList12 = {
     0: [],
     1: [],
     2: [],
+    //Unit 1
     4: [
         {
         offset: ["76%", "31%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'0.2.mp3',
+        flag: "OW_L1_Starter",
       }
     ],
     5: [
         {
         offset: ["45%", "5%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'0.3.mp3',
+        flag: "OW_L1_Starter",
       },
         {
         offset: ["76%", "32%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
-        flag: "true",
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'0.4.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    7: [
+        {
+        offset: ["41%", "25%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'1.1.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    9: [
+        {
+        offset: ["49%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'1.2.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["31%", "39%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'1.3.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["31%", "57%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'1.4.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    10: [
+        {
+        offset: ["32%", "26%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'1.5.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    11: [
+        {
+        offset: ["53%", "50%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'1.6.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    12: [
+        {
+        offset: ["54%", "32%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'1.7.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    13: [
+        {
+        offset: ["53%", "34%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'1.8.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    14: [
+        {
+        offset: ["47%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'1.9.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    15: [
+        {
+        offset: ["37%", "9%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'1.10.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    16: [
+        {
+        offset: ["46%", "28%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'1.10.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    18: [
+        {
+        offset: ["48%", "9%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'1.12.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    //Unit 2
+    19: [
+        {
+        offset: ["41%", "25%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'2.1.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    21: [
+        {
+        offset: ["49%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'2.2.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["31%", "69%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'2.3.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    23: [
+        {
+        offset: ["45%", "51%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'2.4.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    27: [
+        {
+        offset: ["36%", "9%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'2.5.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    30: [
+        {
+        offset: ["47%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'2.6.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    //Unit 3
+    31: [
+        {
+        offset: ["42%", "25%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'3.1.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    33: [
+        {
+        offset: ["49%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'3.2.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["31%", "71%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'3.3.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    34: [
+        {
+        offset: ["32%", "26%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'3.4.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["46%", "50%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'3.5.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    37: [
+        {
+        offset: ["48%", "26%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'3.6.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    38: [
+        {
+        offset: ["41%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'3.7.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    39: [
+        {
+        offset: ["36%", "9%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'3.8.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    42: [
+        {
+        offset: ["38%", "9%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'3.9.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    43: [
+        {
+        offset: ["45%", "14%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'r1.1.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    44: [
+        {
+        offset: ["47%", "59%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'r1.2.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    //Unit 4
+    45: [
+        {
+        offset: ["50%", "26%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'4.1.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    47: [
+        {
+        offset: ["49%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'4.2.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    48: [
+        {
+        offset: ["32%", "24%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'4.3.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["46%", "60%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'4.4.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    51: [
+        {
+        offset: ["31%", "32%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'4.5.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    53: [
+        {
+        offset: ["37%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'4.6.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    //Unit 5
+    57: [
+        {
+        offset: ["50%", "26%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'5.1.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    59: [
+        {
+        offset: ["20%", "12%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'5.2.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    60: [
+        {
+        offset: ["46%", "30%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'5.3.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["68%", "66%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'5.4.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    62: [
+        {
+        offset: ["60%", "47%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'5.5.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    63: [
+         {
+        offset: ["48%", "24%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'5.6.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["54%", "63%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'5.7.mp3',
+        flag: "OW_L1_Starter",
+      },
+    ],
+    64: [
+        {
+        offset: ["47%", "47%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'5.8.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    65: [
+        {
+        offset: ["36%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'5.9.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    //Unit 6
+    69: [
+        {
+        offset: ["50%", "26%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'6.1.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    71: [
+        {
+        offset: ["49%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'6.2.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["31%", "56%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'6.3.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    72: [
+        {
+        offset: ["47%", "32%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'6.4.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["30%", "60%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'6.5.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    73: [
+        {
+        offset: ["31%", "4%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'6.6.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    75: [
+        {
+        offset: ["37%", "64%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'6.7.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    77: [
+        {
+        offset: ["36%", "9%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'6.8.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    80: [
+        {
+        offset: ["39%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'6.9.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    //Unit 7
+    81: [
+        {
+        offset: ["26%", "29%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'7.1.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    83: [
+        {
+        offset: ["83%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'7.2.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["31%", "66%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'7.3.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    84: [
+        {
+        offset: ["47%", "28%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'7.4.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["46%", "52%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'7.5.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    87: [
+        {
+        offset: ["31%", "24%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'7.6.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    89: [
+        {
+        offset: ["36%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'7.7.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    //补充Unit 8
+    93: [
+        {
+        offset: ["50%", "26%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'8.1.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    95: [
+        {
+        offset: ["85%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'0.1.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    96: [
+        {
+        offset: ["32%", "30%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'0.1.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["32%", "70%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'0.1.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    98: [
+        {
+        offset: ["41%", "83%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'0.1.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    99: [
+        {
+        offset: ["31%", "35%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'0.1.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["31%", "60%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'0.1.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    101: [
+        {
+        offset: ["36%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'0.1.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    105: [
+        {
+        offset: ["31%", "13%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+		+'0.1.mp3',
+        flag: "OW_L1_Starter",
       }
     ]
 }
@@ -6690,12 +7358,1472 @@ const audioList13 = {
     0: [],
     1: [],
     2: [],
+    7: [
+        {
+        offset: ["35%", "12%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+		+'0.1.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    8: [
+        {
+        offset: ["45%", "7%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+		+'0.1.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    9: [
+        {
+        offset: ["41%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+		+'0.1.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["51%", "44%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+		+'0.1.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["43%", "64%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+		+'0.1.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    10: [
+        {
+        offset: ["37%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+		+'0.1.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["82%", "32%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+		+'0.1.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["41%", "54%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+		+'0.1.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    13: [
+        {
+        offset: ["37%", "9%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+		+'0.1.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    15: [
+        {
+        offset: ["39%", "9%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+		+'0.1.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["33%", "41%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+		+'0.1.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    16: [
+        {
+        offset: ["47%", "9%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+		+'0.1.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["40%", "24%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+		+'0.1.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["55%", "45%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+		+'0.1.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["46%", "66%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+		+'0.1.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["77%", "91%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+		+'0.1.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    17: [
+        {
+        offset: ["33%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+		+'0.1.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["79%", "31%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+		+'0.1.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["37%", "61%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+		+'0.1.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    18: [
+        {
+        offset: ["44%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+		+'0.1.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    21: [
+        {
+        offset: ["36%", "9%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+		+'0.1.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    23: [
+        {
+        offset: ["39%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+		+'0.1.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["33%", "39%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+		+'0.1.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["29%", "64%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+		+'0.1.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    24: [
+        {
+        offset: ["47%", "9%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+		+'0.1.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["40%", "21%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+		+'0.1.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["55%", "40%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+		+'0.1.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["47%", "61%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+		+'0.1.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["36%", "87%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+		+'0.1.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    25: [
+        {
+        offset: ["34%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+		+'0.1.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["78%", "33%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+		+'0.1.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["38%", "63%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+		+'0.1.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    26: [
+        {
+        offset: ["43%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+		+'0.1.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    29: [
+        {
+        offset: ["36%", "9%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+		+'0.1.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    31: [
+        {
+        offset: ["39%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+		+'0.1.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["33%", "25%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+		+'0.1.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["68%", "50%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+		+'0.1.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    32: [
+        {
+        offset: ["47%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+		+'0.1.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["40%", "20%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+		+'0.1.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["56%", "40%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+		+'0.1.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["47%", "59%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+		+'0.1.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["38%", "85%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+		+'0.1.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    33: [
+        {
+        offset: ["34%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+		+'0.1.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["79%", "30%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+		+'0.1.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["38%", "60%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+		+'0.1.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    34: [
+        {
+        offset: ["44%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+		+'0.1.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    //Unit 4
+    37: [
+        {
+        offset: ["36%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'4.1.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    39: [
+        {
+        offset: ["38%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'4.2.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["33%", "38%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'4.3.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["40%", "61%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'4.4.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["56%", "68%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'4.5.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    40: [
+        {
+        offset: ["47%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'4.6.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["40%", "21%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'4.7.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["55%", "43%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'4.8.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["62%", "66%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'4.9.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    41: [
+        {
+        offset: ["34%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'4.10.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["79%", "32%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'4.11.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["38%", "62%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'4.12.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    42: [
+        {
+        offset: ["44%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'4.13.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    //Unit 5
+    47: [
+        {
+        offset: ["36%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'5.1.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    49: [
+        {
+        offset: ["41%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'5.2.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["33%", "47%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'5.3.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["41%", "78%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'5.4.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    50: [
+        {
+        offset: ["47%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'5.5.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["39%", "29%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'5.6.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["47%", "58%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'5.7.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["21%", "89%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'5.8.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    51: [
+        {
+        offset: ["33%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'5.9.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["79%", "29%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'5.10.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["38%", "57%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'5.11.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    52: [
+        {
+        offset: ["43%", "7%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'5.12.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    //Unit 6
+    55: [
+        {
+        offset: ["37%", "9%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'6.1.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    57: [
+        {
+        offset: ["38%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'6.2.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["41%", "40%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'6.3.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    58: [
+        {
+        offset: ["47%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'6.4.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["40%", "26%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'6.5.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["47%", "59%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'6.6.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["56%", "88%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'6.7.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    59: [
+        {
+        offset: ["33%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'6.8.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["77%", "32%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'6.9.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["37%", "63%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'6.10.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    60: [
+        {
+        offset: ["43%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'6.11.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    //Unit 7
+    63: [
+        {
+        offset: ["36%", "9%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'7.1.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    65: [
+        {
+        offset: ["37%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'7.2.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["33%", "41%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'7.3.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["40%", "64%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'7.4.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    66: [
+        {
+        offset: ["46%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'7.5.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["40%", "25%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'7.6.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["47%", "57%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'7.7.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["52%", "90%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'7.8.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    67: [
+        {
+        offset: ["33%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'7.9.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["79%", "28%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'7.10.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["37%", "58%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'7.11.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    68: [
+        {
+        offset: ["43%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'7.12.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    //Unit 8
+    71: [
+        {
+        offset: ["37%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'8.1.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    73: [
+        {
+        offset: ["41%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'8.2.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["33%", "50%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'8.3.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["41%", "64%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'8.4.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    74: [
+        {
+        offset: ["47%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'8.5.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["40%", "26%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'8.6.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["47%", "59%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'8.7.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["52%", "88%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'8.8.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    75: [
+        {
+        offset: ["33%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'8.9.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["79%", "31%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'8.10.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["34%", "62%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'8.11.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    76: [
+        {
+        offset: ["43%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'8.12.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    //Review5-8
+    79: [
+        {
+        offset: ["37%", "3%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'ABC1.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    80: [
+        {
+        offset: ["41%", "3%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'ABC2.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    81: [
+        {
+        offset: ["37%", "3%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'ABC3.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    82: [
+        {
+        offset: ["41%", "3%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'ABC4.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    83: [
+        {
+        offset: ["37%", "3%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'ABC5.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    84: [
+        {
+        offset: ["41%", "3%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'ABC6.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    85: [
+        {
+        offset: ["37%", "3%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'ABC7.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    86: [
+        {
+        offset: ["41%", "3%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'ABC8.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    87: [
+        {
+        offset: ["37%", "3%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'ABC9.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    88: [
+        {
+        offset: ["42%", "3%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'ABC10.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    89: [
+        {
+        offset: ["38%", "3%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'ABC11.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    90: [
+        {
+        offset: ["41%", "3%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sbs_ame_'
+          +'ABC12.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    //ow2e_sbs_ame_Song.mp3 这个没找到放哪里
 }
 
 const audioList14 = {
     0: [],
     1: [],
     2: [],
+    //Unit 0
+    3: [
+        {
+        offset: ["45%", "14%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'0.1.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["37%", "62%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'0.2.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    4: [
+        {
+        offset: ["44%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'0.3.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["44%", "33%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'0.4.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["46%", "85%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'0.5.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    5: [
+        {
+        offset: ["34%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'0.6.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["80%", "14%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'0.7.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["47%", "59%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'0.8.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    //Unit 1
+    6: [
+        {
+        offset: ["46%", "23%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'1.1.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    7: [
+        {
+        offset: ["34%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'1.2.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["49%", "34%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'1.3.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    8: [
+        {
+        offset: ["44%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'1.4.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["54%", "32%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'1.5.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["47%", "59%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'1.6.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    9: [
+        {
+        offset: ["34%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'1.7.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["80%", "13%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'1.8.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["62%", "64%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'1.9.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    //Unit 2
+    10: [
+        {
+        offset: ["46%", "23%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'2.1.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    11: [
+        {
+        offset: ["35%", "9%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'2.2.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["55%", "34%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'2.3.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    12: [
+        {
+        offset: ["44%", "9%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'2.4.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["54%", "31%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'2.5.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["48%", "61%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'2.6.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    13: [
+        {
+        offset: ["34%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'2.7.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["80%", "13%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'2.8.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["62%", "62%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'2.9.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    //Unit 3
+    14: [
+        {
+        offset: ["55%", "23%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'3.1.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    15: [
+        {
+        offset: ["34%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'3.2.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["37%", "27%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'3.3.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["34%", "41%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'3.4.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["67%", "67%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'3.5.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    16: [
+        {
+        offset: ["44%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'3.6.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["54%", "31%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'3.7.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["47%", "58%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'3.8.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    17: [
+        {
+        offset: ["35%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'3.9.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["80%", "13%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'3.10.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["63%", "62%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'3.11.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    //Unit 4 + Review 1-4
+    18: [
+        {
+        offset: ["55%", "24%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'4.1.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    19: [
+        {
+        offset: ["35%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'4.2.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["43%", "34%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'4.3.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["63%", "74%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'4.4.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    20: [
+        {
+        offset: ["44%", "9%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'4.5.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["54%", "31%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'4.6.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["47%", "56%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'4.7.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    21: [
+        {
+        offset: ["34%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'4.8.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["80%", "13%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'4.9.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["63%", "64%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'4.10.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    22: [
+        {
+        offset: ["46%", "20%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'4.11.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["39%", "73%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'4.12.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    23: [
+        {
+        offset: ["45%", "3%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'4.13.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["47%", "50%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'4.14.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    //Unit 5
+    24: [
+        {
+        offset: ["46%", "22%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'5.1.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["32%", "77%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'5.2.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    25: [
+        {
+        offset: ["34%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'5.3.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["39%", "37%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'5.4.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    26: [
+        {
+        offset: ["44%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'5.5.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["53%", "30%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'5.6.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["47%", "61%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'5.7.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    27: [
+        {
+        offset: ["34%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'5.8.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["80%", "13%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'5.9.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["62%", "63%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'5.10.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    //Unit 6
+    28: [
+        {
+        offset: ["46%", "23%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'6.1.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    29: [
+        {
+        offset: ["35%", "7%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'6.2.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    30: [
+        {
+        offset: ["69%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'6.3.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["45%", "59%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'6.4.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    31: [
+        {
+        offset: ["34%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'6.5.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["80%", "14%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'6.6.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["62%", "64%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'6.7.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    //Unit 7
+    32: [
+        {
+        offset: ["55%", "23%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'7.1.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["60%", "80%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'7.2.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    33: [
+        {
+        offset: ["34%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'7.3.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["49%", "34%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'7.4.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    34: [
+        {
+        offset: ["44%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'7.5.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["54%", "30%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'7.6.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["47%", "64%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'7.7.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    35: [
+        {
+        offset: ["34%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'7.8.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["80%", "13%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'7.9.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["62%", "64%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'7.10.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    //Unit 8 + Review 5-8
+    36: [
+        {
+        offset: ["55%", "23%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'8.1.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    37: [
+        {
+        offset: ["34%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'8.2.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["49%", "36%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'8.3.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    38: [
+        {
+        offset: ["44%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'8.4.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["54%", "24%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'8.5.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["47%", "59%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'8.6.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    39: [
+        {
+        offset: ["34%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'8.7.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["80%", "14%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'8.8.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["62%", "67%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'8.9.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    40: [
+        {
+        offset: ["47%", "20%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'8.10.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    41: [
+        {
+        offset: ["45%", "3%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'8.11.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["37%", "52%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'8.12.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["47%", "67%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wbS_ame_'
+          +'8.13.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
 }
 
 export const allAudioList = {
