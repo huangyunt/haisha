@@ -39,7 +39,7 @@ const titleMap = {
   "14": 'Our World Starter 练习册',
 }
 
-/* 
+/*
   1. bookTypeMap[id] 为 true 表示该类型书籍（如学生用书）存在封面和目录页，不应计入页码中。
     - 页码从第 2 页开始显示（currentPage > 1）
     - 页码显示为 "(当前页 - 1) / (总页数 - 2)"，扣除封面和目录页。
@@ -94,6 +94,12 @@ const bookPageStrategyMap: Record<EBookType, PageNumberingStrategy> = {
   [EBookType.OW_PRACTICE_BOOK_STARTER]: PageNumberingStrategy.OW_STUDENT_BOOK,
 }
 
+interface ClickRecord {
+  offset: [string, string]; // 百分比格式的坐标
+  url: string;
+  flag: string;
+}
+
 const BookPreview: React.FC<IBookPreviewProps> = ({ id = "1", currentPage, setCurrentPage }) => {
   const [imageUrls, setImageUrls] = useState<string[]>([]);
   const [catalogList, setCatalogList] = useState([])
@@ -104,6 +110,7 @@ const BookPreview: React.FC<IBookPreviewProps> = ({ id = "1", currentPage, setCu
   const [isAudioPlaying, setIsAudioPlaying] = useState(false); // 当前是否有音频正在播放
   const audioContextRef = useRef<Taro.InnerAudioContext>(Taro.createInnerAudioContext())
   const router = useRouter();
+  const [clickRecords, setClickRecords] = useState<Record<number, ClickRecord[]>>({});
 
   useEffect(() => {
     setImageUrls(concatImages[id])
@@ -186,6 +193,80 @@ const BookPreview: React.FC<IBookPreviewProps> = ({ id = "1", currentPage, setCu
     setIsAudioPlaying(false)
   }
 
+  // 处理图片点击
+  const handleImageClick = (e) => {
+    // 获取图片在页面上的实际宽高
+    Taro.createSelectorQuery()
+      .select('.book-page')
+      .boundingClientRect(rect => {
+        // rect 可能是数组或对象，需判断
+        const r = Array.isArray(rect) ? rect[0] : rect;
+        if (r && r.width && r.height) {
+          // e.detail.x/y 是点击点相对图片左上角的像素
+          const { x, y } = e.detail;
+
+          // 添加调试信息
+          console.log('点击坐标:', { x, y });
+          console.log('图片尺寸:', { width: r.width, height: r.height });
+
+          const ratioX = (x-15) / r.width;
+          const ratioY = (y-15) / r.height - 0.165;// / 1.165
+
+          console.log('计算比例:', { ratioX, ratioY });
+
+          const record: ClickRecord = {
+            offset: [`"${(ratioX * 100).toFixed(0)}%"`, `"${(ratioY * 100).toFixed(0)}%"`],
+            url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+            +'0.0.mp3', // 示例URL
+            flag: "true",
+          };
+
+          setClickRecords(prev => {
+            const newRecords = { ...prev };
+            if (!newRecords[currentPage+2]) {
+              newRecords[currentPage+2] = [];
+            }
+            newRecords[currentPage+2].push(record);
+            Taro.setStorageSync('book_click_records', newRecords);
+            return newRecords;
+          });
+
+          Taro.showToast({
+            title: `第${currentPage+2}页: x=${(ratioX*100).toFixed(1)}%, y=${(ratioY*100).toFixed(1)}%`,
+            icon: 'none'
+          });
+        }
+      })
+      .exec();
+  };
+
+  // 导出记录按钮逻辑
+  const exportRecords = () => {
+    const records = Taro.getStorageSync('book_click_records') || {};
+
+    // 自定义格式化，去掉引号，offset不换行
+    const formatRecord = (record) => {
+      return `{
+        offset: [${record.offset[0]}, ${record.offset[1]}],
+        url: '${record.url}',
+        flag: "${record.flag}",
+      }`;
+    };
+
+    const formatPage = (pageNum, records) => {
+      const formattedRecords = records.map(formatRecord).join(',\n        ');
+      return `${pageNum}: [\n        ${formattedRecords}\n    ]`;
+    };
+
+    const pages = Object.keys(records).map(pageNum =>
+      formatPage(pageNum, records[pageNum])
+    ).join(',\n    ');
+
+    const output = `{\n    ${pages}\n}`;
+    Taro.setClipboardData({ data: output });
+    Taro.showToast({ title: '已复制到剪贴板', icon: 'none' });
+  };
+
   return (
     <View className="haisha-book-preview-container">
 
@@ -223,7 +304,7 @@ const BookPreview: React.FC<IBookPreviewProps> = ({ id = "1", currentPage, setCu
                     <Text style={{ color: 'red' }}>播放中..</Text>
                   </View>
                 }
-                <BookImage url={url} />
+                <BookImage url={url} onImageClick={handleImageClick} />
                 {/* [(x - 653)/469, (y - 167)/606 */}
                 <BookAudioTag audioList={audioList} currentPage={currentPage} playAudio={playAudio} />
               </View>
@@ -232,14 +313,14 @@ const BookPreview: React.FC<IBookPreviewProps> = ({ id = "1", currentPage, setCu
         </Swiper>
       </View>
 
-      {/* 
-        * 页码 
+      {/*
+        * 页码
         * 封面和目录页不需要展示页码，且页数需要减去封面和目录页
         * 调用函数
       */}
       {renderPageNumber()}
-      
-      
+
+
       {/* 底栏 */}
       <View className={`bottom-bar ${showTopBar ? 'height' : ''}`} onClick={handleCatalogShowingUp}>
         {/* <View className={`flex-container`} onClick={handleCatalogShowingUp}>
@@ -285,6 +366,8 @@ const BookPreview: React.FC<IBookPreviewProps> = ({ id = "1", currentPage, setCu
         </AtList>
       </AtFloatLayout>
 
+      <View onClick={exportRecords} style={{position:'fixed',bottom:10,right:10,zIndex:999,background:'#fff',padding:'8px',borderRadius:'8px'}}>导出点击记录</View>
+
     </View>
   );
 };
@@ -293,9 +376,15 @@ export default BookPreview;
 
 
 
-export const BookImage: React.FC<any> = React.memo(({ url }) => {
+export const BookImage: React.FC<any> = React.memo(({ url, onImageClick }) => {
   return (
-    <Image src={url} mode="widthFix" className="book-page" />
+    <Image
+      src={url}
+      mode="widthFix"
+      className="book-page"
+      onClick={onImageClick}
+      style={{ width: '100%' }}
+    />
   )
 })
 
@@ -316,9 +405,9 @@ export const BookAudioTag: React.FC<any> = React.memo(({ audioList, currentPage,
               left = decimalToPercentage((x - 3576) / 825);
               top = decimalToPercentage((y - 202) / 1061);
               break;
-            case 'OW_Studentbook':
-              //left = 
-              //top = 
+            case 'true':
+              left = x;
+              top = y;
               break;
             default:
               left = decimalToPercentage((x - 653) / 469);

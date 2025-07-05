@@ -5756,13 +5756,935 @@ const audioList11 = {
     0: [],
     1: [],
     2: [],
+    5: [
+        {
+        offset: ["42%", "87%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'0.1.mp3',
+        flag: "true",
+      }
+    ],
+    6: [
+        {
+        offset: ["47%", "63%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'0.2.mp3',
+        flag: "true",
+      },
+        {
+        offset: ["47%", "69%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'0.3.mp3',
+        flag: "true",
+      },
+        {
+        offset: ["45%", "78%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'0.4.mp3',
+        flag: "true",
+      }
+    ],
+    8: [
+        {
+        offset: ["66%", "82%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'0.5.mp3',
+        flag: "true",
+      }
+    ],
+    9: [
+        {
+        offset: ["41%", "7%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'0.6.mp3',
+        flag: "true",
+      },
+        {
+        offset: ["41%", "24%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'0.7.mp3',
+        flag: "true",
+      },
+        {
+        offset: ["42%", "30%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'0.8.mp3',
+        flag: "true",
+      },
+        {
+        offset: ["42%", "53%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'0.9.mp3',
+        flag: "true",
+      },
+        {
+        offset: ["36%", "59%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'1.0.mp3',
+        flag: "true",
+      }
+    ],
+    10: [
+        {
+        offset: ["78%", "75%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'0.11.mp3',
+        flag: "true",
+      },
+        {
+        offset: ["78%", "81%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'0.12.mp3',
+        flag: "true",
+      },
+        {
+        offset: ["69%", "87%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'0.13.mp3',
+        flag: "true",
+      }
+    ],
+    13: [
+        {
+        offset: ["34%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'1.1.mp3',
+        flag: "true",
+      },
+        {
+        offset: ["42%", "14%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'1.2.mp3',
+        flag: "true",
+      }
+    ],
+    14: [
+        {
+        offset: ["88%", "71%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_'
+        +'1.3.mp3',
+        flag: "true",
+      }
+    ],
+    15: [
+        {
+        offset: ["43%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    17: [
+        {
+        offset: ["37%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      },
+        {
+        offset: ["44%", "20%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    19: [
+        {
+        offset: ["33%", "7%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      },
+        {
+        offset: ["66%", "55%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    20: [
+        {
+        offset: ["36%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      },
+        {
+        offset: ["40%", "25%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    21: [
+        {
+        offset: ["37%", "7%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    23: [
+        {
+        offset: ["74%", "70%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    29: [
+        {
+        offset: ["33%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      },
+        {
+        offset: ["42%", "13%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    30: [
+        {
+        offset: ["61%", "76%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    31: [
+        {
+        offset: ["32%", "11%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    33: [
+        {
+        offset: ["23%", "9%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      },
+        {
+        offset: ["44%", "22%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    35: [
+        {
+        offset: ["33%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      },
+        {
+        offset: ["65%", "62%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    36: [
+        {
+        offset: ["34%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      },
+        {
+        offset: ["69%", "22%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    37: [
+        {
+        offset: ["36%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      },
+        {
+        offset: ["60%", "28%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    45: [
+        {
+        offset: ["33%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      },
+        {
+        offset: ["23%", "16%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    46: [
+        {
+        offset: ["88%", "78%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    47: [
+        {
+        offset: ["42%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    49: [
+        {
+        offset: ["17%", "9%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      },
+        {
+        offset: ["53%", "20%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    51: [
+        {
+        offset: ["33%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      },
+        {
+        offset: ["71%", "67%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    52: [
+        {
+        offset: ["34%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      },
+        {
+        offset: ["41%", "22%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    53: [
+        {
+        offset: ["39%", "9%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    54: [
+        {
+        offset: ["58%", "4%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    59: [
+        {
+        offset: ["38%", "10%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    60: [
+        {
+        offset: ["56%", "10%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    65: [
+        {
+        offset: ["33%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      },
+        {
+        offset: ["42%", "14%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    66: [
+        {
+        offset: ["26%", "6%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    67: [
+        {
+        offset: ["32%", "10%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    69: [
+        {
+        offset: ["57%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      },
+        {
+        offset: ["46%", "21%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    71: [
+        {
+        offset: ["34%", "7%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      },
+        {
+        offset: ["71%", "67%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      },
+        {
+        offset: ["34%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      },
+        {
+        offset: ["71%", "67%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    72: [
+        {
+        offset: ["29%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      },
+        {
+        offset: ["67%", "19%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    73: [
+        {
+        offset: ["36%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      },
+        {
+        offset: ["55%", "77%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    81: [
+        {
+        offset: ["33%", "7%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      },
+        {
+        offset: ["23%", "16%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    82: [
+        {
+        offset: ["78%", "68%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    83: [
+        {
+        offset: ["43%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    85: [
+        {
+        offset: ["55%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      },
+        {
+        offset: ["43%", "20%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    86: [
+        {
+        offset: ["73%", "3%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    87: [
+        {
+        offset: ["33%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      },
+        {
+        offset: ["46%", "49%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      },
+        {
+        offset: ["72%", "65%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    88: [
+        {
+        offset: ["47%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      },
+        {
+        offset: ["75%", "20%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    89: [
+        {
+        offset: ["36%", "7%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      },
+        {
+        offset: ["69%", "82%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    90: [
+        {
+        offset: ["45%", "73%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    97: [
+        {
+        offset: ["34%", "7%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      },
+        {
+        offset: ["41%", "14%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    98: [
+        {
+        offset: ["81%", "71%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    99: [
+        {
+        offset: ["43%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    101: [
+        {
+        offset: ["54%", "9%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      },
+        {
+        offset: ["52%", "26%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    102: [
+        {
+        offset: ["41%", "3%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    103: [
+        {
+        offset: ["33%", "7%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      },
+        {
+        offset: ["60%", "52%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      },
+        {
+        offset: ["63%", "64%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    104: [
+        {
+        offset: ["46%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      },
+        {
+        offset: ["74%", "53%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      },
+        {
+        offset: ["76%", "72%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    105: [
+        {
+        offset: ["35%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    106: [
+        {
+        offset: ["64%", "3%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      },
+        {
+        offset: ["45%", "75%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    111: [
+        {
+        offset: ["38%", "10%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    112: [
+        {
+        offset: ["65%", "6%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    117: [
+        {
+        offset: ["11%", "19%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      },
+        {
+        offset: ["31%", "26%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    118: [
+        {
+        offset: ["72%", "67%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    119: [
+        {
+        offset: ["43%", "7%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    121: [
+        {
+        offset: ["32%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      },
+        {
+        offset: ["76%", "25%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    123: [
+        {
+        offset: ["33%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      },
+        {
+        offset: ["62%", "62%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    124: [
+        {
+        offset: ["30%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      },
+        {
+        offset: ["54%", "23%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    125: [
+        {
+        offset: ["36%", "7%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      },
+        {
+        offset: ["46%", "35%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    133: [
+        {
+        offset: ["33%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      },
+        {
+        offset: ["42%", "14%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    134: [
+        {
+        offset: ["78%", "64%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    135: [
+        {
+        offset: ["43%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    137: [
+        {
+        offset: ["49%", "9%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      },
+        {
+        offset: ["82%", "26%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    138: [
+        {
+        offset: ["85%", "4%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    139: [
+        {
+        offset: ["34%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      },
+        {
+        offset: ["59%", "49%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      },
+        {
+        offset: ["62%", "64%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    140: [
+        {
+        offset: ["39%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      },
+        {
+        offset: ["51%", "20%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    141: [
+        {
+        offset: ["36%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    142: [
+        {
+        offset: ["72%", "3%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      },
+        {
+        offset: ["45%", "79%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    149: [
+        {
+        offset: ["34%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      },
+        {
+        offset: ["41%", "13%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    150: [
+        {
+        offset: ["72%", "68%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    151: [
+        {
+        offset: ["43%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    153: [
+        {
+        offset: ["74%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      },
+        {
+        offset: ["45%", "82%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    154: [
+        {
+        offset: ["47%", "3%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    155: [
+        {
+        offset: ["33%", "7%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      },
+        {
+        offset: ["67%", "55%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    156: [
+        {
+        offset: ["31%", "7%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      },
+        {
+        offset: ["56%", "49%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      },
+        {
+        offset: ["76%", "67%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    157: [
+        {
+        offset: ["36%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    158: [
+        {
+        offset: ["64%", "3%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    163: [
+        {
+        offset: ["38%", "10%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    164: [
+        {
+        offset: ["39%", "9%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    167: [
+        {
+        offset: ["11%", "25%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ]
 }
+
+
+
+
+
+
 
 const audioList12 = {
     0: [],
     1: [],
     2: [],
+    4: [
+        {
+        offset: ["76%", "31%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ],
+    5: [
+        {
+        offset: ["45%", "5%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      },
+        {
+        offset: ["76%", "32%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E9%9F%B3%E9%A2%91/ow2e_sb1_ame_0.0.mp3',
+        flag: "true",
+      }
+    ]
 }
+
 
 const audioList13 = {
     0: [],
