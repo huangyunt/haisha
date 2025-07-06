@@ -26,7 +26,7 @@ export const images = [
   //Our World L1 学生用书
   'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E5%9B%BE%E7%89%87/OW_2E_L1_Studentbook_1.png',
   //Our World L1 练习册
-  'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E5%9B%BE%E7%89%87/OW_2E_L1_Workbook_1.png',
+  'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E5%B0%81%E9%9D%A2%E5%9B%BE%E7%89%87-%E4%B9%A6%E6%9E%B6/OW_2E_L1_Workbook.png',
   //Our World Starter 学生用书
   'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E5%9B%BE%E7%89%87/OW_2E_Starter_Studentbook_1.png',
   //Our World Starter 练习册

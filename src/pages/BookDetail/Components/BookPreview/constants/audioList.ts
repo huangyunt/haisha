@@ -7282,56 +7282,57 @@ const audioList12 = {
         flag: "OW_L1_Starter",
       }
     ],
-    //补充Unit 8
+
+    //Unit 8
     93: [
         {
-        offset: ["50%", "26%"],
+        offset: ["51%", "26%"],
         url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
-		+'8.1.mp3',
+          +'8.1.mp3',
         flag: "OW_L1_Starter",
       }
     ],
     95: [
         {
-        offset: ["85%", "8%"],
+        offset: ["78%", "8%"],
         url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
-		+'0.1.mp3',
+          +'8.2.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["27%", "41%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+          +'8.3.mp3',
         flag: "OW_L1_Starter",
       }
     ],
     96: [
         {
-        offset: ["32%", "30%"],
+        offset: ["32%", "32%"],
         url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
-		+'0.1.mp3',
+          +'8.4.mp3',
         flag: "OW_L1_Starter",
       },
         {
-        offset: ["32%", "70%"],
+        offset: ["32%", "59%"],
         url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
-		+'0.1.mp3',
-        flag: "OW_L1_Starter",
-      }
-    ],
-    98: [
-        {
-        offset: ["41%", "83%"],
-        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
-		+'0.1.mp3',
+          +'8.5.mp3',
         flag: "OW_L1_Starter",
       }
     ],
     99: [
         {
-        offset: ["31%", "35%"],
+        offset: ["42%", "23%"],
         url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
-		+'0.1.mp3',
+          +'8.6.mp3',
         flag: "OW_L1_Starter",
-      },
+      }
+    ],
+    100: [
         {
-        offset: ["31%", "60%"],
+        offset: ["28%", "46%"],
         url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
-		+'0.1.mp3',
+          +'8.7.mp3',
         flag: "OW_L1_Starter",
       }
     ],
@@ -7339,18 +7340,90 @@ const audioList12 = {
         {
         offset: ["36%", "8%"],
         url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
-		+'0.1.mp3',
+          +'8.8.mp3',
         flag: "OW_L1_Starter",
       }
     ],
-    105: [
+    104: [
         {
-        offset: ["31%", "13%"],
+        offset: ["32%", "77%"],
         url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
-		+'0.1.mp3',
+          +'8.9.mp3',
         flag: "OW_L1_Starter",
       }
-    ]
+    ],
+    
+    //Unit 9
+    105: [
+        {
+        offset: ["50%", "26%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+          +'9.1.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    107: [
+        {
+        offset: ["85%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+          +'9.2.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    108: [
+        {
+        offset: ["32%", "30%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+          +'9.3.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["32%", "70%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+          +'9.4.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    110: [
+        {
+        offset: ["41%", "83%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+          +'9.5.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    111: [
+        {
+        offset: ["31%", "35%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+          +'9.6.mp3',
+        flag: "OW_L1_Starter",
+      },
+        {
+        offset: ["31%", "60%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+          +'9.7.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+    113: [
+        {
+        offset: ["36%", "8%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+          +'9.8.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
+
+    //Review 7-9
+    117: [
+        {
+        offset: ["32%", "13%"],
+        url: 'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E9%9F%B3%E9%A2%91/ow2e_wb1_ame_'
+          +'r3.1.mp3',
+        flag: "OW_L1_Starter",
+      }
+    ],
 }
 
 

@@ -59,9 +59,9 @@ const concatImages = {
 
     )),
     //Our World L1 练习册
-    "12": Array(115).fill(0).map((_, index) =>
+    "12": Array(127).fill(0).map((_, index) =>
     (
-        'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E5%9B%BE%E7%89%87/OW_2E_L1_Workbook_' + (index + 1) + '.png'
+        'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E5%9B%BE%E7%89%87/OW_2E_L1_Workbook_' + (index + 1) + '.png?'
 
     )),
     //Our World Starter 学生用书
