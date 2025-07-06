@@ -51,6 +51,31 @@ const concatImages = {
         'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E6%B5%B7%E6%B2%99%E8%AF%BE%E7%A8%8B%E6%B5%B7%E6%8A%A5/%E6%B5%B7%E6%B2%99%E8%AF%BE%E7%A8%8B_' + (index + 1) + '.png'
 
     )),
+    //OW 4本书
+    //Our World L1 学生用书
+    "11": Array(192).fill(0).map((_, index) =>
+    (
+        'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E5%9B%BE%E7%89%87/OW_2E_L1_Studentbook_' + (index + 1) + '.png'
+
+    )),
+    //Our World L1 练习册
+    "12": Array(127).fill(0).map((_, index) =>
+    (
+        'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E5%9B%BE%E7%89%87/OW_2E_L1_Workbook_' + (index + 1) + '.png?'
+
+    )),
+    //Our World Starter 学生用书
+    "13": Array(112).fill(0).map((_, index) =>
+    (
+        'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E5%9B%BE%E7%89%87/OW_2E_Starter_Studentbook_' + (index + 1) + '.png'
+
+    )),
+    //Our World Starter 练习册
+    "14": Array(65).fill(0).map((_, index) =>
+    (
+        'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E5%9B%BE%E7%89%87/OW_2E_Starter_Workbook_' + (index + 1) + '.png'
+
+    )),
     ...images,
 }
 export { concatImages };
