@@ -938,22 +938,22 @@ export const catalogLists = {
             page: 79
         },
         //补充Unit 8 后面都是错的
-        {
-            name: "Unit 8 Good Food",
-            page: 93
-        },
-        {
-            name: "Unit 9 Animal Friends",
-            page: 105
-        },
-        {
-            name: "Units 7-9 Review",
-            page: 117
-        },
-        {
-            name: "Cutouts",
-            page: 120
-        }
+        // {
+        //     name: "Unit 8 Good Food",
+        //     page: 93
+        // },
+        // {
+        //     name: "Unit 9 Animal Friends",
+        //     page: 105
+        // },
+        // {
+        //     name: "Units 7-9 Review",
+        //     page: 117
+        // },
+        // {
+        //     name: "Cutouts",
+        //     page: 120
+        // }
     ],
 
     //Our World 2E_AmE_Starter_Student Book
