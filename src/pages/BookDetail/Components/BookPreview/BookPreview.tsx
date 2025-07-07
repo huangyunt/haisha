@@ -300,7 +300,7 @@ export const BookImage: React.FC<any> = React.memo(({ url }) => {
 })
 
 export const BookAudioTag: React.FC<any> = React.memo(({ audioList, currentPage, playAudio, bookId }) => {
-  // 计算音频数据的页面索引
+  // 临时加入封面页的坏办法，后续需要优化，原本没有bookId
   const getAudioPageIndex = () => {
     // OW系列（ID: 11-14）有封面页，需要调整偏移量
     if (bookId >= "11" && bookId <= "14") {
