@@ -82,7 +82,7 @@ const concatImages = {
     //Our World Starter 练习册
     "14": [
         // 封面页
-        'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E5%B0%81%E9%9D%A2%E5%9B%BE%E7%89%87-%E4%B9%A6%E6%9E%B6/OW_Starter_Workbook.png',
+        'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E5%B0%81%E9%9D%A2%E5%9B%BE%E7%89%87-%E4%B9%A6%E6%9E%B6/OW_Starter_Workbook-1.png',
         // 原有页面
         ...Array(65).fill(0).map((_, index) =>
             'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E5%9B%BE%E7%89%87/OW_2E_Starter_Workbook_' + (index + 1) + '.png'
