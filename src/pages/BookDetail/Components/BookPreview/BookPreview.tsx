@@ -71,6 +71,7 @@ enum PageNumberingStrategy {
   EXCLUDE_COVER_AND_TOC = "exclude_cover_and_toc",  // 不计入封面和目录页
   INCLUDE_ALL_PAGE = "include_all_page",            // 所有页都计入
   OW_STUDENT_BOOK = "ow_student_book",              // 只排除封面
+  OW_WITH_COVER = "ow_with_cover",                  // OW系列带封面，页码排除封面
   //CUSTOM = "custom",                              // 自定义策略
 }
 
@@ -87,10 +88,10 @@ const bookPageStrategyMap: Record<EBookType, PageNumberingStrategy> = {
   [EBookType.KET_STUDENT_BOOK_A2]: PageNumberingStrategy.EXCLUDE_COVER_AND_TOC,
   [EBookType.KET_PRACTICE_BOOK_A2]: PageNumberingStrategy.EXCLUDE_COVER_AND_TOC,
 
-  [EBookType.OW_STUDENT_BOOK_L1]: PageNumberingStrategy.OW_STUDENT_BOOK,
-  [EBookType.OW_PRACTICE_BOOK_L1]: PageNumberingStrategy.OW_STUDENT_BOOK,
-  [EBookType.OW_STUDENT_BOOK_STARTER]: PageNumberingStrategy.OW_STUDENT_BOOK,
-  [EBookType.OW_PRACTICE_BOOK_STARTER]: PageNumberingStrategy.OW_STUDENT_BOOK,
+  [EBookType.OW_STUDENT_BOOK_L1]: PageNumberingStrategy.OW_WITH_COVER,
+  [EBookType.OW_PRACTICE_BOOK_L1]: PageNumberingStrategy.OW_WITH_COVER,
+  [EBookType.OW_STUDENT_BOOK_STARTER]: PageNumberingStrategy.OW_WITH_COVER,
+  [EBookType.OW_PRACTICE_BOOK_STARTER]: PageNumberingStrategy.OW_WITH_COVER,
 }
 
 const BookPreview: React.FC<IBookPreviewProps> = ({ id = "1", currentPage, setCurrentPage }) => {
@@ -110,8 +111,8 @@ const BookPreview: React.FC<IBookPreviewProps> = ({ id = "1", currentPage, setCu
         return (currentPage > 1 ? (<View className="page-number">{(currentPage - 1) + ' / ' + (imageUrls.length - 2)}</View>) : null);
       case PageNumberingStrategy.INCLUDE_ALL_PAGE:
         return (<View className="page-number">{(currentPage + 1) + ' / ' + imageUrls.length}</View>);
-      case PageNumberingStrategy.OW_STUDENT_BOOK:
-        return (<View className="page-number">{(currentPage + 1) + ' / ' + imageUrls.length}</View>);
+      case PageNumberingStrategy.OW_WITH_COVER:
+        return (currentPage > 0 ? (<View className="page-number">{(currentPage) + ' / ' + (imageUrls.length - 1)}</View>) : null);
       default:
         return null;
     }
@@ -224,7 +225,7 @@ const BookPreview: React.FC<IBookPreviewProps> = ({ id = "1", currentPage, setCu
                 }
                 <BookImage url={url} />
                 {/* [(x - 653)/469, (y - 167)/606 */}
-                <BookAudioTag audioList={audioList} currentPage={currentPage} playAudio={playAudio} />
+                <BookAudioTag audioList={audioList} currentPage={currentPage} playAudio={playAudio} bookId={id} />
               </View>
             </SwiperItem>
           ))}
@@ -298,13 +299,22 @@ export const BookImage: React.FC<any> = React.memo(({ url }) => {
   )
 })
 
-export const BookAudioTag: React.FC<any> = React.memo(({ audioList, currentPage, playAudio }) => {
+export const BookAudioTag: React.FC<any> = React.memo(({ audioList, currentPage, playAudio, bookId }) => {
+  // 计算音频数据的页面索引
+  const getAudioPageIndex = () => {
+    // OW系列（ID: 11-14）有封面页，需要调整偏移量
+    if (bookId >= "11" && bookId <= "14") {
+      return currentPage + 1; // 封面页后，音频数据索引需要+1
+    }
+    return currentPage + 2; // 其他书籍保持原有逻辑
+  };
+
   return (
     <>
       {/* [(x - 653)/469, (y - 167)/606 */}
       {
         //加入数组判断，防止当audioList.ts中对象没有2[]这个属性时报错——无法正常显示页面
-        Array.isArray(audioList[currentPage + 2]) && audioList[currentPage + 2].map((audio) => {
+        Array.isArray(audioList[getAudioPageIndex()]) && audioList[getAudioPageIndex()].map((audio) => {
           const { offset = [], url, flag } = audio as any
           const [x = 0, y = 0] = offset
 
