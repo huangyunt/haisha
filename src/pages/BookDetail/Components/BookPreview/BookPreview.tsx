@@ -302,9 +302,19 @@ export default BookPreview;
 
 
 
-export const BookImage: React.FC<any> = React.memo(({ url }) => {
+export const BookImage: React.FC<any> = React.memo(({ url, onImageClick }) => {
   return (
-      <Image src={url} mode="widthFix" className="book-page" />
+    <Image
+      src={url}
+      mode="widthFix"
+      // 将图片自动转换为webp模式
+      webp
+      // 懒加载
+      lazyLoad
+      className="book-page"
+      onClick={onImageClick}
+      style={{ width: '100%' }}
+    />
   )
 })
 
