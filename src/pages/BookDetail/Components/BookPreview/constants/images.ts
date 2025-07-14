@@ -51,6 +51,63 @@ const concatImages = {
         'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E6%B5%B7%E6%B2%99%E8%AF%BE%E7%A8%8B%E6%B5%B7%E6%8A%A5/%E6%B5%B7%E6%B2%99%E8%AF%BE%E7%A8%8B_' + (index + 1) + '.png'
 
     )),
+    //OW 4本书
+    //Our World L1 学生用书
+    "11": [
+        // 封面页
+        'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E5%B0%81%E9%9D%A2%E5%9B%BE%E7%89%87-%E4%B9%A6%E6%9E%B6/OW_2E_L1_Studentbook.png',
+        // 原有页面
+        ...Array(192).fill(0).map((_, index) =>
+            'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Studentbook-%E5%9B%BE%E7%89%87/OW_2E_L1_Studentbook_' + (index + 1) + '.png'
+        )
+    ],
+    //Our World L1 练习册
+    "12": [
+        // 封面页
+        'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E5%B0%81%E9%9D%A2%E5%9B%BE%E7%89%87-%E4%B9%A6%E6%9E%B6/OW_L1_Workbook.png',
+        // 原有页面
+        ...Array(127).fill(0).map((_, index) =>
+            'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_L1_Workbook-%E5%9B%BE%E7%89%87/OW_2E_L1_Workbook_' + (index + 1) + '.png?'
+        )
+    ],
+    //Our World Starter 学生用书
+    "13": [
+        // 封面页
+        'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E5%B0%81%E9%9D%A2%E5%9B%BE%E7%89%87-%E4%B9%A6%E6%9E%B6/OW_Starter_Studentbook.png',
+        // 原有页面
+        ...Array(112).fill(0).map((_, index) =>
+            'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Studentbook-%E5%9B%BE%E7%89%87/OW_2E_Starter_Studentbook_' + (index + 1) + '.png'
+        )
+    ],
+    //Our World Starter 练习册
+    "14": [
+        // 封面页
+        'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/%E5%B0%81%E9%9D%A2%E5%9B%BE%E7%89%87-%E4%B9%A6%E6%9E%B6/OW_Starter_Workbook-1.png',
+        // 原有页面
+        ...Array(65).fill(0).map((_, index) =>
+            'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Our_World_2E_Starter_Workbook-%E5%9B%BE%E7%89%87/OW_2E_Starter_Workbook_' + (index + 1) + '.png'
+        )
+    ],
+
+    //OD3本书
+    //Oxford Discover 1st edition
+    "15":[
+        ...Array(193).fill(0).map((_, index) =>
+        'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Oxford_Discover__2E_1st-%E5%9B%BE%E7%89%87/OD_2E_L1_' + (index + 1) + '.jpg'
+        )
+    ],
+    //Oxford Discover 2nd edition
+    "16":[
+        ...Array(193).fill(0).map((_, index) =>
+        'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Oxford_Discover__2E_2nd-%E5%9B%BE%E7%89%87/OD_2E_L2_' + (index + 1) + '.jpg?'
+        )
+    ],
+    //Oxford Discover 3rd edition
+    "17":[
+        ...Array(194).fill(0).map((_, index) =>
+        'https://636c-cloud1-6geu18jg425a604e-1360744728.tcb.qcloud.la/Oxford_Discover__2E_3rd-%E5%9B%BE%E7%89%87/OD_2E_L3_' + (index + 1) + '.jpg?'
+        )
+    ],    
     ...images,
 }
 export { concatImages };

@@ -22,20 +22,6 @@ interface IBookPreviewProps {
   setCurrentPage: (v: number) => void
 }
 
-
-enum EBookType {
-  HAISHA_ADVERTISEMENT  = "1",
-  HAISHA_INTRODUCTION   = "2",
-  READING_BOOK_1        = "3",
-  READING_BOOK_2        = "4",
-  READING_BOOK_3        = "5",
-  READING_BOOK_4        = "6",
-  PET_STUDENT_BOOK_B1   = "7",
-  PET_PRACTICE_BOOK_B1  = "8",
-  KET_STUDENT_BOOK_A2   = "9",
-  KET_PRACTICE_BOOK_A2  = "10",
-}
-//
 const titleMap = {
   "1": '原版教材+剑桥考试课程',
   "2": '海沙国际课程',
@@ -47,9 +33,16 @@ const titleMap = {
   "8": '剑桥PET练习册',
   "9": '剑桥KET学生用书',
   "10": '剑桥KET练习册',
+  "11": 'Our World L1 学生用书',
+  "12": 'Our World L1 练习册',
+  "13": 'Our World Starter 学生用书',
+  "14": 'Our World Starter 练习册',
+  "15": 'Oxford Discover 1st edition',
+  "16": 'Oxford Discover 2nd edition',
+  "17": 'Oxford Discover 3rd edition',
 }
 
-/* 
+/*
   1. bookTypeMap[id] 为 true 表示该类型书籍（如学生用书）存在封面和目录页，不应计入页码中。
     - 页码从第 2 页开始显示（currentPage > 1）
     - 页码显示为 "(当前页 - 1) / (总页数 - 2)"，扣除封面和目录页。
@@ -58,17 +51,56 @@ const titleMap = {
   2. bookTypeMap[id] 为 false 表示该类型书籍（如广告页或介绍页）不扣除封面和目录页。
    - 页码从第 1 页开始全部计算，直接显示 "当前页 + 1 / 总页数"。
 */
-const bookTypeMap = {
-  [EBookType.READING_BOOK_1]: true,
-  [EBookType.READING_BOOK_2]: true,
-  [EBookType.READING_BOOK_3]: true,
-  [EBookType.READING_BOOK_4]: true,
-  [EBookType.PET_STUDENT_BOOK_B1]: true,
-  [EBookType.PET_PRACTICE_BOOK_B1]: true,
-  [EBookType.KET_STUDENT_BOOK_A2]: true,
-  [EBookType.KET_PRACTICE_BOOK_A2]: true,
-  [EBookType.HAISHA_ADVERTISEMENT]: false,
-  [EBookType.HAISHA_INTRODUCTION]: false,
+
+enum EBookType {
+  HAISHA_ADVERTISEMENT      = "1",
+  HAISHA_INTRODUCTION       = "2",
+  READING_BOOK_1            = "3",
+  READING_BOOK_2            = "4",
+  READING_BOOK_3            = "5",
+  READING_BOOK_4            = "6",
+  PET_STUDENT_BOOK_B1       = "7",
+  PET_PRACTICE_BOOK_B1      = "8",
+  KET_STUDENT_BOOK_A2       = "9",
+  KET_PRACTICE_BOOK_A2      = "10",
+  OW_STUDENT_BOOK_L1        = "11",
+  OW_PRACTICE_BOOK_L1       = "12",
+  OW_STUDENT_BOOK_STARTER   = "13",
+  OW_PRACTICE_BOOK_STARTER  = "14",
+  OD_DICSOVER_1ST_EDITION   = "15",
+  OD_DICSOVER_2ND_EDITION   = "16",
+  OD_DICSOVER_3RD_EDITION   = "17",
+}
+
+// 定义一个新的类型枚举，来表示页码显示策略
+enum PageNumberingStrategy {
+  EXCLUDE_COVER_AND_TOC = "exclude_cover_and_toc",  // 不计入封面和目录页
+  INCLUDE_ALL_PAGE = "include_all_page",            // 所有页都计入
+  EXCLUDE_COVER = "exclude_cover",                  // 页码排除封面   //OW OD  系列从封面后一页开始计算
+  //CUSTOM = "custom",                              // 自定义策略
+}
+
+const bookPageStrategyMap: Record<EBookType, PageNumberingStrategy> = {
+  [EBookType.HAISHA_ADVERTISEMENT]: PageNumberingStrategy.INCLUDE_ALL_PAGE,
+  [EBookType.HAISHA_INTRODUCTION]: PageNumberingStrategy.INCLUDE_ALL_PAGE,
+
+  [EBookType.READING_BOOK_1]: PageNumberingStrategy.EXCLUDE_COVER_AND_TOC,
+  [EBookType.READING_BOOK_2]: PageNumberingStrategy.EXCLUDE_COVER_AND_TOC,
+  [EBookType.READING_BOOK_3]: PageNumberingStrategy.EXCLUDE_COVER_AND_TOC,
+  [EBookType.READING_BOOK_4]: PageNumberingStrategy.EXCLUDE_COVER_AND_TOC,
+  [EBookType.PET_STUDENT_BOOK_B1]: PageNumberingStrategy.EXCLUDE_COVER_AND_TOC,
+  [EBookType.PET_PRACTICE_BOOK_B1]: PageNumberingStrategy.EXCLUDE_COVER_AND_TOC,
+  [EBookType.KET_STUDENT_BOOK_A2]: PageNumberingStrategy.EXCLUDE_COVER_AND_TOC,
+  [EBookType.KET_PRACTICE_BOOK_A2]: PageNumberingStrategy.EXCLUDE_COVER_AND_TOC,
+
+  [EBookType.OW_STUDENT_BOOK_L1]: PageNumberingStrategy.EXCLUDE_COVER,
+  [EBookType.OW_PRACTICE_BOOK_L1]: PageNumberingStrategy.EXCLUDE_COVER,
+  [EBookType.OW_STUDENT_BOOK_STARTER]: PageNumberingStrategy.EXCLUDE_COVER,
+  [EBookType.OW_PRACTICE_BOOK_STARTER]: PageNumberingStrategy.EXCLUDE_COVER,
+
+  [EBookType.OD_DICSOVER_3RD_EDITION]: PageNumberingStrategy.EXCLUDE_COVER,
+  [EBookType.OD_DICSOVER_1ST_EDITION]: PageNumberingStrategy.EXCLUDE_COVER,
+  [EBookType.OD_DICSOVER_2ND_EDITION]: PageNumberingStrategy.EXCLUDE_COVER,
 }
 
 const BookPreview: React.FC<IBookPreviewProps> = ({ id = "1", currentPage, setCurrentPage }) => {
@@ -81,6 +113,19 @@ const BookPreview: React.FC<IBookPreviewProps> = ({ id = "1", currentPage, setCu
   const [isAudioPlaying, setIsAudioPlaying] = useState(false); // 当前是否有音频正在播放
   const audioContextRef = useRef<Taro.InnerAudioContext>(Taro.createInnerAudioContext())
   const router = useRouter();
+
+  const renderPageNumber = () => {
+    switch (bookPageStrategyMap[id]) {
+      case PageNumberingStrategy.EXCLUDE_COVER_AND_TOC:
+        return (currentPage > 1 ? (<View className="page-number">{(currentPage - 1) + ' / ' + (imageUrls.length - 2)}</View>) : null);
+      case PageNumberingStrategy.INCLUDE_ALL_PAGE:
+        return (<View className="page-number">{(currentPage + 1) + ' / ' + imageUrls.length}</View>);
+      case PageNumberingStrategy.EXCLUDE_COVER:
+        return (currentPage > 0 ? (<View className="page-number">{(currentPage) + ' / ' + (imageUrls.length - 1)}</View>) : null);
+      default:
+        return null;
+    }
+  };
 
   useEffect(() => {
     setImageUrls(concatImages[id])
@@ -189,23 +234,21 @@ const BookPreview: React.FC<IBookPreviewProps> = ({ id = "1", currentPage, setCu
                 }
                 <BookImage url={url} />
                 {/* [(x - 653)/469, (y - 167)/606 */}
-                <BookAudioTag audioList={audioList} currentPage={currentPage} playAudio={playAudio} />
+                <BookAudioTag audioList={audioList} currentPage={currentPage} playAudio={playAudio} bookId={id} />
               </View>
             </SwiperItem>
           ))}
         </Swiper>
       </View>
 
-      {/* 
-        * 页码 
+      {/*
+        * 页码
         * 封面和目录页不需要展示页码，且页数需要减去封面和目录页
+        * 调用函数
       */}
-      {
-        // 图书和广告的页码分开处理
-        bookTypeMap[id]
-          ? (currentPage > 1 ? <View className="page-number">{(currentPage - 1) + ' / ' + (imageUrls.length - 2)}</View> : null)
-          : (<View className="page-number">{(currentPage + 1) + ' / ' + (imageUrls.length)}</View>)
-      }
+      {renderPageNumber()}
+
+
       {/* 底栏 */}
       <View className={`bottom-bar ${showTopBar ? 'height' : ''}`} onClick={handleCatalogShowingUp}>
         {/* <View className={`flex-container`} onClick={handleCatalogShowingUp}>
@@ -259,23 +302,58 @@ export default BookPreview;
 
 
 
-export const BookImage: React.FC<any> = React.memo(({ url }) => {
+export const BookImage: React.FC<any> = React.memo(({ url, onImageClick }) => {
   return (
-    <Image src={url} mode="widthFix" className="book-page" />
+    <Image
+      src={url}
+      mode="widthFix"
+      // 将图片自动转换为webp模式
+      webp
+      // 懒加载
+      lazyLoad
+      className="book-page"
+      onClick={onImageClick}
+      style={{ width: '100%' }}
+    />
   )
 })
 
-export const BookAudioTag: React.FC<any> = React.memo(({ audioList, currentPage, playAudio }) => {
+export const BookAudioTag: React.FC<any> = React.memo(({ audioList, currentPage, playAudio, bookId }) => {
+  // 临时加入封面页的坏办法，后续需要优化，原本没有bookId
+  const getAudioPageIndex = () => {
+    // OW系列（ID: 11-14）有封面页，需要调整偏移量
+    if (bookId >= "11" && bookId <= "14") {
+      return currentPage + 1; // 封面页后，音频数据索引需要+1
+    }
+    return currentPage + 2; // 其他书籍保持原有逻辑
+  };
+
   return (
     <>
       {/* [(x - 653)/469, (y - 167)/606 */}
       {
-        audioList[currentPage + 2] && audioList[currentPage + 2].map((audio) => {
+        //加入数组判断，防止当audioList.ts中对象没有2[]这个属性时报错——无法正常显示页面
+        Array.isArray(audioList[getAudioPageIndex()]) && audioList[getAudioPageIndex()].map((audio) => {
           const { offset = [], url, flag } = audio as any
           const [x = 0, y = 0] = offset
 
-          const left = flag ? decimalToPercentage((x-3576) / 825) : decimalToPercentage((x - 653) / 469);
-          const top  = flag ? decimalToPercentage((y-202) / 1061) : decimalToPercentage((y - 167) / 606);
+          let left = '0px';
+          let top = '0px';
+          switch (flag) {
+            case 'Cambridge':
+              left = decimalToPercentage((x - 3576) / 825);
+              top = decimalToPercentage((y - 202) / 1061);
+              break;
+            case 'Percentage':
+              left = x;
+              top = y;
+              break;
+            default:
+              left = decimalToPercentage((x - 653) / 469);
+              top = decimalToPercentage((y - 167) / 606);
+              break;
+          }
+
           return <View
             className="float-rect"
             style={{
@@ -303,4 +381,4 @@ export const BookAudioTag: React.FC<any> = React.memo(({ audioList, currentPage,
       }</>
   )
 }
-)
+);
