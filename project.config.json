@@ -5,9 +5,10 @@
     "urlCheck": true,
     "es6": true,
     "enhance": true,
+    "lazyCodeLoading": "requiredComponents",
     "compileHotReLoad": false,
     "postcss": false,
-    "minified": false,
+    "minified": true,
     "babelSetting": {
       "ignore": [],
       "disablePlugins": [],
