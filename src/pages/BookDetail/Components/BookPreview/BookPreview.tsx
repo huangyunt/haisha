@@ -53,23 +53,23 @@ const titleMap = {
 */
 
 enum EBookType {
-  HAISHA_ADVERTISEMENT      = "1",
-  HAISHA_INTRODUCTION       = "2",
-  READING_BOOK_1            = "3",
-  READING_BOOK_2            = "4",
-  READING_BOOK_3            = "5",
-  READING_BOOK_4            = "6",
-  PET_STUDENT_BOOK_B1       = "7",
-  PET_PRACTICE_BOOK_B1      = "8",
-  KET_STUDENT_BOOK_A2       = "9",
-  KET_PRACTICE_BOOK_A2      = "10",
-  OW_STUDENT_BOOK_L1        = "11",
-  OW_PRACTICE_BOOK_L1       = "12",
-  OW_STUDENT_BOOK_STARTER   = "13",
-  OW_PRACTICE_BOOK_STARTER  = "14",
-  OD_DICSOVER_1ST_EDITION   = "15",
-  OD_DICSOVER_2ND_EDITION   = "16",
-  OD_DICSOVER_3RD_EDITION   = "17",
+  HAISHA_ADVERTISEMENT = "1",
+  HAISHA_INTRODUCTION = "2",
+  READING_BOOK_1 = "3",
+  READING_BOOK_2 = "4",
+  READING_BOOK_3 = "5",
+  READING_BOOK_4 = "6",
+  PET_STUDENT_BOOK_B1 = "7",
+  PET_PRACTICE_BOOK_B1 = "8",
+  KET_STUDENT_BOOK_A2 = "9",
+  KET_PRACTICE_BOOK_A2 = "10",
+  OW_STUDENT_BOOK_L1 = "11",
+  OW_PRACTICE_BOOK_L1 = "12",
+  OW_STUDENT_BOOK_STARTER = "13",
+  OW_PRACTICE_BOOK_STARTER = "14",
+  OD_DICSOVER_1ST_EDITION = "15",
+  OD_DICSOVER_2ND_EDITION = "16",
+  OD_DICSOVER_3RD_EDITION = "17",
 }
 
 // 定义一个新的类型枚举，来表示页码显示策略
@@ -112,6 +112,7 @@ const BookPreview: React.FC<IBookPreviewProps> = ({ id = "1", currentPage, setCu
   const [showBottomBar, setShowBottomBar] = useState(false);
   const [catalogVisible, setCatalogVisible] = useState(false);
   const [isAudioPlaying, setIsAudioPlaying] = useState(false); // 当前是否有音频正在播放
+  const [systemInfo, setSystemInfo] = useState("iPhone 12");
   const audioContextRef = useRef<Taro.InnerAudioContext>(Taro.createInnerAudioContext())
   const router = useRouter();
 
@@ -134,6 +135,11 @@ const BookPreview: React.FC<IBookPreviewProps> = ({ id = "1", currentPage, setCu
     setImageUrls(concatImages[id])
     setCatalogList(catalogLists[id] || [])
     setAudioList(allAudioList[id])
+
+    const deviceInfo = wx.getSystemInfo()
+    deviceInfo.then((res) => {
+      setSystemInfo(res.model)
+    })
 
     return () => {
       audioContextRef.current.destroy()
@@ -198,6 +204,19 @@ const BookPreview: React.FC<IBookPreviewProps> = ({ id = "1", currentPage, setCu
     setIsAudioPlaying(false)
   }
 
+  // 适配IPad端
+  const containerClassName = !systemInfo.includes("iPad") ? "book-pages" : "book-pages book-page-ipad"
+  const containerStyle = !systemInfo.includes("iPad") ?
+    {
+      height: "575px",
+      marginBottom: "15px"
+    } :
+    {
+      height: "100%",
+      width: "75%",
+      marginBottom: "30px"
+    }
+
   return (
     <View className="haisha-book-preview-container">
 
@@ -216,12 +235,12 @@ const BookPreview: React.FC<IBookPreviewProps> = ({ id = "1", currentPage, setCu
       </View>
 
       {/* 书籍 */}
-      <View className="book-pages" onClick={handlePageTap}>
+      <View className={containerClassName} onClick={handlePageTap}>
         <Swiper
           duration={300}
           current={currentPage}
           onChange={(e) => setCurrentPage(e.detail.current)}
-          style={{ height: "575px", marginBottom: "15px" }}
+          style={containerStyle}
           className="book-container"
           vertical
         // circular
