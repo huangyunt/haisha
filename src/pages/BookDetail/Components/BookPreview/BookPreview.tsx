@@ -74,9 +74,10 @@ enum EBookType {
 
 // 定义一个新的类型枚举，来表示页码显示策略
 enum PageNumberingStrategy {
-  EXCLUDE_COVER_AND_TOC = "exclude_cover_and_toc",  // 不计入封面和目录页
+  ///EXCLUDE_COVER_AND_TOC = "exclude_cover_and_toc",  // 不计入封面和目录页
   INCLUDE_ALL_PAGE = "include_all_page",            // 所有页都计入
-  EXCLUDE_COVER = "exclude_cover",                  // 页码排除封面   //OW OD  系列从封面后一页开始计算
+  EXCLUDE_COVER = "exclude_cover",                  // 页码排除封面   // OD  系列从封面后一页开始计算
+  EXCLUDE_COVER_START_FROM_THIRD = "exclude_cover_start_from_third", // 从第三页开始计数（如 OW 系列）
   //CUSTOM = "custom",                              // 自定义策略
 }
 
@@ -84,14 +85,14 @@ const bookPageStrategyMap: Record<EBookType, PageNumberingStrategy> = {
   [EBookType.HAISHA_ADVERTISEMENT]: PageNumberingStrategy.INCLUDE_ALL_PAGE,
   [EBookType.HAISHA_INTRODUCTION]: PageNumberingStrategy.INCLUDE_ALL_PAGE,
 
-  [EBookType.READING_BOOK_1]: PageNumberingStrategy.EXCLUDE_COVER_AND_TOC,
-  [EBookType.READING_BOOK_2]: PageNumberingStrategy.EXCLUDE_COVER_AND_TOC,
-  [EBookType.READING_BOOK_3]: PageNumberingStrategy.EXCLUDE_COVER_AND_TOC,
-  [EBookType.READING_BOOK_4]: PageNumberingStrategy.EXCLUDE_COVER_AND_TOC,
-  [EBookType.PET_STUDENT_BOOK_B1]: PageNumberingStrategy.EXCLUDE_COVER_AND_TOC,
-  [EBookType.PET_PRACTICE_BOOK_B1]: PageNumberingStrategy.EXCLUDE_COVER_AND_TOC,
-  [EBookType.KET_STUDENT_BOOK_A2]: PageNumberingStrategy.EXCLUDE_COVER_AND_TOC,
-  [EBookType.KET_PRACTICE_BOOK_A2]: PageNumberingStrategy.EXCLUDE_COVER_AND_TOC,
+  [EBookType.READING_BOOK_1]: PageNumberingStrategy.EXCLUDE_COVER_START_FROM_THIRD,
+  [EBookType.READING_BOOK_2]: PageNumberingStrategy.EXCLUDE_COVER_START_FROM_THIRD,
+  [EBookType.READING_BOOK_3]: PageNumberingStrategy.EXCLUDE_COVER_START_FROM_THIRD,
+  [EBookType.READING_BOOK_4]: PageNumberingStrategy.EXCLUDE_COVER_START_FROM_THIRD,
+  [EBookType.PET_STUDENT_BOOK_B1]: PageNumberingStrategy.EXCLUDE_COVER_START_FROM_THIRD,
+  [EBookType.PET_PRACTICE_BOOK_B1]: PageNumberingStrategy.EXCLUDE_COVER_START_FROM_THIRD,
+  [EBookType.KET_STUDENT_BOOK_A2]: PageNumberingStrategy.EXCLUDE_COVER_START_FROM_THIRD,
+  [EBookType.KET_PRACTICE_BOOK_A2]: PageNumberingStrategy.EXCLUDE_COVER_START_FROM_THIRD,
 
   [EBookType.OW_STUDENT_BOOK_L1]: PageNumberingStrategy.EXCLUDE_COVER,
   [EBookType.OW_PRACTICE_BOOK_L1]: PageNumberingStrategy.EXCLUDE_COVER,
@@ -116,12 +117,14 @@ const BookPreview: React.FC<IBookPreviewProps> = ({ id = "1", currentPage, setCu
 
   const renderPageNumber = () => {
     switch (bookPageStrategyMap[id]) {
-      case PageNumberingStrategy.EXCLUDE_COVER_AND_TOC:
-        return (currentPage > 1 ? (<View className="page-number">{(currentPage - 1) + ' / ' + (imageUrls.length - 2)}</View>) : null);
+      // case PageNumberingStrategy.EXCLUDE_COVER_AND_TOC:
+      //   return (currentPage > 1 ? (<View className="page-number">{(currentPage - 1) + ' / ' + (imageUrls.length - 2)}</View>) : null);
       case PageNumberingStrategy.INCLUDE_ALL_PAGE:
         return (<View className="page-number">{(currentPage + 1) + ' / ' + imageUrls.length}</View>);
       case PageNumberingStrategy.EXCLUDE_COVER:
         return (currentPage > 0 ? (<View className="page-number">{(currentPage) + ' / ' + (imageUrls.length - 1)}</View>) : null);
+      case PageNumberingStrategy.EXCLUDE_COVER_START_FROM_THIRD:
+        return (currentPage > 0 ? (<View className="page-number">{(currentPage + 2) + ' / ' + (imageUrls.length + 1)}</View>) : null);
       default:
         return null;
     }
