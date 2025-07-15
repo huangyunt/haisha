@@ -11,6 +11,14 @@
     display: none !important;
   }
 
+  .book-page-ipad {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20rpx !important;
+    height: calc(100vh - 140rpx);
+  }
+
   .book-pages {
     width: 100%;
     margin-top: 160rpx;
@@ -140,7 +148,6 @@
 
   .page-number {
     color: rgb(80, 80, 80);
-    // font-weight: 500;
   }
 }
 
